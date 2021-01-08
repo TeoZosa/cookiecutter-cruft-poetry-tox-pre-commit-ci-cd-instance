@@ -14,8 +14,7 @@ def main() -> None:
     """Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance."""
     LOGGER.info(
         "For `structlog_sentry_logger` usage documentation, see: "
-        "`Structlog-Sentry-Logger`_"
-        "_`Structlog-Sentry-Logger`: https://github.com/TeoZosa/structlog-sentry-logger"
+        "[Structlog-Sentry-Logger](https://github.com/TeoZosa/structlog-sentry-logger)"
     )
 
 
