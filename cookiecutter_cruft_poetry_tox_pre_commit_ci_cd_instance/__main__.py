@@ -1,12 +1,12 @@
 """Command-line interface."""
 from typing import Optional
 
-import pkg_resources
+import importlib_metadata
 import structlog_sentry_logger
 import typer
 from dotenv import find_dotenv, load_dotenv
 
-__version__ = pkg_resources.get_distribution("cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance").version
+__version__ = importlib_metadata.metadata("cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance")["Version"]
 app = typer.Typer()
 
 # see `.env` for requisite environment variables
