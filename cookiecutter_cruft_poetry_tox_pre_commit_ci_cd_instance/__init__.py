@@ -1,2 +1,4 @@
 """Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance."""
-__all__ = []
+from typing import List
+
+__all__: List[str] = []
