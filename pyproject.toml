@@ -88,7 +88,7 @@ docs = [
 
 
 [tool.poetry.scripts]
-"cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance" = "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.__main__:main"
+"cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance" = "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.__main__:app"
 
 #################################################################################
 # Tooling configs                                                               #
