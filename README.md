@@ -12,11 +12,11 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 
 
 Overview
-------------------------------
+--------
 - TODO
 
 Features
-------------
+--------
 - TODO
 
 Requirements
@@ -29,14 +29,14 @@ Table of Contents
 <!-- toc -->
 
 Installation
-==============================
+============
 You can install Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance via [pip](https://pip.pypa.io/):
  ```shell script
 pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 ```
 
 Usage
-==============================
+=====
 - TODO
     - High-level usage overview
 ------------
@@ -49,7 +49,7 @@ import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 ```
 
 Development
-==============================
+===========
 
 > 📝 **Note**  
 >  For convenience, many of the below processes are abstracted away
@@ -61,7 +61,7 @@ Development
 >  auto-generated documentation on available commands.
 
 Package and Dependencies Installation
-------------
+--------------------------------------
 
 Make sure you have Python 3.6+ and [`poetry`](https://python-poetry.org/)
 installed and configured.
@@ -117,18 +117,29 @@ make install-pre-commit-hooks
 >  or a file is modified by an auto-formatting job;
 >  in the latter case, you may simply repeat the commit and it should pass.
 
+Documentation
+--------------
+
+```shell script
+make docs-clean docs-html
+```
+
+> 📝 **Note**  
+>  For faster feedback loops, this will attempt to automatically open the newly
+>  built documentation static HTML in your browser.
+
 Summary
-==============================
+=======
 - TODO
 
 Further Reading
-==============================
+===============
 - TODO
 
 ---
 
 Legal
-==============================
+=====
 
 License
 -------
