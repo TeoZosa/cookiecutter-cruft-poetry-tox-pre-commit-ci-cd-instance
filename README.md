@@ -26,7 +26,24 @@ Requirements
 ------------
 
 Table of Contents
+
 <!-- toc -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+  * [Package and Dependencies Installation](#package-and-dependencies-installation)
+  * [Testing](#testing)
+  * [Code Quality](#code-quality)
+    + [Automate via Git Pre-Commit Hooks](#automate-via-git-pre-commit-hooks)
+  * [Documentation](#documentation)
+- [Summary](#summary)
+- [Further Reading](#further-reading)
+- [Legal](#legal)
+  * [License](#license)
+  * [Credits](#credits)
+
+<!-- tocstop -->
 
 Installation
 ============
