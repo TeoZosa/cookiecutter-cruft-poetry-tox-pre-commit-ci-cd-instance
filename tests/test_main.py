@@ -1,4 +1,4 @@
-"""Test cases for the __main__ module."""
+"""Test cases for the main module."""
 # pylint: disable=redefined-outer-name
 from functools import partial
 from typing import Optional
@@ -7,7 +7,7 @@ import pytest
 from hypothesis import given, infer, strategies as st
 from typer.testing import CliRunner
 
-from cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.__main__ import (
+from cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.main import (
     __version__,
     app,
     version_callback,
