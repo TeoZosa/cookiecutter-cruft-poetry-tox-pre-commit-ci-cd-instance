@@ -11,6 +11,14 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 [![Dependabot](https://api.dependabot.com/badges/status?host=github&repo=TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance)](https://dependabot.com/)
 
 
+---
+
+**Documentation**: [https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io](https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io)
+
+**Source Code**: [https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance](https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance)
+
+---
+
 Overview
 --------
 - TODO

@@ -1,6 +1,6 @@
 {
     "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-    "commit": "4aa612fe5824e741c46bb6630630600df7e37afe",
+    "commit": "ce13adbfa2b9432700cc4bbf82cd805e429e4b1f",
     "context": {
         "cookiecutter": {
             "project_name": "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
@@ -12,6 +12,7 @@
             "remote_vcs_host": "github",
             "remote_vcs_url": "https://github.com",
             "remote_vcs_username": "TeoZosa",
+            "project_repository_url": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
             "documentation_url": "https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io",
             "adr_documentation_url": "https://TeoZosa.github.io/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/adl/",
             "version": "0.0.0",
