@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612137280501,
+  "lastUpdate": 1612137300330,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -90,6 +90,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005065963532793422",
             "extra": "mean: 115.47967844661974 usec\nrounds: 1726"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa",
+            "username": "TeoZosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action",
+            "username": "actions-user"
+          },
+          "distinct": true,
+          "id": "fd87da65720517acf537c0ec70a12c7cf757922b",
+          "message": ":alembic: Test `test-performance` CI test job\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@61a1df4",
+          "timestamp": "2021-01-31T23:50:07Z",
+          "tree_id": "ea204ffa5835479e79fec9c734a952d97132a011",
+          "url": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/commit/fd87da65720517acf537c0ec70a12c7cf757922b"
+        },
+        "date": 1612137299436,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 947.105292442393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011785611900422949",
+            "extra": "mean: 1.055848814255068 msec\nrounds: 463"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1340.0382764673814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009299017039115735",
+            "extra": "mean: 746.247340513442 usec\nrounds: 1207"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8811.26372978375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022480404507657542",
+            "extra": "mean: 113.49109851516639 usec\nrounds: 1817"
           }
         ]
       }
