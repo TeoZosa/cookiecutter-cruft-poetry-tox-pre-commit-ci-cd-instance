@@ -75,22 +75,25 @@ bump-commit-and-push-project-version-number-%:
 		git push \
 	|| git checkout HEAD -- $(VERSION_NUM_FILE) # Rollback `VERSION_NUM_FILE` file on failure
 
+ifeq (${CI}, true)
+export TOX_PARALLEL_NO_SPINNER=1
+endif
+
 .PHONY: tox-%
-## Scan dependencies for security vulnerabilities
+## Run specified tox testenvs
 tox-%: clean update-dependencies generate-requirements
 	poetry run tox -e $* -- $(POSARGS)
 	$(MAKE) clean-requirements
 
 .PHONY: test
-## Test via poetry
+## Test via tox in poetry env
 test: clean update-dependencies generate-requirements
-	poetry run tox
+	poetry run tox --parallel
 	$(MAKE) clean-requirements
 
 .PHONY: test-%
-test-%: clean update-dependencies generate-requirements
-	poetry run tox -e $*,coverage
-	$(MAKE) clean-requirements
+test-%:
+	$(MAKE) tox-$*,coverage
 
 .PHONY: test-mutations
 ## Test against mutated code to validate test suite robustness
