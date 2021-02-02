@@ -31,7 +31,7 @@ python = "^3.7"
 icontract = "^2.4.1"
 importlib-metadata = "^2.1.1"
 python-dotenv = "^0.15.0"
-structlog-sentry-logger = "^0.6.1"
+structlog-sentry-logger = ">=0.6.1,<0.8.0"
 typeguard = "^2.10.0" # Runtime type checker
 typer = {extras = ["all"], version = "^0.3.2"}
 
