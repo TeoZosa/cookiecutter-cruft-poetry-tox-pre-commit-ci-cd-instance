@@ -47,7 +47,7 @@ strong-version-tag-dateless:
 .PHONY: update-dependencies
 ## Install Python dependencies,
 ## updating packages in `poetry.lock` with any newer versions specified in
-## `pyproject.toml`, and install auto_assessment source code
+## `pyproject.toml`, and install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance source code
 update-dependencies:
 	poetry update --lock
 ifneq (${CI}, true)
