@@ -99,8 +99,9 @@ class TestVersionCallbackDesignByContract:
 
 
 class TestRuntimeTypechecking:
+    # pylint: disable=too-few-public-methods
     @staticmethod
     def test_typeguard_enabled() -> None:
         """Validates runtime type-checking support"""
         with pytest.raises(TypeError):
-            version_callback("True")
+            version_callback("True")  # type: ignore[arg-type]
