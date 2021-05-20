@@ -61,7 +61,6 @@ jobs:
           VERSION=$(make get-project-version-number) &&
           DEV_VERSION="${VERSION}.dev.$(date +%s)" &&
           poetry version "${DEV_VERSION}"
-
       - name: Build package
         run: |
           poetry build --ansi
