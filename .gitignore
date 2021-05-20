@@ -76,3 +76,7 @@ docs/_build
 
 # Local log files
 .logs/
+
+
+# Jupyter
+**/*.ipynb_checkpoints/

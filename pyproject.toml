@@ -34,6 +34,9 @@ python-dotenv = "^0.15.0"
 structlog-sentry-logger = "^0.7.3"
 typeguard = "^2.10.0" # Runtime type checker
 typer = {extras = ["all"], version = "^0.3.2"}
+# Jupyter Notebook
+jupyter = "^1.0.0"
+matplotlib = "^3.4.2"
 
 # Documentation
 myst-parser = { version = "^0.14.0", optional = true}
@@ -145,7 +148,11 @@ pyflakes = ["+*", "-F401"]
 pycodestyle = ["+*",
     "-E203", # Whitespace before ":"
     "-E501", # Line too long (82 > 78 characters)
-    "-W503"  # Line break occurred before a binary operator <- this is now considered best practice by PEP 8
+    "-W503",  # Line break occurred before a binary operator <- this is now considered best practice by PEP 8
+    # Ignore errors resulting from Jupyter notebook to Python module portability formatting
+    "-E265", # block comment should start with '# '
+    # Ignore errors resulting from Jupyter notebook-style programming
+    "-E402", # module level import not at top of file
 ]
 
 [tool.isort]
@@ -166,6 +173,13 @@ disable = [
   "line-too-long",
   "bad-continuation",
   "c-extension-no-member",
+  # Ignore errors resulting from Jupyter notebook-style programming
+  "invalid-name",
+  "redefined-outer-name",
+  "reimported",
+  "ungrouped-imports",
+  "wrong-import-order",
+  "wrong-import-position",
 ]
 
 [tool.pylint.similarities]
