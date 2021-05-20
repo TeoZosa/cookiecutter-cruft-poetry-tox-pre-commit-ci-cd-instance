@@ -28,6 +28,8 @@ Changelog = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit
 
 [tool.poetry.dependencies]
 python = "^3.7"
+
+# Project-Specific
 icontract = "^2.5.1"
 importlib-metadata = "^2.1.1"
 python-dotenv = "^0.15.0"
@@ -158,7 +160,7 @@ pycodestyle = ["+*",
 [tool.isort]
 profile = "black"
 atomic = "true"
-combine_as_imports = true
+combine_as_imports = "true"
 
 [tool.pylint.basic]
 good-names-rgxs = ["^Test_.*$"]
