@@ -14,7 +14,7 @@ def get_version_number() -> str:
         "get-project-version-number",
         "--no-print-directory",
         "-C",
-        _project_directory,
+        str(_project_directory),
     ]
     completion_info = subprocess.run(  # nosec
         [prog, *args],

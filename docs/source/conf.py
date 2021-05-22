@@ -94,7 +94,7 @@ autosectionlabel_prefix_document = True
 # Running separately to support Read The Docs builds
 
 
-def run_apidoc(_) -> None:
+def run_apidoc(_: Sphinx) -> None:
 
     argv = [
         "--ext-autodoc",

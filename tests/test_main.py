@@ -1,12 +1,13 @@
 """Test cases for the main module."""
 # pylint: disable=redefined-outer-name
 from functools import partial
-from typing import Optional
+from typing import Generator, Optional
 
 import icontract
 import icontract_hypothesis
 import pytest
 from hypothesis import given, infer, strategies as st
+from pytest_benchmark.fixture import BenchmarkFixture
 from typer.testing import CliRunner
 
 from cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.main import (
@@ -19,7 +20,9 @@ from . import utils
 
 
 @pytest.fixture(scope="function")
-def test_runner(benchmark) -> partial:
+def test_runner(
+    benchmark: BenchmarkFixture,
+) -> Generator[partial, None, None]:
     runner = CliRunner()
     yield partial(benchmark, runner.invoke, app)
 
@@ -70,7 +73,9 @@ class TestVersionCallbackPropertyBasedTesting:
 
     @staticmethod
     @given(value=st.none() | st.booleans())
-    def test_input_value_generated_from_user_defined_strategy(value: Optional[bool]) -> None:
+    def test_input_value_generated_from_user_defined_strategy(
+        value: Optional[bool]
+    ) -> None:
         _test_version_callback(value)
 
 
@@ -78,7 +83,7 @@ class TestVersionCallbackDesignByContract:
     @staticmethod
     @given(value=st.none() | st.booleans())
     def test_input_value_generated_from_user_defined_strategy_is_constrained_by_icontract_preconditions(
-        value: Optional[bool],
+        value: Optional[bool]
     ) -> None:
         assume_version_callback_precondition = (
             icontract_hypothesis.make_assume_preconditions(version_callback)
