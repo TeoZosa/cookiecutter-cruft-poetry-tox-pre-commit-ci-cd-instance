@@ -57,7 +57,7 @@ jobs:
 
       - name: Run static analysis
         run: |
-          make pre-commit || true
+          make pre-commit
 
   # Security jobs ----------------------
 
