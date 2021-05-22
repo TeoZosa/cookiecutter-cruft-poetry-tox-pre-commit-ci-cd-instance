@@ -167,7 +167,7 @@ deploy-container: PORT?=8888
 # prior to container launch, list them in the REQ_ENV_VARS array
 deploy-container: REQ_ENV_VARS := BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER IS_INTERACTIVE_SESSION PORT
 deploy-container: validate_req_env_vars stop-container
-	@echo "Launching Jupyter Notebook on port $(PORT)" 
+	@echo "Launching Jupyter Notebook on port $(PORT)"
 	@if [ "$(IS_INTERACTIVE_SESSION)" != false ]; then \
 		export INTERACTIVE_SESSION_ARGS="--interactive --tty --entrypoint bash"; \
 	fi && \

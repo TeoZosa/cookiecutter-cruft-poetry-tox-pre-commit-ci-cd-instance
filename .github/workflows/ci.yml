@@ -215,7 +215,7 @@ jobs:
         run: |
           make test-mutations
 
-  
+
   # Install Verification ----------------------
 
   verify-user-install:
@@ -281,4 +281,3 @@ jobs:
           cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance --help
           cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance --version
         shell: bash
-  

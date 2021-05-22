@@ -8,7 +8,9 @@ import typeguard
 import typer
 from dotenv import find_dotenv, load_dotenv
 
-__version__ = importlib_metadata.metadata("cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance")["Version"]
+__version__ = importlib_metadata.metadata(
+    "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
+)["Version"]
 app = typer.Typer()
 
 # see `.env` for requisite environment variables
@@ -23,7 +25,9 @@ def version_callback(
 ) -> None:  # pylint: disable=unsubscriptable-object
     """Provides a version option for the CLI"""
     if value:
-        typer.echo(f"cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance Version: {__version__}")
+        typer.echo(
+            f"cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance Version: {__version__}"
+        )
         raise typer.Exit()
 
 
@@ -49,4 +53,6 @@ def main(
 
 
 if __name__ == "__main__":
-    app(prog_name="cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance")  # pragma: no cover
+    app(
+        prog_name="cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
+    )  # pragma: no cover

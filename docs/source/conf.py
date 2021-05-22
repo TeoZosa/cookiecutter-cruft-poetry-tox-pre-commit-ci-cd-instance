@@ -105,7 +105,10 @@ def run_apidoc(_: Sphinx) -> None:
         "--no-toc",
         "-o",
         str(pathlib.Path(__file__).parent / "ref/api"),
-        str(_project_directory / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"),
+        str(
+            _project_directory
+            / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"
+        ),
     ]
     apidoc.main(argv)
 

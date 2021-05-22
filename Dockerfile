@@ -45,4 +45,3 @@ COPY cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance /app/cookiecutter_c
 
 ENTRYPOINT ["/usr/bin/tini", "--"]
 CMD ["jupyter", "notebook","--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
-
