@@ -38,8 +38,12 @@ Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+  * [Running The Notebook](#running-the-notebook)
+    + [1. Docker Container Jupyter Environment (recommended)](#1-docker-container-jupyter-environment-recommended)
+    + [2. Locally via Poetry (development workflow)](#2-locally-via-poetry-development-workflow)
 - [Development](#development)
   * [Package and Dependencies Installation](#package-and-dependencies-installation)
+  * [Docker Container Image Building/Deployment Orchestration](#docker-container-image-buildingdeployment-orchestration)
   * [Testing](#testing)
   * [Code Quality](#code-quality)
     + [Automate via Git Pre-Commit Hooks](#automate-via-git-pre-commit-hooks)
@@ -72,6 +76,49 @@ import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 # TODO
 ```
 
+> 📝 **Note**  
+>  All following commands are relative to the project root directory and assume
+> `make` is installed.
+
+
+
+Running The Notebook
+--------------------
+To facilitate your interacting with notebooks with the minimal amount of
+friction, here are two suggested options, in order of simplicity:
+### 1. Docker Container Jupyter Environment (recommended)
+
+Run:
+```shell script
+# Uncomment below to run with corresponding options.
+#export PORT=8888 # default value; change this value if you need to run the container on a different port
+# Note: *any* value other than `false` will trigger an option
+#export IS_INTERACTIVE_SESSION=true
+#export BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER=true
+make deploy-jupyter-docker-container
+```
+
+which will fetch and run the project container image
+that launches a Jupyter notebook environment preloaded with all the production
+dependencies on `127.0.0.1:8888`.
+
+You can then navigate to the Jupyter notebook URL displayed on your console.
+
+> 🔥 **Tip**  
+>  If you prefer to build and run the container locally, run:
+>  ```shell script
+>  make deploy-jupyter-docker-container-local
+>  ```
+
+### 2. Locally via Poetry (development workflow)
+
+Run:
+ ```shell script
+make provision-environment # Note: installs ALL dependencies!
+poetry shell # Activate the project's virtual environment
+jupyter notebook # Launch the Jupyter server
+```
+
 Development
 ===========
 
@@ -98,6 +145,29 @@ make provision-environment
 > 🔥 **Tip**  
 >  Invoking the above without `poetry` installed will emit a
 >  helpful error message letting you know how you can install poetry.
+
+Docker Container Image Building/Deployment Orchestration
+--------------------------------------------------------
+
+The following set of `make` targets orchestrate the project's container image
+build and deploy steps:
+
+```shell
+build-container     Build cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
+deploy-jupyter-docker-container Deploy downloaded dockerized jupyter environment with preloaded dependencies
+deploy-jupyter-docker-container-local Deploy locally-built dockerized jupyter environment with preloaded dependencies
+pull-container      Pull cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
+push-container      Push cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
+stop-container      Stop container forcefully (i.e., when keyboard interrupts are disabled)
+```
+
+Note that the project's container image is oblivious to the application's
+underlying implementation details, with top-level application setup and
+execution logic falling under the purview of the project's entrypoint script.
+As such, Dockerfile modifications will generally only be necessary when
+updating non-Python environment dependencies (Python dependency updates are
+automatically reflected in new image builds via the
+`pyproject.toml` and `poetry.lock` files).
 
 Testing
 ------------
