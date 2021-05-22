@@ -5,7 +5,7 @@ import subprocess  # nosec
 _project_directory = pathlib.Path(__file__).parent.parent
 
 
-def get_version_number():
+def get_version_number() -> str:
     """
     >>> assert get_version_number()
     """
