@@ -268,15 +268,14 @@ jobs:
             ${{ steps.release-workflow-status.outputs.status }}"
           exit 1
 
-  # yamllint disable rule:line-length
       - name: Install package
         run: |
           pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance \
-             --no-deps --index-url https://test.pypi.org/simple/
-          pip install --upgrade cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
+            --no-deps --index-url https://test.pypi.org/simple/
+          pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance \
+            --upgrade
           pip list -v
         shell: bash
-  # yamllint enable rule:line-length
 
       - name: Run basic commands
         run: |
