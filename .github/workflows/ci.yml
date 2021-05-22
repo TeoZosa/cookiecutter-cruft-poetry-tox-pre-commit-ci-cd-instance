@@ -214,6 +214,7 @@ jobs:
       - name: Run mutation testing
         run: |
           make test-mutations
+
   # Install Verification ----------------------
 
   verify-user-install:
