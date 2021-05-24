@@ -36,7 +36,6 @@ Table of Contents
 
 <!-- toc -->
 
-- [Installation](#installation)
 - [Usage](#usage)
   * [Running The Notebook](#running-the-notebook)
     + [1. Docker Container Jupyter Environment (recommended)](#1-docker-container-jupyter-environment-recommended)
@@ -56,13 +55,6 @@ Table of Contents
 
 <!-- tocstop -->
 
-Installation
-============
-You can install Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance via [pip](https://pip.pypa.io/):
- ```shell script
-pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
-```
-
 Usage
 =====
 - TODO
@@ -70,11 +62,6 @@ Usage
 ------------
 - TODO
     - Step 0 description
-```python
-import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
-
-# TODO
-```
 
 > 📝 **Note**  
 >  All following commands are relative to the project root directory and assume
