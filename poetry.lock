@@ -467,7 +467,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.13.3"
+version = "6.13.5"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -524,7 +524,7 @@ dev = ["black (==20.8b1)", "mypy (==0.790)", "pylint (==2.3.1)", "pydocstyle (>=
 
 [[package]]
 name = "identify"
-version = "2.2.5"
+version = "2.2.6"
 description = "File identification library for Python"
 category = "dev"
 optional = false
@@ -1853,7 +1853,7 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-confluencebuilder"
-version = "1.4.0"
+version = "1.5.0"
 description = "Sphinx extension to output Atlassian Confluence Storage Markup documents and publish to Confluence instances."
 category = "main"
 optional = true
@@ -2164,7 +2164,7 @@ brotli = ["brotlipy (>=0.6.0)"]
 
 [[package]]
 name = "virtualenv"
-version = "20.4.6"
+version = "20.4.7"
 description = "Virtual Python Environment builder"
 category = "dev"
 optional = false
@@ -2565,8 +2565,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.13.3-py3-none-any.whl", hash = "sha256:63fa82cf29a5d0e169df1ede5d8d8c9e718d1213f3a3d9bf6879224886c2328c"},
-    {file = "hypothesis-6.13.3.tar.gz", hash = "sha256:49fbede48837cbee2160a83d1c99c0a9094d74bad0e2f6f5f351ac80ff559a79"},
+    {file = "hypothesis-6.13.5-py3-none-any.whl", hash = "sha256:7539bb747998dec16240fb273f2519f08e8ef576642d46feac02afa01ad14831"},
+    {file = "hypothesis-6.13.5.tar.gz", hash = "sha256:7b1d886ff78c6d2d3eee921d00116548e67310c2bf3bd13e3e59e073f4fdad88"},
 ]
 icontract = [
     {file = "icontract-2.5.1.tar.gz", hash = "sha256:2f1ae923cf9169a6211b5e5abff61a6c04a28bfaa57da9b1722eaec5a5c77069"},
@@ -2575,8 +2575,8 @@ icontract-hypothesis = [
     {file = "icontract-hypothesis-1.1.3.tar.gz", hash = "sha256:d1666a5bc0f88094cb5c31351d4f04170eefe812f9d5d29ca9f6b6d801ba65f3"},
 ]
 identify = [
-    {file = "identify-2.2.5-py2.py3-none-any.whl", hash = "sha256:9c3ab58543c03bd794a1735e4552ef6dec49ec32053278130d525f0982447d47"},
-    {file = "identify-2.2.5.tar.gz", hash = "sha256:bc1705694253763a3160b943316867792ec00ba7a0ee40b46e20aebaf4e0c46a"},
+    {file = "identify-2.2.6-py2.py3-none-any.whl", hash = "sha256:1560bb645b93d5c05c3535c72a4f4884133006423d02c692ac6862a45eb0d521"},
+    {file = "identify-2.2.6.tar.gz", hash = "sha256:01ebbc7af37043806216c7550539210cde4f82451983eb8735a02b3b9d013e40"},
 ]
 idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
@@ -2981,6 +2981,7 @@ pillow = [
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-manylinux2010_i686.whl", hash = "sha256:aac00e4bc94d1b7813fe882c28990c1bc2f9d0e1aa765a5f2b516e8a6a16a9e4"},
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:22fd0f42ad15dfdde6c581347eaa4adb9a6fc4b865f90b23378aa7914895e120"},
     {file = "Pillow-8.2.0-pp37-pypy37_pp73-win32.whl", hash = "sha256:e98eca29a05913e82177b3ba3d198b1728e164869c613d76d0de4bde6768a50e"},
+    {file = "Pillow-8.2.0-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:8b56553c0345ad6dcb2e9b433ae47d67f95fc23fe28a0bde15a120f25257e291"},
     {file = "Pillow-8.2.0.tar.gz", hash = "sha256:a787ab10d7bb5494e5f76536ac460741788f1fbce851068d73a87ca7c35fc3e1"},
 ]
 pluggy = [
@@ -3298,8 +3299,8 @@ sphinxcontrib-applehelp = [
     {file = "sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl", hash = "sha256:806111e5e962be97c29ec4c1e7fe277bfd19e9652fb1a4392105b43e01af885a"},
 ]
 sphinxcontrib-confluencebuilder = [
-    {file = "sphinxcontrib-confluencebuilder-1.4.0.tar.gz", hash = "sha256:6a54b99144a8b0769bde4a75bc5d9e7dc4ebfe016584d26be60b084ab1906042"},
-    {file = "sphinxcontrib_confluencebuilder-1.4.0-py2.py3-none-any.whl", hash = "sha256:aece2599cd48db61f68c50bc1750f8d9120ec921b755f9a44501582203bee847"},
+    {file = "sphinxcontrib-confluencebuilder-1.5.0.tar.gz", hash = "sha256:eda7ff47ed6ac8f6993c1ef92de59f67dd78d45603bf2fb3309f23b9e866bc3e"},
+    {file = "sphinxcontrib_confluencebuilder-1.5.0-py2.py3-none-any.whl", hash = "sha256:ac03f716563ad0a4ecfac969aeff8e8852d7adf40e8b2226ed966f3b2bbf4432"},
 ]
 sphinxcontrib-devhelp = [
     {file = "sphinxcontrib-devhelp-1.0.2.tar.gz", hash = "sha256:ff7f1afa7b9642e7060379360a67e9c41e8f3121f2ce9164266f61b9f4b338e4"},
@@ -3465,8 +3466,8 @@ urllib3 = [
     {file = "urllib3-1.26.4.tar.gz", hash = "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"},
 ]
 virtualenv = [
-    {file = "virtualenv-20.4.6-py2.py3-none-any.whl", hash = "sha256:307a555cf21e1550885c82120eccaf5acedf42978fd362d32ba8410f9593f543"},
-    {file = "virtualenv-20.4.6.tar.gz", hash = "sha256:72cf267afc04bf9c86ec932329b7e94db6a0331ae9847576daaa7ca3c86b29a4"},
+    {file = "virtualenv-20.4.7-py2.py3-none-any.whl", hash = "sha256:2b0126166ea7c9c3661f5b8e06773d28f83322de7a3ff7d06f0aed18c9de6a76"},
+    {file = "virtualenv-20.4.7.tar.gz", hash = "sha256:14fdf849f80dbb29a4eb6caa9875d476ee2a5cf76a5f5415fa2f1606010ab467"},
 ]
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
