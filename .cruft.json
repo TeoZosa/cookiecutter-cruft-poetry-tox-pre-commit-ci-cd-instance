@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-  "commit": "06e71c74b651a2cb21cfbfd889d638af9ae56f2c",
+  "commit": "727b8dd7cfd3abebec15ab3e84c534e8ff1c2e76",
   "checkout": "master",
   "context": {
     "cookiecutter": {
@@ -10,7 +10,7 @@
       "friendly_name": "Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance",
       "author": "Teo Zosa",
       "email": "teo@sonosim.com",
-      "project_type": "project",
+      "project_type": "package",
       "jupyter_notebook_support": "yes",
       "remote_vcs_host": "github",
       "remote_vcs_url": "https://github.com",

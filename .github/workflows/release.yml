@@ -61,6 +61,42 @@ jobs:
           VERSION=$(make get-project-version-number) &&
           DEV_VERSION="${VERSION}.dev.$(date +%s)" &&
           poetry version "${DEV_VERSION}"
+      # PyPI/TestPyPI package upload ----------------------
+      - name: Build package
+        run: |
+          poetry build --ansi
+
+      - name: Publish package on PyPI
+        if: steps.check-version.outputs.tag
+        uses: pypa/gh-action-pypi-publish@v1.4.1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_TOKEN }} # pragma: allowlist secret
+
+      - name: Publish package on TestPyPI
+        if: "! steps.check-version.outputs.tag"
+        uses: pypa/gh-action-pypi-publish@v1.4.1
+        with:
+          user: __token__
+          password: ${{ secrets.TEST_PYPI_TOKEN }} # pragma: allowlist secret
+          repository_url: https://test.pypi.org/legacy/
+
+      # yamllint disable rule:line-length
+      - name: Validate published package is reachable
+        run: |
+          PYPI_PACKAGE="cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance==$(make get-project-version-number)"
+          TEST_PYPI_PACKAGE="${PYPI_PACKAGE} --index-url https://test.pypi.org/simple/"
+          function install_test_pypi() { pip install ${TEST_PYPI_PACKAGE} --no-deps && install_pypi; }
+          function install_pypi() { pip install --upgrade ${PYPI_PACKAGE}; }
+
+          until (install_test_pypi || install_pypi) &> /dev/null
+          do
+             echo "Waiting for Python Package Index to serve current package-under-test"
+             sleep 10
+          done
+          pip list -v
+        shell: bash
+      # yamllint enable rule:line-length
 
       # Docker build/push job ----------------------
       - name: Set up QEMU
