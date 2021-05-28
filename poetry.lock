@@ -372,7 +372,7 @@ python-versions = ">=2.7"
 
 [[package]]
 name = "execnet"
-version = "1.8.0"
+version = "1.8.1"
 description = "execnet: rapid multi-Python deployment"
 category = "dev"
 optional = false
@@ -467,7 +467,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.13.7"
+version = "6.13.8"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -2535,8 +2535,8 @@ entrypoints = [
     {file = "entrypoints-0.3.tar.gz", hash = "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"},
 ]
 execnet = [
-    {file = "execnet-1.8.0-py2.py3-none-any.whl", hash = "sha256:7a13113028b1e1cc4c6492b28098b3c6576c9dccc7973bfe47b342afadafb2ac"},
-    {file = "execnet-1.8.0.tar.gz", hash = "sha256:b73c5565e517f24b62dea8a5ceac178c661c4309d3aa0c3e420856c072c411b4"},
+    {file = "execnet-1.8.1-py2.py3-none-any.whl", hash = "sha256:e840ce25562e414ee5684864d510dbeeb0bce016bc89b22a6e5ce323b5e6552f"},
+    {file = "execnet-1.8.1.tar.gz", hash = "sha256:7e3c2cdb6389542a91e9855a9cc7545fbed679e96f8808bcbb1beb325345b189"},
 ]
 filelock = [
     {file = "filelock-3.0.12-py3-none-any.whl", hash = "sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836"},
@@ -2565,8 +2565,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.13.7-py3-none-any.whl", hash = "sha256:2dc9310f597b331c37e7c942c2a454da321aa718df5217747bda688382735c0f"},
-    {file = "hypothesis-6.13.7.tar.gz", hash = "sha256:262bb8cee0293ad06c453e78cf89bddcb613b91f82ea5587f3787611ee62861b"},
+    {file = "hypothesis-6.13.8-py3-none-any.whl", hash = "sha256:8a31c9617f63f6e8c03c433815a710e8afd195e48d2cca94a567c87f85277067"},
+    {file = "hypothesis-6.13.8.tar.gz", hash = "sha256:0689b969768e2f810e90a98e5a742db417886cfb66b5d326a80f3490ee216d1b"},
 ]
 icontract = [
     {file = "icontract-2.5.1.tar.gz", hash = "sha256:2f1ae923cf9169a6211b5e5abff61a6c04a28bfaa57da9b1722eaec5a5c77069"},
