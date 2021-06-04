@@ -465,7 +465,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.13.12"
+version = "6.13.14"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -522,7 +522,7 @@ dev = ["black (==20.8b1)", "mypy (==0.790)", "pylint (==2.3.1)", "pydocstyle (>=
 
 [[package]]
 name = "identify"
-version = "2.2.7"
+version = "2.2.8"
 description = "File identification library for Python"
 category = "dev"
 optional = false
@@ -2097,7 +2097,7 @@ python-versions = "*"
 
 [[package]]
 name = "typeguard"
-version = "2.12.0"
+version = "2.12.1"
 description = "Run-time type checker for Python"
 category = "main"
 optional = false
@@ -2564,8 +2564,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.13.12-py3-none-any.whl", hash = "sha256:cca0e54d769214849755f7a125a2f759615e0386844eb42bd30ca2633d249b61"},
-    {file = "hypothesis-6.13.12.tar.gz", hash = "sha256:eeb8311d1477de4974ed3dba5c8e758023c17bb4c804f2e5d5cc4f9a065cbeba"},
+    {file = "hypothesis-6.13.14-py3-none-any.whl", hash = "sha256:8f9346a60183d7e9213f6af4d0b3ce19130530884d9444087263775da327d81d"},
+    {file = "hypothesis-6.13.14.tar.gz", hash = "sha256:36ef2d58f600be2973f694f45a55a5502de705d7594f9cf841276aec9082c414"},
 ]
 icontract = [
     {file = "icontract-2.5.2.tar.gz", hash = "sha256:34c347c449c62a636c2960f7d2481a70764aae9a005b0c68fe3b98de025acced"},
@@ -2574,8 +2574,8 @@ icontract-hypothesis = [
     {file = "icontract-hypothesis-1.1.3.tar.gz", hash = "sha256:d1666a5bc0f88094cb5c31351d4f04170eefe812f9d5d29ca9f6b6d801ba65f3"},
 ]
 identify = [
-    {file = "identify-2.2.7-py2.py3-none-any.whl", hash = "sha256:92d6ad08eca19ceb17576733759944b94c0761277ddc3acf65e75e57ef190e32"},
-    {file = "identify-2.2.7.tar.gz", hash = "sha256:c29e74c3671fe9537715cb695148231d777170ca1498e1c30c675d4ea782afe9"},
+    {file = "identify-2.2.8-py2.py3-none-any.whl", hash = "sha256:3a74cf41f1a0bde21e2f196a1727a608629339d9897226bad07b22e0bbde6faa"},
+    {file = "identify-2.2.8.tar.gz", hash = "sha256:7d4a73d58869a484d4ba8892793c80e30aa699e77707f26c1049486ef9be415f"},
 ]
 idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
@@ -3442,8 +3442,8 @@ typed-ast = [
     {file = "typed_ast-1.4.3.tar.gz", hash = "sha256:fb1bbeac803adea29cedd70781399c99138358c26d05fcbd23c13016b7f5ec65"},
 ]
 typeguard = [
-    {file = "typeguard-2.12.0-py3-none-any.whl", hash = "sha256:7d1cf82b35e9ff3cd083133ebda54ad1d7a40296471397e6c6b229cf07fe5307"},
-    {file = "typeguard-2.12.0.tar.gz", hash = "sha256:fca77fd4ccba63465b421cdbbab5a1a8e3994e6d6f18b45da2bb475c09f147ef"},
+    {file = "typeguard-2.12.1-py3-none-any.whl", hash = "sha256:cc15ef2704c9909ef9c80e19c62fb8468c01f75aad12f651922acf4dbe822e02"},
+    {file = "typeguard-2.12.1.tar.gz", hash = "sha256:c2af8b9bdd7657f4bd27b45336e7930171aead796711bc4cfc99b4731bb9d051"},
 ]
 typer = [
     {file = "typer-0.3.2-py3-none-any.whl", hash = "sha256:ba58b920ce851b12a2d790143009fa00ac1d05b3ff3257061ff69dbdfc3d161b"},
