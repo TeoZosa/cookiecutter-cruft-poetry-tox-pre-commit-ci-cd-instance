@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623179874739,
+  "lastUpdate": 1623191840277,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -164,6 +164,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005999521389261694",
             "extra": "mean: 116.52580033472255 usec\nrounds: 1793"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "01f9dbb0188585081a412069e8ca4af6f41e929c",
+          "message": ":green_heart: Fix `yamllint` `(line-length)` errors\n\n```\n.github/workflows/release.yml\n  7:81      error    line too long (81 > 80 characters)  (line-length)\n````\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@faafc60",
+          "timestamp": "2021-06-08T22:30:50Z",
+          "tree_id": "6fd029635289625f390741c7f4118b1e1ae87b60"
+        },
+        "date": 1623191838790,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1056.937271897607,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007437069423181995",
+            "extra": "mean: 946.1299422288488 usec\nrounds: 502"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1498.312923318353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004176879988167234",
+            "extra": "mean: 667.4173228014838 usec\nrounds: 1171"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 11171.569376507494,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008281171501639766",
+            "extra": "mean: 89.51293827193906 usec\nrounds: 1458"
           }
         ]
       }
