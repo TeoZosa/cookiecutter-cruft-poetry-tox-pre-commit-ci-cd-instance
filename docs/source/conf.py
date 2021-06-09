@@ -1,16 +1,16 @@
 """Sphinx configuration."""
+import datetime
 import os
 import pathlib
 import re
 import sys
-from datetime import datetime
 from typing import List, Match
 
 import emoji
 import importlib_metadata
+import sphinx.ext
 from dotenv import find_dotenv, load_dotenv
 from sphinx.application import Sphinx
-from sphinx.ext import apidoc
 
 # Load user-specific env vars (e.g. secrets) from a `.env` file
 load_dotenv(find_dotenv())
@@ -41,7 +41,9 @@ except importlib_metadata.PackageNotFoundError as err:
 # -- Project information -----------------------------------------------------
 project = project_metadata["Name"]
 author = project_metadata["Author"]
-copyright = f"{datetime.now().year}, {author}"  # pylint: disable=redefined-builtin
+copyright = (
+    f"{datetime.datetime.now().year}, {author}"  # pylint: disable=redefined-builtin
+)
 version = release = project_metadata["Version"]
 
 # -- General configuration ---------------------------------------------------
@@ -113,7 +115,7 @@ def run_apidoc(_: Sphinx) -> None:
             / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"
         ),
     ]
-    apidoc.main(argv)
+    sphinx.ext.apidoc.main(argv)
 
 
 def convert_emoji_shortcodes(app: Sphinx, exception: Exception) -> None:
@@ -137,7 +139,7 @@ def convert_emoji_shortcodes(app: Sphinx, exception: Exception) -> None:
 
 
 def setup(app: Sphinx) -> None:
-    """Connects bespoke `sphinx.ext.apidoc` extension function"""
+    """Connects bespoke `sphinx.ext.apidoc` extension and emoji shortcode conversion functions"""
     app.connect("builder-inited", run_apidoc)
     app.connect("build-finished", convert_emoji_shortcodes)
 
