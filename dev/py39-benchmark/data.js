@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623277360022,
+  "lastUpdate": 1623277995161,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1025,6 +1025,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000037065589307080786",
             "extra": "mean: 68.48001585611472 usec\nrounds: 1892"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "f6535e946cf28432adb057278c17f5d532cf5433",
+          "message": ":green_heart: Fix pylint pragma ignore location\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@cc7d54d",
+          "timestamp": "2021-06-09T22:26:16Z",
+          "tree_id": "5ca5ae3bca2cc211424208bd6681cc728dd0533b"
+        },
+        "date": 1623277993071,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 934.7085374295131,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013791183653567501",
+            "extra": "mean: 1.069852215911113 msec\nrounds: 528"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1299.958228653066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015068831815446645",
+            "extra": "mean: 769.2554867983231 usec\nrounds: 1212"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8282.613676602472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007380820644518137",
+            "extra": "mean: 120.73483552962233 usec\nrounds: 1745"
           }
         ]
       }
