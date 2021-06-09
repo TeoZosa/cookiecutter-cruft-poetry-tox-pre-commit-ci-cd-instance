@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623209318963,
+  "lastUpdate": 1623211386509,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -369,6 +369,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004757139786766379",
             "extra": "mean: 75.48895840245974 usec\nrounds: 1803"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "d3177ac87c92657d5bfd42e6df33220de13c4bf9",
+          "message": ":heavy_plus_sign: Add emoji library type stubs\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@56dfb41",
+          "timestamp": "2021-06-09T03:55:06Z",
+          "tree_id": "75f8f97d4f847b8f768ba728c99b02aa670eb403"
+        },
+        "date": 1623211384723,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 838.0475330390373,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002737134489527211",
+            "extra": "mean: 1.1932497389183518 msec\nrounds: 406"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1158.314162131772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023933228514457503",
+            "extra": "mean: 863.3236411092399 usec\nrounds: 613"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 7393.736106750131,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007560935319304027",
+            "extra": "mean: 135.2496201598333 usec\nrounds: 1498"
           }
         ]
       }
