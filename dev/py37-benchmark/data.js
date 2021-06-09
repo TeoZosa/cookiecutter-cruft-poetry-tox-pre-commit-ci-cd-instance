@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623191840277,
+  "lastUpdate": 1623204891857,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -205,6 +205,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008281171501639766",
             "extra": "mean: 89.51293827193906 usec\nrounds: 1458"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "d99cee6a284312bb8079399a1bdf294ef2964a66",
+          "message": "Merge pull request #206 from TeoZosa/add-documentation-emoji-shortcode-conversion-feature\n\n✨ Add Documentation Emoji Shortcode Conversion Feature\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0e96274",
+          "timestamp": "2021-06-09T02:07:40Z",
+          "tree_id": "df4325c55dfb526bd495c52693c5357dc3728552"
+        },
+        "date": 1623204890244,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1035.1588903057925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001447042906825772",
+            "extra": "mean: 966.0352718456522 usec\nrounds: 515"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1360.6701528853462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016762242213537397",
+            "extra": "mean: 734.9319729542585 usec\nrounds: 1368"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8925.767496536771,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004277096591009734",
+            "extra": "mean: 112.0351835725055 usec\nrounds: 1607"
           }
         ]
       }
