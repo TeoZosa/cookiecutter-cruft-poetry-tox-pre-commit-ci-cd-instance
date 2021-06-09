@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623258410018,
+  "lastUpdate": 1623259206625,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -656,6 +656,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003126535688254428",
             "extra": "mean: 110.55770591324011 usec\nrounds: 1826"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ba1fa95a93e7e13c05eb6950939c94b4e0d69def",
+          "message": ":memo: :cookie: Update `cookiecutter-hypermodern-python` attribution admonition\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@3ea735f",
+          "timestamp": "2021-06-09T17:13:16Z",
+          "tree_id": "613989500fdf6973891043842cee2d3d22dcd475"
+        },
+        "date": 1623259204606,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1113.8987000568166,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006841444734346042",
+            "extra": "mean: 897.7477035829139 usec\nrounds: 614"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1636.1340992304545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004844801727683362",
+            "extra": "mean: 611.1968453382542 usec\nrounds: 1319"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 13079.88239129581,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007959450126871338",
+            "extra": "mean: 76.4532868174307 usec\nrounds: 1813"
           }
         ]
       }
