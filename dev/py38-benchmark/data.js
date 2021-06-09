@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623258415122,
+  "lastUpdate": 1623259238730,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -656,6 +656,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000024135378108248198",
             "extra": "mean: 115.34549427537122 usec\nrounds: 2009"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ba1fa95a93e7e13c05eb6950939c94b4e0d69def",
+          "message": ":memo: :cookie: Update `cookiecutter-hypermodern-python` attribution admonition\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@3ea735f",
+          "timestamp": "2021-06-09T17:13:16Z",
+          "tree_id": "613989500fdf6973891043842cee2d3d22dcd475"
+        },
+        "date": 1623259236587,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 922.3975979635721,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016246797612799933",
+            "extra": "mean: 1.0841311840010803 msec\nrounds: 500"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1310.4627983010605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001843950252859943",
+            "extra": "mean: 763.0891936012547 usec\nrounds: 1219"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8018.303996296324,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003728463388537132",
+            "extra": "mean: 124.7146529318298 usec\nrounds: 1262"
           }
         ]
       }
