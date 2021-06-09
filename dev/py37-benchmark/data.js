@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623211887403,
+  "lastUpdate": 1623220110015,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -451,6 +451,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004248670714279485",
             "extra": "mean: 73.9428742951589 usec\nrounds: 1774"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9b6054e7ab54bf4da6d7a0d3dfb7da6beb32b0d7",
+          "message": ":rewind: :green_heart: Rollback Auto-Merge-Dependabot workflow to `on` `pull_request_target` event\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@e86edc8",
+          "timestamp": "2021-06-09T06:21:06Z",
+          "tree_id": "f4ea1b3ded201f09e7595eb944af5f72347ce01d"
+        },
+        "date": 1623220108285,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 964.0378069676437,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012689698653268013",
+            "extra": "mean: 1.0373037164854295 msec\nrounds: 455"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1291.7593261232064,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031355740937266793",
+            "extra": "mean: 774.1380145488658 usec\nrounds: 1306"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8611.499796777756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000031639607189882486",
+            "extra": "mean: 116.12379069836119 usec\nrounds: 1806"
           }
         ]
       }
