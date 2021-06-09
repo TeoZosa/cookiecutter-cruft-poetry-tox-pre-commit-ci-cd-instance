@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623261922147,
+  "lastUpdate": 1623263370271,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -738,6 +738,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005702046403293913",
             "extra": "mean: 86.92954252137808 usec\nrounds: 1611"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "f77fbbcf2d219983917d7c836dc3ed35140ad59b",
+          "message": ":memo: :cookie: Elaborate on emoji shortcode conversion documentation\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7158317",
+          "timestamp": "2021-06-09T18:22:13Z",
+          "tree_id": "795809f51cda730308148023e7e83f9c5ecdf918"
+        },
+        "date": 1623263368155,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 930.2178755777619,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015434733768018705",
+            "extra": "mean: 1.0750169678032644 msec\nrounds: 497"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1252.9750481723972,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016458713263136008",
+            "extra": "mean: 798.1004900764868 usec\nrounds: 1159"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8263.341095820668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004590571306238805",
+            "extra": "mean: 121.01642524544555 usec\nrounds: 1632"
           }
         ]
       }
