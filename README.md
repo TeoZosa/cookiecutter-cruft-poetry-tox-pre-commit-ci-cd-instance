@@ -37,18 +37,18 @@ Table of Contents
 <!-- toc -->
 
 - [:tada: Installation](#tada-installation)
-- [:sparkles: Usage](#sparkles-usage)
+- [:rocket: Usage](#rocket-usage)
   * [Running The Notebook](#running-the-notebook)
     + [1. Docker Container Jupyter Environment (recommended)](#1-docker-container-jupyter-environment-recommended)
     + [2. Locally via Poetry (development workflow)](#2-locally-via-poetry-development-workflow)
-- [:computer: Development](#computer-development)
+- [:wrench: Development](#wrench-development)
   * [Package and Dependencies Installation](#package-and-dependencies-installation)
   * [Docker Container Image Building/Deployment Orchestration](#docker-container-image-buildingdeployment-orchestration)
   * [Testing](#testing)
   * [Code Quality](#code-quality)
     + [Automate via Git Pre-Commit Hooks](#automate-via-git-pre-commit-hooks)
   * [Documentation](#documentation)
-- [:rocket: Summary](#rocket-summary)
+- [:clipboard: Summary](#clipboard-summary)
 - [:books: Further Reading](#books-further-reading)
 - [:page_facing_up: Legal](#page_facing_up-legal)
   * [License](#license)
@@ -63,8 +63,8 @@ You can install Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance via [pip
 pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 ```
 
-:sparkles: Usage
-================
+:rocket: Usage
+==============
 - TODO
     - High-level usage overview
 ------------
@@ -119,8 +119,8 @@ poetry shell # Activate the project's virtual environment
 jupyter notebook # Launch the Jupyter server
 ```
 
-:computer: Development
-======================
+:wrench: Development
+====================
 
 > :memo: **Note**  
 >  For convenience, many of the below processes are abstracted away
@@ -235,8 +235,8 @@ make docs-clean docs-html
 >  For faster feedback loops, this will attempt to automatically open the newly
 >  built documentation static HTML in your browser.
 
-:rocket: Summary
-================
+:clipboard: Summary
+===================
 - TODO
 
 :books: Further Reading
