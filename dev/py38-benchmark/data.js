@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623355738680,
+  "lastUpdate": 1623367369818,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1517,6 +1517,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000018381185900918725",
             "extra": "mean: 82.33588442209228 usec\nrounds: 1791"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "8305b3ec3c6213d269593f6c28947987df9a5348",
+          "message": "Merge pull request #211 from TeoZosa/migrate-api-documentation-auto-generation-to-autoapi\n\n📝 Migrate Project Documentation Auto-Generation to Sphinx AutoAPI\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@cb686cc",
+          "timestamp": "2021-06-10T23:17:01Z",
+          "tree_id": "befe5a7fda139a258b9f4ec51ef4230a2d12155e"
+        },
+        "date": 1623367368753,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1339.7742932208703,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009144344484310465",
+            "extra": "mean: 746.3943778141619 usec\nrounds: 622"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1864.8671916923784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006885922622693912",
+            "extra": "mean: 536.2312149920413 usec\nrounds: 1414"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 15464.84639165196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010426328301169678",
+            "extra": "mean: 64.66278258927987 usec\nrounds: 2125"
           }
         ]
       }
