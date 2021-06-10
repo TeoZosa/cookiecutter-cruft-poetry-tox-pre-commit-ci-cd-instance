@@ -157,7 +157,7 @@ make provision-environment
 
 > :fire: **Tip**  
 > Invoking the above without `poetry` installed will emit a
-> helpful error message letting you know how you can install poetry.
+> helpful error message letting you know how you can install Poetry.
 
 Docker Container Image Building/Deployment Orchestration
 --------------------------------------------------------
