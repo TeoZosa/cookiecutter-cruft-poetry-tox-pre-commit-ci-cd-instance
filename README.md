@@ -20,14 +20,17 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 
 Overview
 --------
+
 - TODO
 
 Features
 --------
+
 - TODO
 
 Requirements
 ------------
+
 - TODO
 
 ------------
@@ -58,18 +61,24 @@ Table of Contents
 
 :tada: Installation
 ===================
+
 You can install Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance via [pip](https://pip.pypa.io/):
+
  ```shell script
 pip install cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 ```
 
 :rocket: Usage
 ==============
+
 - TODO
     - High-level usage overview
+
 ------------
+
 - TODO
     - Step 0 description
+
 ```python
 import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 
@@ -77,7 +86,7 @@ import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 ```
 
 > :memo: **Note**  
->  All following commands are relative to the project root directory and assume
+> All following commands are relative to the project root directory and assume
 > `make` is installed.
 
 
@@ -86,9 +95,11 @@ Running The Notebook
 --------------------
 To facilitate your interacting with notebooks with the minimal amount of
 friction, here are two suggested options, in order of simplicity:
+
 ### 1. Docker Container Jupyter Environment (recommended)
 
 Run:
+
 ```shell script
 # Uncomment below to run with corresponding options.
 #export PORT=8888 # default value; change this value if you need to run the container on a different port
@@ -105,7 +116,7 @@ dependencies on `127.0.0.1:8888`.
 You can then navigate to the Jupyter notebook URL displayed on your console.
 
 > :fire: **Tip**  
->  If you prefer to build and run the container locally, run:
+> If you prefer to build and run the container locally, run:
 >  ```shell script
 >  make deploy-jupyter-docker-container-local
 >  ```
@@ -113,6 +124,7 @@ You can then navigate to the Jupyter notebook URL displayed on your console.
 ### 2. Locally via Poetry (development workflow)
 
 Run:
+
  ```shell script
 make provision-environment # Note: installs ALL dependencies!
 poetry shell # Activate the project's virtual environment
@@ -123,13 +135,13 @@ jupyter notebook # Launch the Jupyter server
 ====================
 
 > :memo: **Note**  
->  For convenience, many of the below processes are abstracted away
->  and encapsulated in single [Make](https://www.gnu.org/software/make/) targets.
+> For convenience, many of the below processes are abstracted away
+> and encapsulated in single [Make](https://www.gnu.org/software/make/) targets.
 
 
 > :fire: **Tip**  
->  Invoking `make` without any arguments will display
->  auto-generated documentation on available commands.
+> Invoking `make` without any arguments will display
+> auto-generated documentation on available commands.
 
 Package and Dependencies Installation
 --------------------------------------
@@ -138,19 +150,20 @@ Make sure you have Python 3.7+ and [`poetry`](https://python-poetry.org/)
 installed and configured.
 
 To install the package and all dev dependencies, run:
+
 ```shell script
 make provision-environment
 ```
 
 > :fire: **Tip**  
->  Invoking the above without `poetry` installed will emit a
->  helpful error message letting you know how you can install poetry.
+> Invoking the above without `poetry` installed will emit a
+> helpful error message letting you know how you can install poetry.
 
 Docker Container Image Building/Deployment Orchestration
 --------------------------------------------------------
 
-The following set of `make` targets orchestrate the project's container image
-build and deploy steps:
+The following set of `make` targets orchestrate the project's container image build and
+deploy steps:
 
 ```shell
 build-container     Build cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
@@ -161,12 +174,12 @@ push-container      Push cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 stop-container      Stop container forcefully (i.e., when keyboard interrupts are disabled)
 ```
 
-Note that the project's container image is insulated from the implementation
-details of the application's top-level setup and execution logic which falls
-under the purview of the project's entrypoint script. As such, Dockerfile
-modifications will generally only be necessary when updating non-Python
-environment dependencies (Python dependency updates are automatically reflected
-in new image builds via the `pyproject.toml` and `poetry.lock` files).
+Note that the project's container image is insulated from the implementation details of
+the application's top-level setup and execution logic which falls under the purview of
+the project's entrypoint script. As such, Dockerfile modifications will generally only
+be necessary when updating non-Python environment dependencies (Python dependency
+updates are automatically reflected in new image builds via the `pyproject.toml`
+and `poetry.lock` files).
 
 Testing
 ------------
@@ -180,23 +193,24 @@ To invoke the tests, run:
 make test
 ```
 
-Run [mutation tests](https://opensource.com/article/20/7/mutmut-python) to validate test suite robustness (Optional):
+Run [mutation tests](https://opensource.com/article/20/7/mutmut-python) to validate test
+suite robustness (Optional):
 
 ```shell script
 make test-mutations
 ```
 
 > :memo: **Note**  
->  Test time scales with the complexity of the codebase. Results are cached
->  in `.mutmut-cache`, so once you get past the initial [cold start problem](https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)),
->  subsequent mutation test runs will be much faster; new mutations will only
->  be applied to modified code paths.
+> Test time scales with the complexity of the codebase. Results are cached
+> in `.mutmut-cache`, so once you get past the initial [cold start problem](https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)),
+> subsequent mutation test runs will be much faster; new mutations will only
+> be applied to modified code paths.
 
 Code Quality
 ------------
 
-We are using [`pre-commit`](https://pre-commit.com/) for our code quality
-static analysis automation and management framework.
+We are using [`pre-commit`](https://pre-commit.com/) for our code quality static
+analysis automation and management framework.
 
 To invoke the analyses and auto-formatting over all version-controlled files, run:
 
@@ -205,9 +219,9 @@ make lint
 ```
 
 > :rotating_light: **Danger**  
->  CI will fail if either testing or code quality fail,
->  so it is recommended to automatically run the above locally
->  prior to every commit that is pushed.
+> CI will fail if either testing or code quality fail,
+> so it is recommended to automatically run the above locally
+> prior to every commit that is pushed.
 
 ### Automate via Git Pre-Commit Hooks
 
@@ -219,10 +233,10 @@ make install-pre-commit-hooks
 ```
 
 > :warning:️ Warning  
->  This will prevent commits if any single pre-commit hook fails
->  (unless it is allowed to fail)
->  or a file is modified by an auto-formatting job;
->  in the latter case, you may simply repeat the commit and it should pass.
+> This will prevent commits if any single pre-commit hook fails
+> (unless it is allowed to fail)
+> or a file is modified by an auto-formatting job;
+> in the latter case, you may simply repeat the commit and it should pass.
 
 Documentation
 --------------
@@ -232,15 +246,17 @@ make docs-clean docs-html
 ```
 
 > :memo: **Note**  
->  For faster feedback loops, this will attempt to automatically open the newly
->  built documentation static HTML in your browser.
+> For faster feedback loops, this will attempt to automatically open the newly
+> built documentation static HTML in your browser.
 
 :clipboard: Summary
 ===================
+
 - TODO
 
 :books: Further Reading
 =======================
+
 - TODO
 
 ---
