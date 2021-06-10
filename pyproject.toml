@@ -138,7 +138,6 @@ skip_covered = true
 [tool.cruft]
 skip = [
     ".env",
-    "README.md",
     "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/__init__.py",
     "docs/source/.env",
     "docs/source/ref/dev/"
