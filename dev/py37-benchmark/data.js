@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623288140305,
+  "lastUpdate": 1623290226822,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1230,6 +1230,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006980872353178808",
             "extra": "mean: 118.67856443942772 usec\nrounds: 1676"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "teofilo@sonosim.com",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a99438a4515f17e1d325762a61bdcbedf3628fa9",
+          "message": ":memo: Add misc. emojis\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@a0c009b",
+          "timestamp": "2021-06-10T01:49:48Z",
+          "tree_id": "b6897eff10321d2135fdbf3bf50193bf2a5a58d6"
+        },
+        "date": 1623290225120,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 887.1821905608047,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028903139358040257",
+            "extra": "mean: 1.1271641954037435 msec\nrounds: 435"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1265.4132219323674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019613404841757994",
+            "extra": "mean: 790.2556909220023 usec\nrounds: 1278"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 8042.633868912923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003388102409933843",
+            "extra": "mean: 124.33737707062429 usec\nrounds: 1509"
           }
         ]
       }
