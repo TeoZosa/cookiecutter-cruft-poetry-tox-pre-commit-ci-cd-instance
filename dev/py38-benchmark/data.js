@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623334559458,
+  "lastUpdate": 1623355738680,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1476,6 +1476,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006206592674968064",
             "extra": "mean: 84.82246405282251 usec\nrounds: 1683"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "1691e350616da5c7fdd06f08e70b14a28640f226",
+          "message": "Merge pull request #210 from TeoZosa/add-mercari-readiness-checklist-tocs\n\n📝 Add Table of Contents for Mercari Microservice Production Readiness Checklist Documentation Templates\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4dd21c3",
+          "timestamp": "2021-06-10T20:02:19Z",
+          "tree_id": "d25fec6144316c914aa231ea3695c31afada6c68"
+        },
+        "date": 1623355737585,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1083.219494066946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002478057030934792",
+            "extra": "mean: 923.17393240912 usec\nrounds: 577"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1623.828849611697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009903076060581185",
+            "extra": "mean: 615.828447831265 usec\nrounds: 1313"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 12145.372664894592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000018381185900918725",
+            "extra": "mean: 82.33588442209228 usec\nrounds: 1791"
           }
         ]
       }
