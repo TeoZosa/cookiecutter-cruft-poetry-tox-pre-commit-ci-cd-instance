@@ -134,9 +134,8 @@ jupyter notebook # Launch the Jupyter server
 :wrench: Development
 ====================
 
-> :memo: **Note**  
-> For convenience, many of the below processes are abstracted away
-> and encapsulated in single [Make](https://www.gnu.org/software/make/) targets.
+For convenience, implementation details of the below processes are abstracted away and
+encapsulated in single [Make](https://www.gnu.org/software/make/) targets.
 
 
 > :fire: **Tip**  
@@ -175,7 +174,7 @@ stop-container      Stop container forcefully (i.e., when keyboard interrupts ar
 ```
 
 Note that the project's container image is insulated from the implementation details of
-the application's top-level setup and execution logic which falls under the purview of
+the application's top-level setup and execution logic, which falls under the purview of
 the project's entrypoint script. As such, Dockerfile modifications will generally only
 be necessary when updating non-Python environment dependencies (Python dependency
 updates are automatically reflected in new image builds via the `pyproject.toml`
@@ -184,8 +183,9 @@ and `poetry.lock` files).
 Testing
 ------------
 
-We use [`tox`](https://tox.readthedocs.io/en/latest/) for our test automation framework
-and [`pytest`](https://pytest.readthedocs.io/) for our testing framework.
+We use [`tox`](https://tox.readthedocs.io/en/latest/)
+and [`pytest`](https://pytest.readthedocs.io/) for our test automation and testing
+frameworks, respectively.
 
 To invoke the tests, run:
 
@@ -209,8 +209,8 @@ make test-mutations
 Code Quality
 ------------
 
-We are using [`pre-commit`](https://pre-commit.com/) for our code quality static
-analysis automation and management framework.
+We use [`pre-commit`](https://pre-commit.com/) for our static analysis automation and
+management framework.
 
 To invoke the analyses and auto-formatting over all version-controlled files, run:
 
