@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623457443034,
+  "lastUpdate": 1623461078547,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1722,6 +1722,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000022790251902132502",
             "extra": "mean: 112.20598095085697 usec\nrounds: 735"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "fabe6d03e59970bbe500f17c09cb0f90db0b5d8c",
+          "message": "Merge pull request #213 from TeoZosa/dependabot/pip/black-21.6b0\n\n⬆️ Bump black from 21.5b2 to 21.6b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@906c2d7",
+          "timestamp": "2021-06-12T01:17:42Z",
+          "tree_id": "063f1f767ca9cfdfb88d318abad1a05a57b12c89"
+        },
+        "date": 1623461077333,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1066.2406556919707,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002169209481438547",
+            "extra": "mean: 937.8745733072974 usec\nrounds: 532"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1568.8667313066624,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000019636501665758803",
+            "extra": "mean: 637.4027698115121 usec\nrounds: 1325"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 12646.356828159214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005284589886432976",
+            "extra": "mean: 79.07415658028357 usec\nrounds: 1801"
           }
         ]
       }
