@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623461012626,
+  "lastUpdate": 1623461673731,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1763,6 +1763,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004525569726265876",
             "extra": "mean: 73.34749892944625 usec\nrounds: 1868"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "84245100e0cc7fdcefa6f516277b90a2ea0c3b38",
+          "message": "Merge pull request #212 from TeoZosa/dependabot/pip/mypy-0.902\n\n⬆️ Bump mypy from 0.901 to 0.902\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4eeccc6",
+          "timestamp": "2021-06-12T01:28:16Z",
+          "tree_id": "077e4a1d872291ac78c0552c99ffadb327a5bab8"
+        },
+        "date": 1623461672101,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1204.0488245966492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007517183915134114",
+            "extra": "mean: 830.5311043636419 usec\nrounds: 527"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1718.0034098490141,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005218494364523729",
+            "extra": "mean: 582.0710216680446 usec\nrounds: 1523"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 12339.299513922952,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006391046477534333",
+            "extra": "mean: 81.04187752891953 usec\nrounds: 1829"
           }
         ]
       }
