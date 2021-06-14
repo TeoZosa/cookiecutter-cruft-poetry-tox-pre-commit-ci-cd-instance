@@ -18,7 +18,8 @@ def get_version_number() -> str:
     ]
     completion_info = subprocess.run(  # nosec
         [prog, *args],
-        capture_output=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
         text=True,
         check=True,
     )
