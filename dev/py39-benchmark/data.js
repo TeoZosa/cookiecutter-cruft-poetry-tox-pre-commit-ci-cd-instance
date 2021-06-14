@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623640001838,
+  "lastUpdate": 1623652182983,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2173,6 +2173,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000027164397652676337",
             "extra": "mean: 108.8905044489218 usec\nrounds: 1911"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "79e012704c5914d30bf2bc100ee46e44c169ce63",
+          "message": ":memo: Fix Typeguard hyperlink line break\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@9ad25c5",
+          "timestamp": "2021-06-14T06:23:41Z",
+          "tree_id": "99ad9d7d06c7531e2a9e9e37ee13f1e2588637c5"
+        },
+        "date": 1623652181344,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1226.3799089168829,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009916279780781695",
+            "extra": "mean: 815.4080091569523 usec\nrounds: 546"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1821.252307297268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006954321150434448",
+            "extra": "mean: 549.0727429655238 usec\nrounds: 1315"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 15034.769309753498,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001081842334076791",
+            "extra": "mean: 66.51249376678301 usec\nrounds: 1845"
           }
         ]
       }
