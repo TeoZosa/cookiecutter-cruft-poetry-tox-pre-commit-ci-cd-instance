@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624023123891,
+  "lastUpdate": 1624023746492,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2378,6 +2378,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004210886237654036",
             "extra": "mean: 68.50031551066702 usec\nrounds: 1889"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c80a4f3dc581abc02ea70bea8f9735538ce88e27",
+          "message": "Merge pull request #218 from TeoZosa/dependabot/pip/myst-parser-0.15.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@15488b8",
+          "timestamp": "2021-06-18T13:34:57Z",
+          "tree_id": "3cb35c7f4601092ca6a254ffa55fc6d08881fd5c"
+        },
+        "date": 1624023745472,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1243.2340045590122,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015369415346862143",
+            "extra": "mean: 804.3538033330341 usec\nrounds: 600"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1823.9277696778054,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001652539331839637",
+            "extra": "mean: 548.2673253977863 usec\nrounds: 1512"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 14573.841383957855,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000040866381324527796",
+            "extra": "mean: 68.61608917335613 usec\nrounds: 1884"
           }
         ]
       }
