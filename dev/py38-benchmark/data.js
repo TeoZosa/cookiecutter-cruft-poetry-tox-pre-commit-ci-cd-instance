@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624579699319,
+  "lastUpdate": 1624580558423,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2624,6 +2624,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004667905211595667",
             "extra": "mean: 73.24902378593154 usec\nrounds: 1934"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "57a8393be728a1030498feaa8ac73f2e0d7ad9bb",
+          "message": "Merge pull request #220 from TeoZosa/dependabot/pip/mypy-0.910\n\n⬆️ Bump mypy from 0.902 to 0.910\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@3576387",
+          "timestamp": "2021-06-25T00:11:22Z",
+          "tree_id": "1f4e0708b86b21b455f98be757d264161ecbd285"
+        },
+        "date": 1624580557358,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1263.0310211063431,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001634155917979371",
+            "extra": "mean: 791.7461909399952 usec\nrounds: 618"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1861.5133867900322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001666393155145368",
+            "extra": "mean: 537.197318642111 usec\nrounds: 1384"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 13669.159698679548,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004340990448343307",
+            "extra": "mean: 73.15738655804869 usec\nrounds: 1979"
           }
         ]
       }
