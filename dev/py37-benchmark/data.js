@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624577698628,
+  "lastUpdate": 1624579707599,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2583,6 +2583,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004848278148705443",
             "extra": "mean: 74.46180711691146 usec\nrounds: 1939"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "1b514a37dd9617401d81e7b3fcab7948cdcf162e",
+          "message": "Merge pull request #78 from TeoZosa/dependabot/pip/mypy-0.910\n\n⬆️ Bump mypy from 0.902 to 0.910",
+          "timestamp": "2021-06-25T00:02:37Z",
+          "tree_id": "a1063f8043774d365f773205c0b01b661a13be93"
+        },
+        "date": 1624579705914,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1218.824374290731,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015335487260914825",
+            "extra": "mean: 820.462751724939 usec\nrounds: 580"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1735.3478689900971,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021508552432409986",
+            "extra": "mean: 576.2533367917522 usec\nrounds: 1446"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 13542.262279733772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004325013892893578",
+            "extra": "mean: 73.8429059594066 usec\nrounds: 1829"
           }
         ]
       }
