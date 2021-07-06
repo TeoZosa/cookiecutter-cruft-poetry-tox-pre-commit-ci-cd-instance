@@ -520,7 +520,7 @@ dev = ["mypy (==0.812)", "pylint (==2.3.1)", "yapf (==0.20.2)", "tox (>=3.0.0)",
 
 [[package]]
 name = "icontract-hypothesis"
-version = "1.1.4"
+version = "1.1.5"
 description = "Combine contracts and automatic testing."
 category = "dev"
 optional = false
@@ -2271,7 +2271,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "b2c3d252d66a881444687e14fc076c4a34e426c8b78d59ffaab78c7777ab48ae"
+content-hash = "6a754e6f08493c7daf6bbcee5422055cdb699040348883db4aa259ec4393356f"
 
 [metadata.files]
 alabaster = [
@@ -2634,7 +2634,7 @@ icontract = [
     {file = "icontract-2.5.3.tar.gz", hash = "sha256:b790101c8cc0d9df0105d852a645373c4d90d5049391b6e54db32a0acb4bccd7"},
 ]
 icontract-hypothesis = [
-    {file = "icontract-hypothesis-1.1.4.tar.gz", hash = "sha256:1fa50aed99a129fa95ece2dfe7162ed5341f87357fe26b070985b8376d43d0e0"},
+    {file = "icontract-hypothesis-1.1.5.tar.gz", hash = "sha256:ffcd8c713943036c88b59063be76c52603f660de83967f39f1f9266bd6075584"},
 ]
 identify = [
     {file = "identify-2.2.10-py2.py3-none-any.whl", hash = "sha256:18d0c531ee3dbc112fa6181f34faa179de3f57ea57ae2899754f16a7e0ff6421"},
