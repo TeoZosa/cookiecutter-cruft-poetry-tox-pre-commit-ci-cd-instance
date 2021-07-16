@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626442106602,
+  "lastUpdate": 1626442220477,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004162357160984397",
             "extra": "mean: 68.48138356131548 usec\nrounds: 1898"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "89ebb82d64e7e45c7728d202ecb03e2451d01def",
+          "message": "Merge pull request #109 from TeoZosa/dependabot/github_actions/crazy-max/ghaction-github-labeler-3.1.1",
+          "timestamp": "2021-07-16T13:15:32Z",
+          "tree_id": "b8aacaa72762bd2f51ea510b183628cce8ac537c"
+        },
+        "date": 1626442218458,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 1167.5041680241159,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008149410149006774",
+            "extra": "mean: 856.5279914095725 usec\nrounds: 582"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1791.3405727062268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006542045157501173",
+            "extra": "mean: 558.241138082008 usec\nrounds: 1825"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 13975.846694649746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000992712120008277",
+            "extra": "mean: 71.55201554856933 usec\nrounds: 1865"
           }
         ]
       }
