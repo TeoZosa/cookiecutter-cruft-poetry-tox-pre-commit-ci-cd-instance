@@ -53,7 +53,7 @@ typing-extensions = {version = "*", markers = "python_version < \"3.8\""}
 
 [[package]]
 name = "astroid"
-version = "2.6.2"
+version = "2.6.4"
 description = "An abstract syntax tree for Python with inference support."
 category = "main"
 optional = false
@@ -546,7 +546,7 @@ dev = ["mypy (==0.812)", "pylint (==2.3.1)", "yapf (==0.20.2)", "tox (>=3.0.0)",
 
 [[package]]
 name = "icontract-hypothesis"
-version = "1.1.5"
+version = "1.1.6"
 description = "Combine contracts and automatic testing."
 category = "dev"
 optional = false
@@ -611,7 +611,7 @@ python-versions = "*"
 
 [[package]]
 name = "ipykernel"
-version = "6.0.2"
+version = "6.0.3"
 description = "IPython Kernel for Jupyter"
 category = "main"
 optional = false
@@ -2363,8 +2363,8 @@ arrow = [
     {file = "arrow-1.1.1.tar.gz", hash = "sha256:dee7602f6c60e3ec510095b5e301441bc56288cb8f51def14dcb3079f623823a"},
 ]
 astroid = [
-    {file = "astroid-2.6.2-py3-none-any.whl", hash = "sha256:606b2911d10c3dcf35e58d2ee5c97360e8477d7b9f3efc3f24811c93e6fc2cd9"},
-    {file = "astroid-2.6.2.tar.gz", hash = "sha256:38b95085e9d92e2ca06cf8b35c12a74fa81da395a6f9e65803742e6509c05892"},
+    {file = "astroid-2.6.4-py3-none-any.whl", hash = "sha256:6021561b2e87ed6b3c93c2682ac50079c65ab08f1e4e0277ba38f97e0e492185"},
+    {file = "astroid-2.6.4.tar.gz", hash = "sha256:a670dd7af3fe603f51aa7117462588b7c3bdcd58007edfaee752bf82eceecd28"},
 ]
 asttokens = [
     {file = "asttokens-2.0.5-py2.py3-none-any.whl", hash = "sha256:0844691e88552595a6f4a4281a9f7f79b8dd45ca4ccea82e5e05b4bbdb76705c"},
@@ -2686,7 +2686,7 @@ icontract = [
     {file = "icontract-2.5.3.tar.gz", hash = "sha256:b790101c8cc0d9df0105d852a645373c4d90d5049391b6e54db32a0acb4bccd7"},
 ]
 icontract-hypothesis = [
-    {file = "icontract-hypothesis-1.1.5.tar.gz", hash = "sha256:ffcd8c713943036c88b59063be76c52603f660de83967f39f1f9266bd6075584"},
+    {file = "icontract-hypothesis-1.1.6.tar.gz", hash = "sha256:858c3c25c421b1dee29ae6004c7ce54694b3f716b83ca6ad92aea7ba60384ede"},
 ]
 identify = [
     {file = "identify-2.2.11-py2.py3-none-any.whl", hash = "sha256:7abaecbb414e385752e8ce02d8c494f4fbc780c975074b46172598a28f1ab839"},
@@ -2709,8 +2709,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 ipykernel = [
-    {file = "ipykernel-6.0.2-py3-none-any.whl", hash = "sha256:61792e0de765e8b258489715d81b0ff2e87ec0ed9f006bb20819c4d40586dc19"},
-    {file = "ipykernel-6.0.2.tar.gz", hash = "sha256:7fb3e370dbb481b012b74bed4e794d2d16eb2a83930b31e6d8d030b9fdb4d5b4"},
+    {file = "ipykernel-6.0.3-py3-none-any.whl", hash = "sha256:9f9f41a14caf2fde2b7802446adf83885afcbf50585a46d6c687292599a3c3af"},
+    {file = "ipykernel-6.0.3.tar.gz", hash = "sha256:0df34a78c7e1422800d6078cde65ccdcdb859597046c338c759db4dbc535c58f"},
 ]
 ipython = [
     {file = "ipython-7.25.0-py3-none-any.whl", hash = "sha256:aa21412f2b04ad1a652e30564fff6b4de04726ce875eab222c8430edc6db383a"},
