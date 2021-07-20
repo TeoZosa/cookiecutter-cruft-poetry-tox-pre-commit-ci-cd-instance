@@ -73,7 +73,7 @@ pytest-mock = "^3.6.0"
 pytest-sugar = "^0.9.4"
 pytest-xdist = "^2.2.1"
 hypothesis = "^6.10.1"
-icontract-hypothesis = "^1.1.0"
+icontract-hypothesis = "^1.1.6"
 mutmut = "^2.1.0"
 xdoctest = {extras = ["all"], version = "^0.15.4"}
 tox = "^3.21.4"
