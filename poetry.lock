@@ -963,11 +963,11 @@ python-versions = "*"
 
 [[package]]
 name = "mutmut"
-version = "2.1.0"
+version = "2.2.0"
 description = "mutation testing for Python 3"
 category = "dev"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 
 [package.dependencies]
 click = "*"
@@ -2318,7 +2318,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "4954945284d98a4db5471c0d5d079dc7ebd966fe7d04189c3486d99b1d9d1286"
+content-hash = "1c06615e005ef0d3d771c3c8be95367e4c2c13938f2fc08e9f6f4fb82da1f655"
 
 [metadata.files]
 alabaster = [
@@ -2907,8 +2907,7 @@ mistune = [
     {file = "mistune-0.8.4.tar.gz", hash = "sha256:59a3429db53c50b5c6bcc8a07f8848cb00d7dc8bdb431a4ab41920d201d4756e"},
 ]
 mutmut = [
-    {file = "mutmut-2.1.0-py2.py3-none-any.whl", hash = "sha256:d04542ed50a821dcc573077def189b06ffc9edc4f4ac6fa793a395a24b21ad8c"},
-    {file = "mutmut-2.1.0.tar.gz", hash = "sha256:91363f77c73e31a0d401ed1cc340905cec8f1f18c697ad078aef7abfcacf2314"},
+    {file = "mutmut-2.2.0.tar.gz", hash = "sha256:d78bb3324a4da736c31c9fb19c197290ededaca76c8eac2c2e40e70b59f38720"},
 ]
 mypy = [
     {file = "mypy-0.910-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:a155d80ea6cee511a3694b108c4494a39f42de11ee4e61e72bc424c490e46457"},
