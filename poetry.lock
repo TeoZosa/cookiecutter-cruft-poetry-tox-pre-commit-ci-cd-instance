@@ -228,7 +228,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "charset-normalizer"
-version = "2.0.3"
+version = "2.0.4"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 category = "main"
 optional = false
@@ -247,7 +247,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "cmake"
-version = "3.21.1"
+version = "3.21.1.post1"
 description = "CMake is an open-source, cross-platform family of tools designed to build, test and package software"
 category = "dev"
 optional = false
@@ -376,7 +376,7 @@ python-versions = "*"
 
 [[package]]
 name = "distro"
-version = "1.5.0"
+version = "1.6.0"
 description = "Distro - an OS platform information API"
 category = "dev"
 optional = false
@@ -632,7 +632,7 @@ test = ["pytest (!=5.3.4)", "pytest-cov", "flaky", "nose", "ipyparallel"]
 
 [[package]]
 name = "ipython"
-version = "7.25.0"
+version = "7.26.0"
 description = "IPython: Productive Interactive Computing"
 category = "main"
 optional = false
@@ -1838,7 +1838,7 @@ test = ["pytest", "pytest-cov", "html5lib", "cython", "typed-ast"]
 
 [[package]]
 name = "sphinx-autoapi"
-version = "1.8.2"
+version = "1.8.3"
 description = "Sphinx API documentation generator"
 category = "main"
 optional = true
@@ -2063,7 +2063,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "tomli"
-version = "1.1.0"
+version = "1.2.0"
 description = "A lil' TOML parser"
 category = "dev"
 optional = false
@@ -2079,7 +2079,7 @@ python-versions = ">= 3.5"
 
 [[package]]
 name = "tox"
-version = "3.24.0"
+version = "3.24.1"
 description = "tox is a generic virtualenv management and test command line tool"
 category = "dev"
 optional = false
@@ -2169,7 +2169,7 @@ doc = ["mkdocs (>=1.1.2,<2.0.0)", "mkdocs-material (>=5.4.0,<6.0.0)", "markdown-
 
 [[package]]
 name = "typer-cli"
-version = "0.0.12"
+version = "0.0.11"
 description = "Run Typer scripts with completion, without having to create a package, using Typer CLI."
 category = "main"
 optional = true
@@ -2177,6 +2177,7 @@ python-versions = ">=3.6,<4.0"
 
 [package.dependencies]
 colorama = ">=0.4.3,<0.5.0"
+importlib_metadata = ">=1.5,<3.0"
 shellingham = ">=1.3.2,<2.0.0"
 typer = ">=0.3.0,<0.4.0"
 
@@ -2219,7 +2220,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "virtualenv"
-version = "20.6.0"
+version = "20.7.0"
 description = "Virtual Python Environment builder"
 category = "dev"
 optional = false
@@ -2235,7 +2236,7 @@ six = ">=1.9.0,<2"
 
 [package.extras]
 docs = ["proselint (>=0.10.2)", "sphinx (>=3)", "sphinx-argparse (>=0.2.5)", "sphinx-rtd-theme (>=0.4.3)", "towncrier (>=19.9.0rc1)"]
-testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", "pytest (>=4)", "pytest-env (>=0.6.2)", "pytest-freezegun (>=0.4.1)", "pytest-mock (>=2)", "pytest-randomly (>=1)", "pytest-timeout (>=1)", "packaging (>=20.0)", "xonsh (>=0.9.16)"]
+testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", "pytest (>=4)", "pytest-env (>=0.6.2)", "pytest-freezegun (>=0.4.1)", "pytest-mock (>=2)", "pytest-randomly (>=1)", "pytest-timeout (>=1)", "packaging (>=20.0)"]
 
 [[package]]
 name = "wcwidth"
@@ -2322,7 +2323,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "294013d5f0660ed838269b24d36ff488c1f2fd3f1f97cc725f34206e24bb512e"
+content-hash = "b2c3d252d66a881444687e14fc076c4a34e426c8b78d59ffaab78c7777ab48ae"
 
 [metadata.files]
 alabaster = [
@@ -2469,23 +2470,23 @@ chardet = [
     {file = "chardet-4.0.0.tar.gz", hash = "sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"},
 ]
 charset-normalizer = [
-    {file = "charset-normalizer-2.0.3.tar.gz", hash = "sha256:c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"},
-    {file = "charset_normalizer-2.0.3-py3-none-any.whl", hash = "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1"},
+    {file = "charset-normalizer-2.0.4.tar.gz", hash = "sha256:f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"},
+    {file = "charset_normalizer-2.0.4-py3-none-any.whl", hash = "sha256:0c8911edd15d19223366a194a513099a302055a962bca2cec0f54b8b63175d8b"},
 ]
 click = [
     {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
     {file = "click-7.1.2.tar.gz", hash = "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"},
 ]
 cmake = [
-    {file = "cmake-3.21.1-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl", hash = "sha256:4396cb3c6002091d21e249650887ab7f857c5317ebbc79695faa987123d759b6"},
-    {file = "cmake-3.21.1-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:d1f898e0a8abafedfa4ecb6ef7cf3d0eef967da126c7b6b7fc7e079663a97f02"},
-    {file = "cmake-3.21.1-py2.py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:92c03b4a1637dba6747370ecd897e40c672eacbb85d8fe23dc546da43a1b6749"},
-    {file = "cmake-3.21.1-py2.py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:4db15ce5a91a28b6a1294a3210eb0eb92afd10f099e5744c71d4cb9cc6d1f88c"},
-    {file = "cmake-3.21.1-py2.py3-none-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:c5209e662c13505f70b2cf3530897134c02b1c442f9ddd95958837763450e0f1"},
-    {file = "cmake-3.21.1-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:030694f9325b0e854c7c778afa3a2868163ecd7d85fd009bd04b3b3c4a227afa"},
-    {file = "cmake-3.21.1-py2.py3-none-win32.whl", hash = "sha256:9a08076081757647d9f2d4556c4df002694a3baf5e3545f6f97a7b66325e7c84"},
-    {file = "cmake-3.21.1-py2.py3-none-win_amd64.whl", hash = "sha256:2425ebbbb599ba9ad6fe4d27dfe34d14155da1653f785a57350ca01e72960565"},
-    {file = "cmake-3.21.1.tar.gz", hash = "sha256:748ca91196e07607188ecf9b0884e111cfc49535d28c08fb37ad7600a65310e2"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl", hash = "sha256:4b8c1810b2defc30b35b8973aec5d8055038fde1e9df984812e09a290d4b65a3"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9e21f75ba51b04f7fa8cbf6965bfb194db32f4b04eb7757c312a621c0a4dd847"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:1d637b7153d337c118df79aca9189f8c44d4200f0c99d2aaf021d7696a535f9a"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:aaea4911f6fccaf5a84110b2c9d4b5d99e9792112199ca25408c635bd2fd8584"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:caa81c3f3985b552bc2e38fb339ba84c0c237441d508f4de01d44a2948eddd36"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:1cf061e78e9a16f7f40f768f12d806483fe0eee7c1f9eeb4766610cb9122cb73"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-win32.whl", hash = "sha256:e000ef5d4893ceaec852f468d6adc7698ca08ebaecb6df38d81ceed32b4ad9e3"},
+    {file = "cmake-3.21.1.post1-py2.py3-none-win_amd64.whl", hash = "sha256:a3f32247ef6000616585ab847bcb367787606ad33ab34f64dcfc85d304dafea9"},
+    {file = "cmake-3.21.1.post1.tar.gz", hash = "sha256:2fc534f714347c2bfca7b15a0004f224f61164658130f33402341e10a5188658"},
 ]
 codecov = [
     {file = "codecov-2.1.11-py2.py3-none-any.whl", hash = "sha256:ba8553a82942ce37d4da92b70ffd6d54cf635fc1793ab0a7dc3fecd6ebfb3df8"},
@@ -2637,8 +2638,8 @@ distlib = [
     {file = "distlib-0.3.2.zip", hash = "sha256:106fef6dc37dd8c0e2c0a60d3fca3e77460a48907f335fa28420463a6f799736"},
 ]
 distro = [
-    {file = "distro-1.5.0-py2.py3-none-any.whl", hash = "sha256:df74eed763e18d10d0da624258524ae80486432cd17392d9c3d96f5e83cd2799"},
-    {file = "distro-1.5.0.tar.gz", hash = "sha256:0e58756ae38fbd8fc3020d54badb8eae17c5b9dcbed388b17bb55b8a5928df92"},
+    {file = "distro-1.6.0-py2.py3-none-any.whl", hash = "sha256:c8713330ab31a034623a9515663ed87696700b55f04556b97c39cd261aa70dc7"},
+    {file = "distro-1.6.0.tar.gz", hash = "sha256:83f5e5a09f9c5f68f60173de572930effbcc0287bb84fdc4426cb4168c088424"},
 ]
 docutils = [
     {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
@@ -2716,8 +2717,8 @@ ipykernel = [
     {file = "ipykernel-6.0.3.tar.gz", hash = "sha256:0df34a78c7e1422800d6078cde65ccdcdb859597046c338c759db4dbc535c58f"},
 ]
 ipython = [
-    {file = "ipython-7.25.0-py3-none-any.whl", hash = "sha256:aa21412f2b04ad1a652e30564fff6b4de04726ce875eab222c8430edc6db383a"},
-    {file = "ipython-7.25.0.tar.gz", hash = "sha256:54bbd1fe3882457aaf28ae060a5ccdef97f212a741754e420028d4ec5c2291dc"},
+    {file = "ipython-7.26.0-py3-none-any.whl", hash = "sha256:892743b65c21ed72b806a3a602cca408520b3200b89d1924f4b3d2cdb3692362"},
+    {file = "ipython-7.26.0.tar.gz", hash = "sha256:0cff04bb042800129348701f7bd68a430a844e8fb193979c08f6c99f28bb735e"},
 ]
 ipython-genutils = [
     {file = "ipython_genutils-0.2.0-py2.py3-none-any.whl", hash = "sha256:72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8"},
@@ -3425,8 +3426,8 @@ sphinx = [
     {file = "Sphinx-4.1.2.tar.gz", hash = "sha256:3092d929cd807926d846018f2ace47ba2f3b671b309c7a89cd3306e80c826b13"},
 ]
 sphinx-autoapi = [
-    {file = "sphinx-autoapi-1.8.2.tar.gz", hash = "sha256:38a78aa2d578fc0a46143f176e5720b4572aac869a98571c3db3163dd73526bb"},
-    {file = "sphinx_autoapi-1.8.2-py2.py3-none-any.whl", hash = "sha256:47a1f28031c8e93957436fbbb964c622d0ebbe97428ba3c8a5f3c88045881009"},
+    {file = "sphinx-autoapi-1.8.3.tar.gz", hash = "sha256:27ee224fbade3c06567a3428de710e99d8bd527d8008e838630c7f49a2d62b8b"},
+    {file = "sphinx_autoapi-1.8.3-py2.py3-none-any.whl", hash = "sha256:2d0062e5da2e53cc66356302861fccc37ca8e930a7a95753692050933f11d653"},
 ]
 sphinx-rtd-theme = [
     {file = "sphinx_rtd_theme-0.5.2-py2.py3-none-any.whl", hash = "sha256:4a05bdbe8b1446d77a01e20a23ebc6777c74f43237035e76be89699308987d6f"},
@@ -3496,8 +3497,8 @@ toml = [
     {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
 ]
 tomli = [
-    {file = "tomli-1.1.0-py3-none-any.whl", hash = "sha256:f4a182048010e89cbec0ae4686b21f550a7f2903f665e34a6de58ec15424f919"},
-    {file = "tomli-1.1.0.tar.gz", hash = "sha256:33d7984738f8bb699c9b0a816eb646a8178a69eaa792d258486776a5d21b8ca5"},
+    {file = "tomli-1.2.0-py3-none-any.whl", hash = "sha256:056f0376bf5a6b182c513f9582c1e5b0487265eb6c48842b69aa9ca1cd5f640a"},
+    {file = "tomli-1.2.0.tar.gz", hash = "sha256:d60e681734099207a6add7a10326bc2ddd1fdc36c1b0f547d00ef73ac63739c2"},
 ]
 tornado = [
     {file = "tornado-6.1-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:d371e811d6b156d82aa5f9a4e08b58debf97c302a35714f6f45e35139c332e32"},
@@ -3543,8 +3544,8 @@ tornado = [
     {file = "tornado-6.1.tar.gz", hash = "sha256:33c6e81d7bd55b468d2e793517c909b139960b6c790a60b7991b9b6b76fb9791"},
 ]
 tox = [
-    {file = "tox-3.24.0-py2.py3-none-any.whl", hash = "sha256:c990028355f0d0b681e3db9baa89dd9f839a6e999c320029339f6a6b36160591"},
-    {file = "tox-3.24.0.tar.gz", hash = "sha256:67636634df6569e450c4bc18fdfd8b84d7903b3902d5c65416eb6735f3d4afb8"},
+    {file = "tox-3.24.1-py2.py3-none-any.whl", hash = "sha256:60eda26fa47b7130e6fc1145620b1fd897963af521093c3685c3f63d1c394029"},
+    {file = "tox-3.24.1.tar.gz", hash = "sha256:9850daeb96d21b4abf049bc5f197426123039e383ebfed201764e9355fc5a880"},
 ]
 tox-gh-actions = [
     {file = "tox-gh-actions-2.6.0.tar.gz", hash = "sha256:69735d2f436341d7c33a02581f463331f4472830eb9753c288a6145cd71b07e0"},
@@ -3595,8 +3596,8 @@ typer = [
     {file = "typer-0.3.2.tar.gz", hash = "sha256:5455d750122cff96745b0dec87368f56d023725a7ebc9d2e54dd23dc86816303"},
 ]
 typer-cli = [
-    {file = "typer-cli-0.0.12.tar.gz", hash = "sha256:d2c4a7a5c0326c20fb0970eed3c2173f76ba6b8b33d9bbece3a3dd91d673f096"},
-    {file = "typer_cli-0.0.12-py3-none-any.whl", hash = "sha256:f9b810d4fbdb750b28ceaa5fd8f737db596570418ae092e6d54a64d378e843ca"},
+    {file = "typer-cli-0.0.11.tar.gz", hash = "sha256:bb90d4edde3d53f076909a7be9ac35f12e573096fc0f3802b3d6f42929a1219e"},
+    {file = "typer_cli-0.0.11-py3-none-any.whl", hash = "sha256:ecff43bc8c5d786deaa25b7d14ebfc59b32e40b07895259c3e86604af188f39b"},
 ]
 types-emoji = [
     {file = "types-emoji-1.2.2.tar.gz", hash = "sha256:6d8f26809f41dbbbd3c7604415eba29a06edbc665784fd63fe2fd706729aacec"},
@@ -3616,8 +3617,8 @@ urllib3 = [
     {file = "urllib3-1.26.6.tar.gz", hash = "sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"},
 ]
 virtualenv = [
-    {file = "virtualenv-20.6.0-py2.py3-none-any.whl", hash = "sha256:e4fc84337dce37ba34ef520bf2d4392b392999dbe47df992870dc23230f6b758"},
-    {file = "virtualenv-20.6.0.tar.gz", hash = "sha256:51df5d8a2fad5d1b13e088ff38a433475768ff61f202356bb9812c454c20ae45"},
+    {file = "virtualenv-20.7.0-py2.py3-none-any.whl", hash = "sha256:fdfdaaf0979ac03ae7f76d5224a05b58165f3c804f8aa633f3dd6f22fbd435d5"},
+    {file = "virtualenv-20.7.0.tar.gz", hash = "sha256:97066a978431ec096d163e72771df5357c5c898ffdd587048f45e0aecc228094"},
 ]
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
