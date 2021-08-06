@@ -152,6 +152,13 @@ bump-commit-and-push-project-version-number-%:
 	|| git checkout HEAD -- $(VERSION_NUM_FILE) # Rollback `VERSION_NUM_FILE` file on failure
 
 #
+.PHONY: build
+## Build project package(s)
+build:
+	tox -e package
+#
+
+#
 .PHONY: deploy-jupyter-docker-container-local
 ## Deploy locally-built dockerized jupyter environment with preloaded dependencies
 deploy-jupyter-docker-container-local: build-container deploy-container
