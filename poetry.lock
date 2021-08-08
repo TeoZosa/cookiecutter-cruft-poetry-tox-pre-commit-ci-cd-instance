@@ -503,7 +503,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.14.5"
+version = "6.14.6"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -2194,7 +2194,7 @@ typer = ">=0.3.0,<0.4.0"
 
 [[package]]
 name = "types-emoji"
-version = "1.2.2"
+version = "1.2.4"
 description = "Typing stubs for emoji"
 category = "main"
 optional = true
@@ -2286,7 +2286,7 @@ python-versions = "*"
 
 [[package]]
 name = "xdoctest"
-version = "0.15.5"
+version = "0.15.6"
 description = "A rewrite of the builtin doctest module"
 category = "dev"
 optional = false
@@ -2672,8 +2672,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.14.5-py3-none-any.whl", hash = "sha256:cc4efbce2446fa6f04ce55bb20d53dcfef9cf2187ec51332aac2c30306f537e2"},
-    {file = "hypothesis-6.14.5.tar.gz", hash = "sha256:0563b9711fd9bf478cb591580a575c369d2c396f283efa85d0f9a75b26db65b5"},
+    {file = "hypothesis-6.14.6-py3-none-any.whl", hash = "sha256:a776b4545e8ad54c68f001591cd5c39c8c05dfd340d0cf974112bf89439f126b"},
+    {file = "hypothesis-6.14.6.tar.gz", hash = "sha256:2586eae07e48b35ab5a2d61d607d29ba76939ce140c427d66ccf5db4ddc788d2"},
 ]
 icontract = [
     {file = "icontract-2.5.3.tar.gz", hash = "sha256:b790101c8cc0d9df0105d852a645373c4d90d5049391b6e54db32a0acb4bccd7"},
@@ -3586,8 +3586,8 @@ typer-cli = [
     {file = "typer_cli-0.0.11-py3-none-any.whl", hash = "sha256:ecff43bc8c5d786deaa25b7d14ebfc59b32e40b07895259c3e86604af188f39b"},
 ]
 types-emoji = [
-    {file = "types-emoji-1.2.2.tar.gz", hash = "sha256:6d8f26809f41dbbbd3c7604415eba29a06edbc665784fd63fe2fd706729aacec"},
-    {file = "types_emoji-1.2.2-py2.py3-none-any.whl", hash = "sha256:e10ca236f4e5da74e1f7881ca8c768de8d18f714c8118755328263f321168bd8"},
+    {file = "types-emoji-1.2.4.tar.gz", hash = "sha256:a7426bcbf0bc8d0809d49f1807e5cb8582f87d4a681b0ae80103f6eca5492e81"},
+    {file = "types_emoji-1.2.4-py3-none-any.whl", hash = "sha256:9fb171f36ef167aaec899e5d42b78dea19c94f50553351731b6997b6e70f7b05"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.10.0.0-py2-none-any.whl", hash = "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497"},
@@ -3622,9 +3622,9 @@ wrapt = [
     {file = "wrapt-1.12.1.tar.gz", hash = "sha256:b62ffa81fb85f4332a4f609cab4ac40709470da05643a082ec1eb88e6d9b97d7"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.15.5-py2.py3-none-any.whl", hash = "sha256:bbf92c11e29ac5acab6d0381e9d4bcfdce7f2ed3b516e38e71a181d3d210d460"},
-    {file = "xdoctest-0.15.5-py3-none-any.whl", hash = "sha256:49e16058d53138f3f20db3935c0e6e111d60a2c8739c017fb45c4486f4f8e8f1"},
-    {file = "xdoctest-0.15.5.tar.gz", hash = "sha256:3d4966651c2eaa3b7c48307e484e6aa0428388d46842c3639d51757f0df56f56"},
+    {file = "xdoctest-0.15.6-py2.py3-none-any.whl", hash = "sha256:4ba30ad2aadd6474388b185ced6d8146490d3720665c6964891c19b4b169b5fc"},
+    {file = "xdoctest-0.15.6-py3-none-any.whl", hash = "sha256:c8ea193a19183f38fb85a0dc1659f1a39b0437ec892d692d44d586ae2780961f"},
+    {file = "xdoctest-0.15.6.tar.gz", hash = "sha256:49ebffcfa49b810d5c02c6bc1ef0487a36a6a27bb46c39a137952fda3f03ae33"},
 ]
 zipp = [
     {file = "zipp-3.5.0-py3-none-any.whl", hash = "sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3"},
