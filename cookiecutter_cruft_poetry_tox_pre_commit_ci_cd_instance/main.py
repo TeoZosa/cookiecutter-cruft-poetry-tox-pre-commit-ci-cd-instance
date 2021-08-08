@@ -48,7 +48,7 @@ def main(
     ),
 ) -> None:
     """Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance."""
-    friendly_project_name = app.info.name.replace("-", " ").title()
+    friendly_project_name = app.info.name.replace("-", " ").title()  # type: ignore[union-attr]
     feature_table = rich.table.Table("Features", title=friendly_project_name)
     feature_table.add_row("CLI application via [link=https://typer.tiangolo.com]Typer")
     feature_table.add_row(
