@@ -69,7 +69,7 @@ cruft = "^2.6.0" # Automated Cookiecutter template synchronization
 mypy = "^0.910" # Static type checker
 
 # Testing
-nbqa = "^0.13.0"
+nbqa = "^1.1.0"
 pytest = "^6.2.1"
 pytest-benchmark = {extras = ["histogram"], version = "^3.4.1"}
 pytest-cov = "^2.12.1"
