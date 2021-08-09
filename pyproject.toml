@@ -41,7 +41,7 @@ typer = {extras = ["all"], version = "^0.3.2"}
 
 # Monitoring and Observability
 sentry-sdk = "^1.1.0"
-structlog-sentry-logger = "^0.8.1"
+structlog-sentry-logger = ">=0.8.1,<0.10.0"
 
 # Type Checking and Data Validation
 icontract = "^2.5.1" # Design-by-contract support
