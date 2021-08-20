@@ -2375,7 +2375,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "613d0a2e90e0a8a2e4f8f6b4ebc5d4a7b6d9cfa2b6eb6c6976fd11b6dc6e1d6c"
+content-hash = "f86785ea8ca53bc06be799fea9ad4c6c1413253678fc0064f1dc017856b871bc"
 
 [metadata.files]
 alabaster = [
