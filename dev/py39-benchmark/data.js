@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629476501426,
+  "lastUpdate": 1629476806343,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000058320143065547626",
             "extra": "mean: 445.0089493199415 usec\nrounds: 809"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "2bc28f58ce1f7a165fbbae6bfcc42b441091848e",
+          "message": "Merge pull request #179 from TeoZosa/dependabot/pip/hypothesis-6.14.9",
+          "timestamp": "2021-08-20T14:55:31Z",
+          "tree_id": "7ba428a6b3e0af78ff6ec7d85edcf4189a20a570"
+        },
+        "date": 1629476803286,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 286.3337684759875,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022884273054896278",
+            "extra": "mean: 3.492427754234171 msec\nrounds: 118"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 834.5382463204772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008640134163419187",
+            "extra": "mean: 1.1982674304132284 msec\nrounds: 776"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1697.1986899708154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007667994529457581",
+            "extra": "mean: 589.206205442685 usec\nrounds: 735"
           }
         ]
       }
