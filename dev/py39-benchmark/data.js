@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629731866927,
+  "lastUpdate": 1629732296906,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021110029747360275",
             "extra": "mean: 502.6060101148631 usec\nrounds: 791"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "27b0bba6dc5d654fe992a0328ba802f63a653fb3",
+          "message": "Merge pull request #183 from TeoZosa/dependabot/pip/dot-github/workflows/tox-3.24.3",
+          "timestamp": "2021-08-23T14:09:16Z",
+          "tree_id": "de06a12266c5bb9fe410973ffb47a47499a1bd5d"
+        },
+        "date": 1629732295000,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 295.27149063394893,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003182162027362495",
+            "extra": "mean: 3.3867136913658564 msec\nrounds: 81"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 791.5671983599644,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00041528146312431406",
+            "extra": "mean: 1.2633166231141009 msec\nrounds: 796"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1597.797999467291,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030767744218903275",
+            "extra": "mean: 625.8613418801386 usec\nrounds: 468"
           }
         ]
       }
