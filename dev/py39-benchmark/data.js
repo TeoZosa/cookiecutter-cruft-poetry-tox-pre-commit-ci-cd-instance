@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630079428964,
+  "lastUpdate": 1630079634811,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -82,6 +82,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002819943042047367",
             "extra": "mean: 580.9496744798951 usec\nrounds: 768"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "cbd4e631c23a483f6ec1a9a568460909f5618987",
+          "message": "Merge pull request #191 from TeoZosa/dependabot/github_actions/crazy-max/ghaction-github-labeler-3.1.1",
+          "timestamp": "2021-08-27T14:23:53Z",
+          "tree_id": "db561791ce920bc5c10b905f9c730fe7605bb980"
+        },
+        "date": 1630079632949,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 427.7541460143204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000609946777227118",
+            "extra": "mean: 2.337791484472302 msec\nrounds: 161"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1210.6680863748159,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002810056223202277",
+            "extra": "mean: 825.9902208163153 usec\nrounds: 1028"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2626.921848014992,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000173598307264174",
+            "extra": "mean: 380.673677351932 usec\nrounds: 967"
           }
         ]
       }
