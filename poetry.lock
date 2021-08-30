@@ -520,7 +520,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.17.0"
+version = "6.17.2"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -2376,7 +2376,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "613d0a2e90e0a8a2e4f8f6b4ebc5d4a7b6d9cfa2b6eb6c6976fd11b6dc6e1d6c"
+content-hash = "0be3d571a0207e4c19debbc52d8bba88a4f24a25cbce7b89aae0d73f8655b069"
 
 [metadata.files]
 alabaster = [
@@ -2720,8 +2720,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.17.0-py3-none-any.whl", hash = "sha256:588f5ea6b075cd402bfe1573815c2f6003a3265c2e9e7a2774d556c16073dc6d"},
-    {file = "hypothesis-6.17.0.tar.gz", hash = "sha256:c79001c2f94788f18e1a1cae1292a8db4f588f3662b613d6a6455b9ea9bf31a1"},
+    {file = "hypothesis-6.17.2-py3-none-any.whl", hash = "sha256:98216ffd572d2edf052d3474409d76e642cac62d9c7ffe25d9a02c39066a67e4"},
+    {file = "hypothesis-6.17.2.tar.gz", hash = "sha256:f91e549d6ccca583fe9d2f8e56f23501aa48ba6e46491c60716390cc2670c5f8"},
 ]
 icontract = [
     {file = "icontract-2.5.4.tar.gz", hash = "sha256:e195cd35b2ab4ab1710c733368f009b676a26b1ab9c2c2191403c80c8df1db35"},
