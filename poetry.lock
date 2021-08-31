@@ -515,7 +515,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.17.3"
+version = "6.17.4"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -625,7 +625,7 @@ python-versions = "*"
 
 [[package]]
 name = "ipykernel"
-version = "6.3.0"
+version = "6.3.1"
 description = "IPython Kernel for Jupyter"
 category = "main"
 optional = false
@@ -637,6 +637,7 @@ argcomplete = {version = ">=1.12.3", markers = "python_version < \"3.8.0\""}
 debugpy = ">=1.0.0,<2.0"
 importlib-metadata = {version = "<5", markers = "python_version < \"3.8.0\""}
 ipython = ">=7.23.1,<8.0"
+ipython-genutils = "*"
 jupyter-client = "<8.0"
 matplotlib-inline = ">=0.1.0,<0.2.0"
 tornado = ">=4.2,<7.0"
@@ -1269,7 +1270,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "platformdirs"
-version = "2.2.0"
+version = "2.3.0"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 category = "dev"
 optional = false
@@ -2166,14 +2167,11 @@ tox = ">=3.9.0"
 
 [[package]]
 name = "traitlets"
-version = "5.0.5"
+version = "5.1.0"
 description = "Traitlets Python configuration system"
 category = "main"
 optional = false
 python-versions = ">=3.7"
-
-[package.dependencies]
-ipython-genutils = "*"
 
 [package.extras]
 test = ["pytest"]
@@ -2701,8 +2699,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.17.3-py3-none-any.whl", hash = "sha256:cb302d4e18b9ff840be2b83e364c516f9f08dd2c7e6c80c2f5b2a1138dcdd17e"},
-    {file = "hypothesis-6.17.3.tar.gz", hash = "sha256:3ca5410d081eb6627da607302d07b62c9d80ff6722d6813b90a8cc5c9d3300d8"},
+    {file = "hypothesis-6.17.4-py3-none-any.whl", hash = "sha256:47b86bda10dba94bb9e5733dcb4df27fca8b421ebe81aad2516441272c374c10"},
+    {file = "hypothesis-6.17.4.tar.gz", hash = "sha256:fd5a2207aaaaea430fe1dd0fc4392edb1c95cb21034fdf69231113cc1ab86fa0"},
 ]
 icontract = [
     {file = "icontract-2.5.4.tar.gz", hash = "sha256:e195cd35b2ab4ab1710c733368f009b676a26b1ab9c2c2191403c80c8df1db35"},
@@ -2731,8 +2729,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 ipykernel = [
-    {file = "ipykernel-6.3.0-py3-none-any.whl", hash = "sha256:e87cff7dff9a04453e1f21921d937a5ce57b978698cfd0d6b1c1e00c865fa0f6"},
-    {file = "ipykernel-6.3.0.tar.gz", hash = "sha256:5314690a638f893e2cc3bf3d25042920e9fbb873f7d8263033390264caeb95f4"},
+    {file = "ipykernel-6.3.1-py3-none-any.whl", hash = "sha256:3d34530e031067f04e88b72715e92c27871368c15998692d665d57027ceb18d9"},
+    {file = "ipykernel-6.3.1.tar.gz", hash = "sha256:6dd4b107ab755ed9286c820b2f69c2cd895046ef2a25c878929ac8b5540477a1"},
 ]
 ipython = [
     {file = "ipython-7.27.0-py3-none-any.whl", hash = "sha256:75b5e060a3417cf64f138e0bb78e58512742c57dc29db5a5058a2b1f0c10df02"},
@@ -3156,8 +3154,8 @@ pillow = [
     {file = "Pillow-8.3.1.tar.gz", hash = "sha256:2cac53839bfc5cece8fdbe7f084d5e3ee61e1303cccc86511d351adcb9e2c792"},
 ]
 platformdirs = [
-    {file = "platformdirs-2.2.0-py3-none-any.whl", hash = "sha256:4666d822218db6a262bdfdc9c39d21f23b4cfdb08af331a81e92751daf6c866c"},
-    {file = "platformdirs-2.2.0.tar.gz", hash = "sha256:632daad3ab546bd8e6af0537d09805cec458dce201bccfe23012df73332e181e"},
+    {file = "platformdirs-2.3.0-py3-none-any.whl", hash = "sha256:8003ac87717ae2c7ee1ea5a84a1a61e87f3fbd16eb5aadba194ea30a9019f648"},
+    {file = "platformdirs-2.3.0.tar.gz", hash = "sha256:15b056538719b1c94bdaccb29e5f81879c7f7f0f4a153f46086d155dffcd4f0f"},
 ]
 pluggy = [
     {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
@@ -3622,8 +3620,8 @@ tox-wheel = [
     {file = "tox_wheel-0.6.0-py2.py3-none-any.whl", hash = "sha256:a537e14bf19a90de0fd64342b14aa050ce195ced012eaa41b80c49ca34249fe8"},
 ]
 traitlets = [
-    {file = "traitlets-5.0.5-py3-none-any.whl", hash = "sha256:69ff3f9d5351f31a7ad80443c2674b7099df13cc41fc5fa6e2f6d3b0330b0426"},
-    {file = "traitlets-5.0.5.tar.gz", hash = "sha256:178f4ce988f69189f7e523337a3e11d91c786ded9360174a3d9ca83e79bc5396"},
+    {file = "traitlets-5.1.0-py3-none-any.whl", hash = "sha256:03f172516916220b58c9f19d7f854734136dd9528103d04e9bf139a92c9f54c4"},
+    {file = "traitlets-5.1.0.tar.gz", hash = "sha256:bd382d7ea181fbbcce157c133db9a829ce06edffe097bcf3ab945b435452b46d"},
 ]
 typed-ast = [
     {file = "typed_ast-1.4.3-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:2068531575a125b87a41802130fa7e29f26c09a2833fea68d9a40cf33902eba6"},
