@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630618679178,
+  "lastUpdate": 1630622743668,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009261180656402761",
             "extra": "mean: 559.0020217121752 usec\nrounds: 829"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "660d3234195f7ab2fc7a1ef7e19b6860c7922e46",
+          "message": ":bug: Fix ADR-related file removal\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@440e468",
+          "timestamp": "2021-09-02T22:37:15Z",
+          "tree_id": "1fa6c1e3b6b87368f51ed4615de495827d381a8a"
+        },
+        "date": 1630622740442,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 318.51736416015615,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000030367092339140843",
+            "extra": "mean: 3.1395462619023253 msec\nrounds: 126"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 907.6919215395878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015504335608628073",
+            "extra": "mean: 1.1016953839402286 msec\nrounds: 797"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1958.7841087286447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013003640724748532",
+            "extra": "mean: 510.5207845743925 usec\nrounds: 752"
           }
         ]
       }
