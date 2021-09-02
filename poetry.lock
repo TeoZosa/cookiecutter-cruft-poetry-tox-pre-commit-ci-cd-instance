@@ -2323,7 +2323,7 @@ python-versions = "*"
 
 [[package]]
 name = "xdoctest"
-version = "0.15.7"
+version = "0.15.8"
 description = "A rewrite of the builtin doctest module"
 category = "dev"
 optional = false
@@ -2371,7 +2371,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "613d0a2e90e0a8a2e4f8f6b4ebc5d4a7b6d9cfa2b6eb6c6976fd11b6dc6e1d6c"
+content-hash = "d1144c9256061c60114eb9fca1ec4e81fbc3a45b72504d759e3a2666f975123d"
 
 [metadata.files]
 alabaster = [
@@ -3706,9 +3706,9 @@ wrapt = [
     {file = "wrapt-1.12.1.tar.gz", hash = "sha256:b62ffa81fb85f4332a4f609cab4ac40709470da05643a082ec1eb88e6d9b97d7"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.15.7-py2.py3-none-any.whl", hash = "sha256:1240610950bb0a683dd0c976f264e1ab45d69ef5f0a9cc91d88349cf418c212a"},
-    {file = "xdoctest-0.15.7-py3-none-any.whl", hash = "sha256:c848eefc1ca2920fd0149f739dcc5802aab98f2c3825c75c546252ce89557b8c"},
-    {file = "xdoctest-0.15.7.tar.gz", hash = "sha256:d057e526d9c7ec98f1efcde1e4d9558d3b0155901b5b63b92fe40b48ac310699"},
+    {file = "xdoctest-0.15.8-py2.py3-none-any.whl", hash = "sha256:566e2bb2135e144e66ccd390affbe4504a2e96c25ef16260843b9680326cadc9"},
+    {file = "xdoctest-0.15.8-py3-none-any.whl", hash = "sha256:80a57af2f8ca709ab9da111ab3b16ec474f11297b9efcc34709a2c3e56ed9ce6"},
+    {file = "xdoctest-0.15.8.tar.gz", hash = "sha256:ddd128780593161a7398fcfefc49f5f6dfe4c2eb2816942cb53768d43bcab7b9"},
 ]
 zipp = [
     {file = "zipp-3.5.0-py3-none-any.whl", hash = "sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3"},
