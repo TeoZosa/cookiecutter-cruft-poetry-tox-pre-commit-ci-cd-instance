@@ -83,9 +83,7 @@ html_show_sourcelink = (
 
 # `sphinx-autoapi` configs
 autoapi_add_toctree_entry = False
-autoapi_dirs = [
-    str(_project_directory / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance")
-]
+autoapi_dirs = [str(_project_directory / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance")]
 autoapi_member_order = "groupwise"
 autoapi_options = [
     "members",
