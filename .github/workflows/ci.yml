@@ -160,7 +160,6 @@ jobs:
         with:
           file: ./.tox/coverage.xml
           fail_ci_if_error: true
-
   # Performance testing jobs ------------------------
   test-performance:
     name: Performance testing for Python ${{ matrix.python-version }}

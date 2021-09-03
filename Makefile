@@ -166,23 +166,23 @@ package:
 #
 
 #
-.PHONY: deploy-jupyter-docker-container-local
-## Deploy locally-built dockerized jupyter environment with preloaded dependencies
-deploy-jupyter-docker-container-local: build-container deploy-container
+.PHONY: deploy-project-docker-container-local
+## Deploy locally-built dockerized project environment with preloaded dependencies
+deploy-project-docker-container-local: build-container deploy-container
 
-.PHONY: deploy-jupyter-docker-container
-## Deploy downloaded dockerized jupyter environment with preloaded dependencies
-deploy-jupyter-docker-container: pull-container deploy-container
+.PHONY: deploy-project-docker-container
+## Deploy downloaded dockerized project environment with preloaded dependencies
+deploy-project-docker-container: pull-container deploy-container
 
 .PHONY: deploy-container
 deploy-container: BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER ?= false
 deploy-container: IS_INTERACTIVE_SESSION ?= false
-deploy-container: PORT?=8888
+
 # If you want to validate that a set of pre-defined env vars are specified
 # prior to container launch, list them in the REQ_ENV_VARS array
-deploy-container: REQ_ENV_VARS := BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER IS_INTERACTIVE_SESSION PORT
+deploy-container: REQ_ENV_VARS := BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER IS_INTERACTIVE_SESSION
 deploy-container: validate_req_env_vars stop-container
-	@echo "Launching Jupyter Notebook on port $(PORT)"
+	@echo "Launching $(PROJECT_NAME) container"
 	@if [ "$(IS_INTERACTIVE_SESSION)" != false ]; then \
 		export INTERACTIVE_SESSION_ARGS="--interactive --tty --entrypoint bash"; \
 	fi && \
@@ -190,7 +190,7 @@ deploy-container: validate_req_env_vars stop-container
 		export BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER_ARGS="--mount type=bind,source=$$(pwd)/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance,target=/app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"; \
 	fi && \
 	docker run \
- 	  --name $(PROJECT_NAME) --publish $(PORT):8888 \
+ 	  --name $(PROJECT_NAME)  \
  	  $${INTERACTIVE_SESSION_ARGS} \
  	  $${BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER_ARGS} \
  	  -w /app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance \
@@ -242,18 +242,20 @@ test: clean update-dependencies generate-requirements
 	poetry run tox --parallel
 	$(MAKE) clean-requirements
 
-.PHONY: test-%-benchmark
-test-%-benchmark:
-	$(MAKE) tox-$*-benchmark
-
 .PHONY: test-%
 test-%:
 	$(MAKE) tox-$*,coverage
+
+#
+.PHONY: test-%-benchmark
+test-%-benchmark:
+	$(MAKE) tox-$*-benchmark
 
 .PHONY: test-mutations
 ## Test against mutated code to validate test suite robustness
 test-mutations:
 	$(MAKE) tox-mutmut
+#
 
 .PHONY: lint
 ## Run full static analysis suite for local development

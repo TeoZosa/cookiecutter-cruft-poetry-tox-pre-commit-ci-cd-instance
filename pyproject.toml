@@ -22,7 +22,6 @@ classifiers = [
     "Programming Language :: Python",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-
 [tool.poetry.build]
 script = "build.py"
 generate-setup-file = false
@@ -36,10 +35,6 @@ python = "^3.7"
 # Monitoring and Observability
 sentry-sdk = "^1.1.0"
 structlog-sentry-logger = "^0.9.0"
-
-# Type Checking and Data Validation
-icontract = "^2.5.3" # Design-by-contract support
-typeguard = "^2.10.0" # Runtime type checker; Note: Mypyc-compiled C-extensions also perform runtime type checking.
 
 # Jupyter Notebook
 jupyter = "^1.0.0"
@@ -57,8 +52,8 @@ typer-cli = { version = "^0.0.12", optional = true}
 types-emoji = { version = "^1.2.4", optional = true} # PEP 561 compliant stub package for mypy
 
 # Project-Specific
-importlib-metadata = "^4.6.3"
 python-dotenv = "^0.19.0"
+importlib-metadata = "^4.6.3"
 rich = "^10.6.0"
 typer = {extras = ["all"], version = "^0.3.2"}
 
@@ -120,8 +115,6 @@ docs = [
     "typer-cli",
     "types-emoji",
 ]
-
-
 [tool.poetry.scripts]
 "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance" = "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.main:app"
 

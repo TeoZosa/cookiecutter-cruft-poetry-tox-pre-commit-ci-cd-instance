@@ -41,8 +41,8 @@ Table of Contents
 
 - [:tada: Installation](#tada-installation)
 - [:rocket: Usage](#rocket-usage)
-  * [:children_crossing: Running The Notebooks](#children_crossing-running-the-notebooks)
-    + [:one: Docker Container Jupyter Environment (recommended)](#one-docker-container-jupyter-environment-recommended)
+  * [:children_crossing: Running The Project](#children_crossing-running-the-project)
+    + [:one: Docker Container Project Environment (recommended)](#one-docker-container-project-environment-recommended)
     + [:two: Locally via Poetry (development workflow)](#two-locally-via-poetry-development-workflow)
 - [:wrench: Development](#wrench-development)
   * [:building_construction: Package and Dependencies Installation](#building_construction-package-and-dependencies-installation)
@@ -92,34 +92,28 @@ import cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 
 
 
-:children_crossing: Running The Notebooks
+:children_crossing: Running The Project
 ----------------------------------------
-To facilitate your interacting with notebooks with the minimal amount of
-friction, here are two suggested options, in order of simplicity:
 
-### :one: Docker Container Jupyter Environment (recommended)
+### :one: Docker Container Project Environment (recommended)
 
 Run:
 
 ```shell script
 # Uncomment below to run with corresponding options.
-#export PORT=8888 # default value; change this value if you need to run the container on a different port
+
 # Note: *any* value other than `false` will trigger an option
 #export IS_INTERACTIVE_SESSION=true
 #export BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER=true
-make deploy-jupyter-docker-container
+make deploy-project-docker-container
 ```
 
-which will fetch and run the project container image
-that launches a Jupyter notebook environment preloaded with all the production
-dependencies on `127.0.0.1:8888`.
-
-You can then navigate to the Jupyter notebook URL displayed on your console.
+which will fetch and run the project container image.
 
 > :fire: **Tip**  
 > If you prefer to build and run the container locally, run:
 >  ```shell script
->  make deploy-jupyter-docker-container-local
+>  make deploy-project-docker-container-local
 >  ```
 
 ### :two: Locally via Poetry (development workflow)
@@ -129,7 +123,7 @@ Run:
  ```shell script
 make provision-environment # Note: installs ALL dependencies!
 poetry shell # Activate the project's virtual environment
-jupyter notebook # Launch the Jupyter server
+
 ```
 
 :wrench: Development
@@ -174,8 +168,8 @@ deploy steps:
 
 ```shell
 build-container     Build cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
-deploy-jupyter-docker-container Deploy downloaded dockerized jupyter environment with preloaded dependencies
-deploy-jupyter-docker-container-local Deploy locally-built dockerized jupyter environment with preloaded dependencies
+deploy-project-docker-container Deploy downloaded dockerized project environment with preloaded dependencies
+deploy-project-docker-container-local Deploy locally-built dockerized project environment with preloaded dependencies
 pull-container      Pull cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
 push-container      Push cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance container
 stop-container      Stop container forcefully (i.e., when keyboard interrupts are disabled)

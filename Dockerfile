@@ -25,10 +25,6 @@ RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-
     poetry --version && \
     poetry config --list
 
-# Add Tini for Jupyter to prevent kernel crashes
-ENV TINI_VERSION v0.19.0
-ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
-RUN chmod +x /usr/bin/tini
 
 # Install project dependencies
 COPY pyproject.toml poetry.lock /app/
@@ -43,5 +39,4 @@ RUN poetry install \
 COPY cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance /app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 
 
-ENTRYPOINT ["/usr/bin/tini", "--"]
-CMD ["jupyter", "notebook","--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
+CMD ["/app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/entrypoint"]
