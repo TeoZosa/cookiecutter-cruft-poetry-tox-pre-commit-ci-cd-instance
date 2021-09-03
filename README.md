@@ -1,8 +1,8 @@
 cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 ==============================
-![CI](https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/workflows/CI/badge.svg)
-![codecov](https://codecov.io/gh/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/branch/master/graph/badge.svg?token=3HF21UWY82)
-![License](https://img.shields.io/github/license/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?style=plastic)
+![CI](https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/workflows/CI/badge.svg)
+![codecov](https://codecov.io/gh/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/branch/master/graph/badge.svg?token=3HF21UWY82)
+![License](https://img.shields.io/github/license/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?style=plastic)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?style=plastic)
 ![PyPI](https://img.shields.io/pypi/v/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?color=informational&style=plastic)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
@@ -14,7 +14,7 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 
 **Documentation**: [https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io](https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io)
 
-**Source Code**: [https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance](https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance)
+**Source Code**: [https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance](https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance)
 
 ---
 

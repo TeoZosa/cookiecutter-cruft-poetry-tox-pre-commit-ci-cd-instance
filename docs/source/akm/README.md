@@ -2,7 +2,7 @@
 
 ADRs are automatically published to our architecture knowledge base:
 
-:link: **<https://TeoZosa.github.io/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/adl/>**
+:link: **<https://VCS_USERNAME.github.io/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/adl/>**
 
 Please use this link to browse them.
 

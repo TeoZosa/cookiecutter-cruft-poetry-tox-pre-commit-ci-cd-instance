@@ -13,9 +13,9 @@ Here is a list of important resources for contributors:
 - `Code of Conduct`_
 
 .. _Apache license: https://opensource.org/licenses/Apache-2.0
-.. _Source Code: https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
+.. _Source Code: https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 .. _Documentation: https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io
-.. _Issue Tracker: https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/issues
+.. _Issue Tracker: https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/issues
 
 How to report a bug
 --------------------
@@ -167,6 +167,6 @@ To run linting and code formatting checks before commiting your change, you can 
 It is recommended to open an issue before starting work on anything.
 This will allow a chance to talk it over with the owners and validate your approach.
 
-.. _pull request: https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/pulls
+.. _pull request: https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/pulls
 .. github-only
 .. _Code of Conduct: CODE_OF_CONDUCT.rst
