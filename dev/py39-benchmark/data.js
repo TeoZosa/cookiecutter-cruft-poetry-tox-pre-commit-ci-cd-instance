@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630935827883,
+  "lastUpdate": 1630935979999,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010972822233050681",
             "extra": "mean: 438.10549031393344 usec\nrounds: 826"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "6833386f9f7f2e7e481f4c65ec973e96901ad0b8",
+          "message": "Merge pull request #206 from TeoZosa/dependabot/github_actions/codecov/codecov-action-2.0.3",
+          "timestamp": "2021-09-06T13:24:17Z",
+          "tree_id": "b86b8181f4e1e92dd195f7a47efb53b7bf3066d0"
+        },
+        "date": 1630935977170,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 289.4642764926725,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003737814092865866",
+            "extra": "mean: 3.4546577288106706 msec\nrounds: 118"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 848.0340986011528,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015792408434148005",
+            "extra": "mean: 1.17919786674795 msec\nrounds: 833"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1697.9706509106015,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009606655009674477",
+            "extra": "mean: 588.9383302730892 usec\nrounds: 763"
           }
         ]
       }
