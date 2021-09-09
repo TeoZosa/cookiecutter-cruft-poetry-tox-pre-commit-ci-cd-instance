@@ -10,6 +10,7 @@ def build(setup_kwargs: dict) -> None:
             "ext_modules": mypyc.build.mypycify(
                 [
                     "--disallow-untyped-defs",
+                    "--ignore-missing-imports",
                     "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/__init__.py",
                     "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/main.py",
                 ]

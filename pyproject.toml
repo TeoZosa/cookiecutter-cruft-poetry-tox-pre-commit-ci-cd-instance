@@ -24,7 +24,7 @@ classifiers = [
 ]
 [tool.poetry.build]
 script = "build.py"
-generate-setup-file = false
+generate-setup-file = true
 
 [tool.poetry.urls]
 Changelog = "https://github.com/VCS_USERNAME/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/releases"
@@ -82,7 +82,7 @@ pytest-emoji = "^0.2.0"
 pytest-mock = "^3.6.1"
 pytest-sugar = "^0.9.4"
 pytest-xdist = "^2.3.0"
-hypothesis = "^6.20.0"
+hypothesis = "^6.10.1"
 icontract-hypothesis = "^1.1.0"
 mutmut = "^2.2.0"
 xdoctest = {extras = ["all"], version = "^0.15.6"}
@@ -233,5 +233,5 @@ testpaths = ["tests",]
 norecursedirs = [".*", "*.egg", "build", "dist",]
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "mypy"]
+requires = ["poetry-core>=1.0.0", "mypy", "setuptools"]
 build-backend = "poetry.core.masonry.api"
