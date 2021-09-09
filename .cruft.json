@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-  "commit": "9a2f7db7c5a78b22b5021d6e11877af2b839c45f",
+  "commit": "fb9188d1785ab62ac6a66472876729a15acb3f82",
   "checkout": "master",
   "context": {
     "cookiecutter": {
