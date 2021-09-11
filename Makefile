@@ -98,6 +98,7 @@ update-dependencies:
 ifneq (${CI}, true)
 	poetry install --extras docs
 endif
+	$(MAKE) clean
 
 .PHONY: generate-requirements
 ## Generate project requirements files from `pyproject.toml`
@@ -116,6 +117,8 @@ clean-requirements:
 clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
+	find . -type f -name "*.so" -delete -maxdepth 2
+	find . -type f -name "*.pyd" -delete -maxdepth 2
 
 #################################################################################
 # COMMANDS                                                                      #
@@ -229,7 +232,7 @@ stop-container:
 
 .PHONY: tox-%
 ## Run specified tox testenvs
-tox-%: clean update-dependencies generate-requirements
+tox-%: update-dependencies generate-requirements
 	poetry run tox -e $* -- $(POSARGS)
 	$(MAKE) clean-requirements
 
@@ -238,7 +241,7 @@ tox-%: clean update-dependencies generate-requirements
 ifeq (${CI}, true)
 test: export TOX_PARALLEL_NO_SPINNER=1
 endif
-test: clean update-dependencies generate-requirements
+test: update-dependencies generate-requirements
 	poetry run tox --parallel
 	$(MAKE) clean-requirements
 
