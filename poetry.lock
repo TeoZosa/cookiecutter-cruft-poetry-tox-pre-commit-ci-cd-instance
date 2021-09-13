@@ -364,7 +364,7 @@ python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 
 [[package]]
 name = "decorator"
-version = "5.0.9"
+version = "5.1.0"
 description = "Decorators for Humans"
 category = "main"
 optional = false
@@ -515,7 +515,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.20.1"
+version = "6.21.1"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -1116,7 +1116,7 @@ test = ["check-manifest", "fastjsonschema", "testpath", "pytest", "pytest-cov"]
 
 [[package]]
 name = "nbqa"
-version = "1.1.0"
+version = "1.1.1"
 description = "Run any standard Python code quality tool on a Jupyter Notebook"
 category = "dev"
 optional = false
@@ -1848,7 +1848,7 @@ python-versions = "*"
 
 [[package]]
 name = "sphinx"
-version = "4.1.2"
+version = "4.2.0"
 description = "Python documentation generator"
 category = "main"
 optional = true
@@ -2131,7 +2131,7 @@ testing = ["flaky (>=3.4.0)", "freezegun (>=0.3.11)", "psutil (>=5.6.1)", "pytes
 
 [[package]]
 name = "tox-gh-actions"
-version = "2.6.0"
+version = "2.7.0"
 description = "Seamless integration of tox into GitHub Actions"
 category = "dev"
 optional = false
@@ -2141,7 +2141,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 tox = ">=3.12,<4"
 
 [package.extras]
-testing = ["flake8 (>=3,<4)", "pytest (>=4,<6)", "pytest-cov (>=2,<3)", "pytest-mock (>=2,<3)", "black", "pytest-randomly (>=3)"]
+testing = ["flake8 (>=3,<4)", "pytest-cov (>=2,<3)", "pytest-mock (>=2,<3)", "black", "pytest (>=4,<7)", "pytest (>=6.2.5,<7)", "pytest-randomly (>=3)"]
 
 [[package]]
 name = "tox-wheel"
@@ -2593,8 +2593,8 @@ debugpy = [
     {file = "debugpy-1.4.3.zip", hash = "sha256:4d53fe5aecf03ba466aa7fa7474c2b2fe28b2a6c0d36688d1e29382bfe88dd5f"},
 ]
 decorator = [
-    {file = "decorator-5.0.9-py3-none-any.whl", hash = "sha256:6e5c199c16f7a9f0e3a61a4a54b3d27e7dad0dbdde92b944426cb20914376323"},
-    {file = "decorator-5.0.9.tar.gz", hash = "sha256:72ecfba4320a893c53f9706bebb2d55c270c1e51a28789361aa93e4a21319ed5"},
+    {file = "decorator-5.1.0-py3-none-any.whl", hash = "sha256:7b12e7c3c6ab203a29e157335e9122cb03de9ab7264b137594103fd4a683b374"},
+    {file = "decorator-5.1.0.tar.gz", hash = "sha256:e59913af105b9860aa2c8d3272d9de5a56a4e608db9a2f167a8480b323d529a7"},
 ]
 defusedxml = [
     {file = "defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"},
@@ -2650,8 +2650,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.20.1-py3-none-any.whl", hash = "sha256:972d5ec98024e26f192202cf28aa68c9ec04be96227fa6d37744fcdb2047976f"},
-    {file = "hypothesis-6.20.1.tar.gz", hash = "sha256:1057f8f27a9f3e1eac341502ea4a43f5045161f797bb661e176a67b77c5b1795"},
+    {file = "hypothesis-6.21.1-py3-none-any.whl", hash = "sha256:25eb0cfca5efdfcc3dba52ba61e415882ca0ac410bff9557d730d078608d77b4"},
+    {file = "hypothesis-6.21.1.tar.gz", hash = "sha256:48e618e1c279ffa6a2c3be4625628f3ebd8e91732d7f4af64039a0377776cfcd"},
 ]
 icontract = [
     {file = "icontract-2.5.4.tar.gz", hash = "sha256:e195cd35b2ab4ab1710c733368f009b676a26b1ab9c2c2191403c80c8df1db35"},
@@ -2961,8 +2961,8 @@ nbformat = [
     {file = "nbformat-5.1.3.tar.gz", hash = "sha256:b516788ad70771c6250977c1374fcca6edebe6126fd2adb5a69aa5c2356fd1c8"},
 ]
 nbqa = [
-    {file = "nbqa-1.1.0-py3-none-any.whl", hash = "sha256:8294dc53725cad0f32c7249018c24aa4b50f681266ddf83b9e0a5094328baf18"},
-    {file = "nbqa-1.1.0.tar.gz", hash = "sha256:4104e5c8d4ff01e751e33d435f5557dcaa552657ae892dd9c207bc8cde5f171a"},
+    {file = "nbqa-1.1.1-py3-none-any.whl", hash = "sha256:210a42c12efc48c9e7d56af0e9bcaff132c6cef7a51c2777f8ea0a6c69285e23"},
+    {file = "nbqa-1.1.1.tar.gz", hash = "sha256:0a1802b079354be003a62124c19d071c726b152a1d6974daf604aa4102d86a74"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.1-py3-none-any.whl", hash = "sha256:76d6e972265063fe92a90b9cc4fb82616e07d586b346ed9d2c89a4187acea39c"},
@@ -3443,8 +3443,8 @@ sortedcontainers = [
     {file = "sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88"},
 ]
 sphinx = [
-    {file = "Sphinx-4.1.2-py3-none-any.whl", hash = "sha256:46d52c6cee13fec44744b8c01ed692c18a640f6910a725cbb938bc36e8d64544"},
-    {file = "Sphinx-4.1.2.tar.gz", hash = "sha256:3092d929cd807926d846018f2ace47ba2f3b671b309c7a89cd3306e80c826b13"},
+    {file = "Sphinx-4.2.0-py3-none-any.whl", hash = "sha256:98a535c62a4fcfcc362528592f69b26f7caec587d32cd55688db580be0287ae0"},
+    {file = "Sphinx-4.2.0.tar.gz", hash = "sha256:94078db9184491e15bce0a56d9186e0aec95f16ac20b12d00e06d4e36f1058a6"},
 ]
 sphinx-autoapi = [
     {file = "sphinx-autoapi-1.8.4.tar.gz", hash = "sha256:8c4ec5fbedc1e6e8f4692bcc4fcd1abcfb9e8dfca8a4ded60ad811a743c22ccc"},
@@ -3573,8 +3573,8 @@ tox = [
     {file = "tox-3.24.3.tar.gz", hash = "sha256:c6c4e77705ada004283610fd6d9ba4f77bc85d235447f875df9f0ba1bc23b634"},
 ]
 tox-gh-actions = [
-    {file = "tox-gh-actions-2.6.0.tar.gz", hash = "sha256:69735d2f436341d7c33a02581f463331f4472830eb9753c288a6145cd71b07e0"},
-    {file = "tox_gh_actions-2.6.0-py2.py3-none-any.whl", hash = "sha256:d9e85c5c6c5e3fe43b886eee9b7e800485c56cb8769da772e396b66b25c5fef2"},
+    {file = "tox-gh-actions-2.7.0.tar.gz", hash = "sha256:424c8f102c978d02ff711d10df6f74be2cb0dacdd4dc6cdb04e473a628d02ed6"},
+    {file = "tox_gh_actions-2.7.0-py2.py3-none-any.whl", hash = "sha256:7e7305e03f89da0b850a7cc334115f599e661c12744a4178b94acc65d850acef"},
 ]
 tox-wheel = [
     {file = "tox-wheel-0.6.0.tar.gz", hash = "sha256:480354060dc4a5721f080ec87aa159f824b40b2f84875a42d880d755c0123d6c"},
