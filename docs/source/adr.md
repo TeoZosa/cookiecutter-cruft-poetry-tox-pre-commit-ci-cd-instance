@@ -6,5 +6,5 @@
 Architecture Decision Log (ADL)
 ----
 ```{note}
-Find the ADL [here](https://VCS_USERNAME.github.io/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/adl/).
+Find the ADL [here](https://TeoZosa.github.io/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/adl/).
 ```
