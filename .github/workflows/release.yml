@@ -82,7 +82,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     needs: get-tag-xor-dev-version
     outputs:
-      # yamllint disable-line rule:line-length
       is-test-package: ${{ steps.use-dev-version-for-testing.outputs.is_testing }}
       package-version: ${{ steps.log-package-version.outputs.version }}
     steps:
@@ -202,7 +201,6 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      # yamllint disable rule:line-length
       - name: Install package-under-test
         run: |
           PYPI_PACKAGE="cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance==${PACKAGE_VERSION}"
@@ -219,7 +217,6 @@ jobs:
         env:
           PACKAGE_VERSION: ${{ needs.pypi-packages-upload.outputs.package-version }}
         shell: bash
-      # yamllint enable rule:line-length
 
       - name: Run basic commands
         run: |
@@ -277,7 +274,6 @@ jobs:
           VERSION=${{ needs.get-tag-xor-dev-version.outputs.dev-version }}
           poetry version "${VERSION}"
 
-      # yamllint disable rule:line-length
       - name: Get container image metadata
         id: container-image-metadata
         run: |
@@ -291,7 +287,6 @@ jobs:
         with:
           push: true
           tags: ${{ steps.container-image-metadata.outputs.tagged_images }}
-      # yamllint enable rule:line-length
 
       - name: Log image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
