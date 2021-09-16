@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631713990741,
+  "lastUpdate": 1631753157161,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -41,6 +41,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011350658846162008",
             "extra": "mean: 597.9878868430433 usec\nrounds: 760"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9a9f5901d2ee5c25f714277e1c2692f07cb026c7",
+          "message": ":green_heart: Fix ADR documentation publishing overwriting benchmark files\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@bab682c",
+          "timestamp": "2021-09-16T00:36:45Z",
+          "tree_id": "983e09eaabaf97efc7ebfaaffadb1a7822b17fc7"
+        },
+        "date": 1631753154701,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 331.15368793565347,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012023366708946093",
+            "extra": "mean: 3.01974592592884 msec\nrounds: 135"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 951.690875690745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006199127606020971",
+            "extra": "mean: 1.0507613612184648 msec\nrounds: 789"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2048.134432905668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000309168604811674",
+            "extra": "mean: 488.2492008013898 usec\nrounds: 747"
           }
         ]
       }
