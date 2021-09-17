@@ -2,7 +2,7 @@
 name = "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
 version = "0.0.0"
 description = "Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance"
-authors = ["YOUR_FIRST_AND_LAST_NAME <YOUR_EMAIL>"]
+authors = ["YOUR_FIRST_AND_LAST_NAME <action@github.com>"]
 license = "Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"

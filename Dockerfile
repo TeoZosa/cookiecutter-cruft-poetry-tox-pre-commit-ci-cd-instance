@@ -2,7 +2,7 @@
 
 FROM python:3.9.7-slim@sha256:cd1045dbabff11dab74379e25f7974aa7638bc5ad46755d67d0f1f1783aee101
 
-LABEL maintainer="YOUR_FIRST_AND_LAST_NAME <YOUR_EMAIL>"
+LABEL maintainer="YOUR_FIRST_AND_LAST_NAME <action@github.com>"
 ENV LANG C.UTF-8
 
 SHELL ["/bin/bash",  "-o", "pipefail", "-c"]
