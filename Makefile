@@ -19,7 +19,7 @@ SHELL := bash
 # GLOBALS                                                                       #
 #################################################################################
 
-REGISTRY_NAMESPACE = DOCKER_OR_OTHER_HOST_REGISTRY_NAMESPACE
+REGISTRY_NAMESPACE = teozosa
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 PROJECT_NAME := $(shell basename $(PROJECT_DIR))
 DOCKER_REPOSITORY = $(REGISTRY_NAMESPACE)/$(PROJECT_NAME)
