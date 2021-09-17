@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631890058689,
+  "lastUpdate": 1631890643423,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -246,6 +246,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010896032701687238",
             "extra": "mean: 511.7819775131208 usec\nrounds: 756"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6013a7cf8cfdddbf294b0e41d79851ccacc39ce4",
+          "message": "Merge pull request #337 from TeoZosa/dependabot/pip/emoji-1.5.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@51b3e79",
+          "timestamp": "2021-09-17T14:38:52Z",
+          "tree_id": "6dbba98bfdcbcc5194251ecc6709034776599c66"
+        },
+        "date": 1631890641032,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 352.9503592854942,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003853529660393311",
+            "extra": "mean: 2.8332596176538263 msec\nrounds: 136"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1022.509000127518,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000027312549821538232",
+            "extra": "mean: 977.9865017083363 usec\nrounds: 877"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2133.8384461641635,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001183457831271854",
+            "extra": "mean: 468.6390395662908 usec\nrounds: 834"
           }
         ]
       }
