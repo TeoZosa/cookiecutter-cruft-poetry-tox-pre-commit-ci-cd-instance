@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631890057174,
+  "lastUpdate": 1631890899214,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -246,6 +246,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000011486797191621258",
             "extra": "mean: 441.4415990615969 usec\nrounds: 853"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6013a7cf8cfdddbf294b0e41d79851ccacc39ce4",
+          "message": "Merge pull request #337 from TeoZosa/dependabot/pip/emoji-1.5.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@51b3e79",
+          "timestamp": "2021-09-17T14:38:52Z",
+          "tree_id": "6dbba98bfdcbcc5194251ecc6709034776599c66"
+        },
+        "date": 1631890896466,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 300.86225301339715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000454203176211325",
+            "extra": "mean: 3.3237802016840936 msec\nrounds: 119"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 850.4100903742944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022795209025835914",
+            "extra": "mean: 1.1759032628127282 msec\nrounds: 761"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1840.7714020856074,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000153128872787128",
+            "extra": "mean: 543.2505083830576 usec\nrounds: 716"
           }
         ]
       }
