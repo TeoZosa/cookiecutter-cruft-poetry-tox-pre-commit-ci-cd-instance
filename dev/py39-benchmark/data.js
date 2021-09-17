@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631802881161,
+  "lastUpdate": 1631888707460,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -164,6 +164,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009597147336268733",
             "extra": "mean: 433.1204582820206 usec\nrounds: 827"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "5e0249fe54b5ff6af9b89658a6e489dc0e5e3036",
+          "message": "Merge pull request #336 from TeoZosa/dependabot/pip/pylint-2.11.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0c9841d",
+          "timestamp": "2021-09-17T13:31:02Z",
+          "tree_id": "d96fc8b7faa9ddb9cf772e56fc36c1d56879ea55"
+        },
+        "date": 1631888703975,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 325.4019479708405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039075768015667603",
+            "extra": "mean: 3.0731223529418163 msec\nrounds: 136"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 886.3611401979043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000171118657023191",
+            "extra": "mean: 1.1282083054506684 msec\nrounds: 789"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1995.6102744793743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007418063146354802",
+            "extra": "mean: 501.0998453898447 usec\nrounds: 705"
           }
         ]
       }
