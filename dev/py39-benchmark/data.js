@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632494131479,
+  "lastUpdate": 1632495127664,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008548715119423998",
             "extra": "mean: 512.8683072364659 usec\nrounds: 843"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "85ca7a1b329faeda3e23e72495fa5f90d478cc5b",
+          "message": "Merge pull request #352 from TeoZosa/dependabot/pip/xdoctest-0.15.9\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@b565161",
+          "timestamp": "2021-09-24T14:20:53Z",
+          "tree_id": "d6642b6ad784078200ceab7fc408827edb2712e2"
+        },
+        "date": 1632495123936,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 279.6153526813487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002753439861969013",
+            "extra": "mean: 3.5763415363662303 msec\nrounds: 110"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 785.4076921288461,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015438242065051125",
+            "extra": "mean: 1.2732240975250726 msec\nrounds: 646"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1605.5832071012937,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009596429871735286",
+            "extra": "mean: 622.8266436626425 usec\nrounds: 710"
           }
         ]
       }
