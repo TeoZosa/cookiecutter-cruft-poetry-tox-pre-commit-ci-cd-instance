@@ -85,7 +85,7 @@ pytest-xdist = "^2.3.0"
 hypothesis = "^6.10.1"
 icontract-hypothesis = "^1.1.0"
 mutmut = "^2.2.0"
-xdoctest = {extras = ["all"], version = "^0.15.6"}
+xdoctest = {extras = ["all"], version = "^0.15.9"}
 tox = "^3.24.0"
 tox-wheel = "^0.6.0"
 
