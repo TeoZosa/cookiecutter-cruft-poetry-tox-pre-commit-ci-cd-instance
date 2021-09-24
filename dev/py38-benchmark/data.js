@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632494012098,
+  "lastUpdate": 1632495023859,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006013126502223479",
             "extra": "mean: 488.1804464576367 usec\nrounds: 663"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "85ca7a1b329faeda3e23e72495fa5f90d478cc5b",
+          "message": "Merge pull request #352 from TeoZosa/dependabot/pip/xdoctest-0.15.9\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@b565161",
+          "timestamp": "2021-09-24T14:20:53Z",
+          "tree_id": "d6642b6ad784078200ceab7fc408827edb2712e2"
+        },
+        "date": 1632495020816,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 286.55031132081467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010427016207429952",
+            "extra": "mean: 3.4897885658914 msec\nrounds: 129"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 815.5798029749434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00047974813550577815",
+            "extra": "mean: 1.226121584120104 msec\nrounds: 529"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1620.140969539159,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031356097523789446",
+            "extra": "mean: 617.2302403317688 usec\nrounds: 724"
           }
         ]
       }
