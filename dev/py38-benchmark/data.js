@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632753173328,
+  "lastUpdate": 1632753689021,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -861,6 +861,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003606282472773638",
             "extra": "mean: 624.3561517848999 usec\nrounds: 672"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e1a785015f3a40be68648a634106672c85f2f6ed",
+          "message": "Merge pull request #356 from TeoZosa/dependabot/pip/icontract-2.5.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@48c6cc3",
+          "timestamp": "2021-09-27T14:29:46Z",
+          "tree_id": "efb250ca00ee64805cb201883ff09a95d14d3833"
+        },
+        "date": 1632753686187,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 328.9030870610487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001400092829800341",
+            "extra": "mean: 3.040409285712745 msec\nrounds: 126"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 948.166127068849,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004997258278437887",
+            "extra": "mean: 1.0546675012441011 msec\nrounds: 804"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1962.1388718616038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000027632766592257144",
+            "extra": "mean: 509.647922652507 usec\nrounds: 724"
           }
         ]
       }
