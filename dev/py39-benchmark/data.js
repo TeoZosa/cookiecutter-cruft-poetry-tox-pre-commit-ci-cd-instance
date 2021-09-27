@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632495127664,
+  "lastUpdate": 1632753132051,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -820,6 +820,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009596429871735286",
             "extra": "mean: 622.8266436626425 usec\nrounds: 710"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "592437e0ab6a45cca0b851d8b926118270268887",
+          "message": "Merge pull request #356 from TeoZosa/dependabot/pip/icontract-2.5.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@c1b2a45",
+          "timestamp": "2021-09-27T14:13:21Z",
+          "tree_id": "efb250ca00ee64805cb201883ff09a95d14d3833"
+        },
+        "date": 1632753128153,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 278.8935191359202,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005575715864818113",
+            "extra": "mean: 3.5855978407036586 msec\nrounds: 113"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 838.2771833690592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001971131599981845",
+            "extra": "mean: 1.192922842037728 msec\nrounds: 804"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1714.9819225648212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002888172138332645",
+            "extra": "mean: 583.0965253000811 usec\nrounds: 672"
           }
         ]
       }
