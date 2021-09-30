@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632922536651,
+  "lastUpdate": 1633021251263,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1066,6 +1066,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014022122691889806",
             "extra": "mean: 632.0329791071102 usec\nrounds: 718"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3da5a4ba26dd3c83f1572d9173e807fa625d2f4a",
+          "message": ":cookie: :rotating_light: Fix `pylint` error: `unspecified-encoding`\n\nError log:\n```\npylint...............................................................................Failed\n- hook id: pylint\n- duration: 9.72s\n- exit code: 4\n\n************* Module conf\ndocs/source/conf.py:60:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\n```\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@b57953f",
+          "timestamp": "2021-09-30T16:51:33Z",
+          "tree_id": "d9af09309ac1aa0ebd7ee9f0f0f7935e6d9e0626"
+        },
+        "date": 1633021247704,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 276.2871914007211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022431522020314052",
+            "extra": "mean: 3.619422221240872 msec\nrounds: 113"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 771.3077589074585,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004415653231263087",
+            "extra": "mean: 1.2964993395327429 msec\nrounds: 645"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1652.8200308608057,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001173752147190498",
+            "extra": "mean: 605.0265493691952 usec\nrounds: 790"
           }
         ]
       }
