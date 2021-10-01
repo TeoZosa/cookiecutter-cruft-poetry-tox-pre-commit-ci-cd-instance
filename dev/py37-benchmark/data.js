@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633042380734,
+  "lastUpdate": 1633055102655,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1189,6 +1189,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000025700609460880625",
             "extra": "mean: 543.7580042621868 usec\nrounds: 704"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e6d436afec27c7866d055cc8c5f846afc60b587b",
+          "message": ":recycle: Extract `SRC_DIR` variable\n\nBetter documentation and a single source of truth.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7bc8fd5",
+          "timestamp": "2021-10-01T02:15:52Z",
+          "tree_id": "c53e6f1e984bc8c5af4de4155d21035f52cdec58"
+        },
+        "date": 1633055099138,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 268.03507972680165,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009067547191425994",
+            "extra": "mean: 3.7308549351796163 msec\nrounds: 108"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 815.7830744371669,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021336655424027145",
+            "extra": "mean: 1.2258160672062606 msec\nrounds: 744"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1701.8693609522445,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016933128333823918",
+            "extra": "mean: 587.5891669149455 usec\nrounds: 665"
           }
         ]
       }
