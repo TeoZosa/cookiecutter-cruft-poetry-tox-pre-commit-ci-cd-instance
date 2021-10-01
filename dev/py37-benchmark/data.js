@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633121622185,
+  "lastUpdate": 1633121906265,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1271,6 +1271,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010985869051235855",
             "extra": "mean: 601.9800076937069 usec\nrounds: 780"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "5bd4a516823b5608ded5252bb9bb14a8e5f656b6",
+          "message": ":bug: Preempt premature brace expansion by the shell\n\nIf multiple commands are passed via brace syntax, quoting the string\nallows direct evaluation by tox as opposed to generating multiple envs\nin the call to tox. For example,\n`poetry run tox -e py3{8,9} -- $ (POSARGS)`\nbecomes\n`poetry run tox -e py38 py39 -- $(POSARGS)`\nwhereas\n`poetry run tox -e \"py3{8,9}\" -- $(POSARGS)`\npasses \"py3{8,9}\" directly to tox.\n\nNote: to activate this behavior via the `tox-%` make target, users would\nhave to also invoke it with quotes, e.g., `make tox-\"py3{8,9}\"`.\n- If a user were to enter `make tox-py3{8,9}`, this would become\n`make tox-py38 tox-py39\"`, which, while this would still work, leads to\ndifferent semantics as separate make targets are actually invoked.\n\nsee: https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@78c3f33",
+          "timestamp": "2021-10-01T20:40:07Z",
+          "tree_id": "630c24397fb20e9fa93e6838423c5ab671e27fd3"
+        },
+        "date": 1633121903514,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 348.87282585516243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000034891549254807043",
+            "extra": "mean: 2.8663740076309603 msec\nrounds: 131"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1009.769040342903,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021058418240599713",
+            "extra": "mean: 990.3254705258286 usec\nrounds: 916"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2067.392756303676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000030130755932643096",
+            "extra": "mean: 483.7010272725903 usec\nrounds: 770"
           }
         ]
       }
