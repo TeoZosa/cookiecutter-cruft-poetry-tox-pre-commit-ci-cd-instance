@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633042382856,
+  "lastUpdate": 1633055132162,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1189,6 +1189,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001519587964647334",
             "extra": "mean: 444.8766060598003 usec\nrounds: 792"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e6d436afec27c7866d055cc8c5f846afc60b587b",
+          "message": ":recycle: Extract `SRC_DIR` variable\n\nBetter documentation and a single source of truth.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7bc8fd5",
+          "timestamp": "2021-10-01T02:15:52Z",
+          "tree_id": "c53e6f1e984bc8c5af4de4155d21035f52cdec58"
+        },
+        "date": 1633055128457,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 292.29671494159845,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018089974138565972",
+            "extra": "mean: 3.4211811111178663 msec\nrounds: 117"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 821.4740490467922,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019254693552245373",
+            "extra": "mean: 1.2173239083576195 msec\nrounds: 742"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1670.5980840854882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000046155790370591926",
+            "extra": "mean: 598.5880203779928 usec\nrounds: 687"
           }
         ]
       }
