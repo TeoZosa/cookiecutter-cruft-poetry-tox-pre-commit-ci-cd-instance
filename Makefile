@@ -20,6 +20,7 @@ SHELL := bash
 #################################################################################
 
 REGISTRY_NAMESPACE = teozosa
+SRC_DIR := cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 PROJECT_NAME := $(shell basename $(PROJECT_DIR))
 DOCKER_REPOSITORY = $(REGISTRY_NAMESPACE)/$(PROJECT_NAME)
@@ -190,13 +191,13 @@ deploy-container: validate_req_env_vars stop-container
 		export INTERACTIVE_SESSION_ARGS="--interactive --tty --entrypoint bash"; \
 	fi && \
 	if [ "$(BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER)" != false ]; then \
-		export BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER_ARGS="--mount type=bind,source=$$(pwd)/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance,target=/app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"; \
+		export BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER_ARGS="--mount type=bind,source=$$(pwd)/$(SRC_DIR),target=/app/$(SRC_DIR)"; \
 	fi && \
 	docker run \
  	  --name $(PROJECT_NAME)  \
  	  $${INTERACTIVE_SESSION_ARGS} \
  	  $${BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER_ARGS} \
- 	  -w /app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance \
+ 	  -w /app/$(SRC_DIR) \
  	  $(LATEST_IMG)
 	$(MAKE) stop-container
 
