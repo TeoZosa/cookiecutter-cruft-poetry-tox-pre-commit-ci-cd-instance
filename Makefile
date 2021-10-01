@@ -118,6 +118,7 @@ clean-requirements:
 clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
+	# Clean up files in source directories that may have been generated from C extension compilation
 	find . -type f -name "*.so" -delete -maxdepth 2
 	find . -type f -name "*.pyd" -delete -maxdepth 2
 
@@ -141,11 +142,23 @@ provision-environment: _validate_poetry_installation
 install-pre-commit-hooks:
 	poetry run pre-commit install
 
+.PHONY: get-project-version-number
+## Echo project's canonical version number
+get-project-version-number:
+	@poetry version --short
+
+#  Note: The new version should ideally be a valid semver string or a valid bump rule:
+#  "patch", "minor", "major", "prepatch", "preminor", "premajor", "prerelease".
 .PHONY: bump-commit-and-push-project-version-number-%
-##  Bumps the version of the project, writes the new version back to
-##  pyproject.toml if a valid bump rule is provided, commits it to VCS, and pushes it to the remote repository.
-##  The new version should ideally be a valid semver string or a valid bump rule:
-##  "patch", "minor", "major", "prepatch", "preminor", "premajor", "prerelease".
+##  *ATOMICALLY*:
+##  1.) Bump the version of the project
+##  2.) Write the new version back to `pyproject.toml` (assuming a valid bump rule is provided)
+##  3.) Commit the version bump to VCS
+##  4.) Push the commit to the remote repository
+##  (e.g.,
+##  `bump-commit-and-push-project-version-number-patch`,
+##  `bump-commit-and-push-project-version-number-minor`,
+##  etc.)
 bump-commit-and-push-project-version-number-%: VERSION_NUM_FILE:=pyproject.toml
 bump-commit-and-push-project-version-number-%:
 	# shell out to ensure next line gets updated version number;
@@ -156,11 +169,6 @@ bump-commit-and-push-project-version-number-%:
 		git commit $(VERSION_NUM_FILE) -m "$${COMMIT_MSG}" && \
 		git push \
 	|| git checkout HEAD -- $(VERSION_NUM_FILE) # Rollback `VERSION_NUM_FILE` file on failure
-
-.PHONY: get-project-version-number
-## Echo project's canonical version number
-get-project-version-number:
-	@poetry version --short
 
 #
 .PHONY: package
@@ -234,7 +242,7 @@ stop-container:
 .PHONY: tox-%
 ## Run specified tox testenvs
 tox-%: update-dependencies generate-requirements
-	poetry run tox -e $* -- $(POSARGS)
+	poetry run tox -e "$*" -- $(POSARGS)
 	$(MAKE) clean-requirements
 
 .PHONY: test
@@ -247,6 +255,7 @@ test: update-dependencies generate-requirements
 	$(MAKE) clean-requirements
 
 .PHONY: test-%
+## Run Python version-specific tests (e.g., `make test-py39`)
 test-%:
 	$(MAKE) tox-$*,coverage
 
@@ -255,8 +264,11 @@ test-%:
 test-%-benchmark:
 	$(MAKE) tox-$*-benchmark
 
+# Mutation testing modifies the code in small ways that should produce incorrect semantics
+# If a test suite is sufficiently strong, this "mutated" code should caught by the suite,
+# thus causing tests to fail.
 .PHONY: test-mutations
-## Test against mutated code to validate test suite robustness
+## Run mutation testing to validate test suite robustness
 test-mutations:
 	$(MAKE) tox-mutmut
 #
@@ -273,7 +285,8 @@ scan-dependencies:
 	$(MAKE) tox-security
 
 .PHONY: pre-commit
-## Lint using pre-commit hooks (see `.pre-commit-config.yaml`)
+## Lint using *ALL* pre-commit hooks
+## (see `.pre-commit-config.yaml`)
 pre-commit:
 	# Note: Running through `tox` since some hooks rely on finding their executables
 	# in the `.tox/precommit/bin` directory and to provide an extra layer of isolation
@@ -281,17 +294,18 @@ pre-commit:
 	$(MAKE) tox-precommit POSARGS=$(PRECOMMIT_HOOK_ID)
 
 .PHONY: pre-commit-%
-## Lint using a single specific pre-commit hook (see `.pre-commit-config.yaml`)
+## Lint using a *SINGLE* specific pre-commit hook (e.g., `make pre-commit-mypy`)
+## (see `.pre-commit-config.yaml`)
 pre-commit-%: export SKIP= # Reset `SKIP` env var to force single hooks to always run
 pre-commit-%:
 	$(MAKE) pre-commit PRECOMMIT_HOOK_ID=$*
 
 .PHONY: docs-%
 ## Build documentation in the format specified after `-`
-## e.g.,
+## (e.g.,
 ## `make docs-html` builds the docs in HTML format,
 ## `make docs-confluence` builds and publishes the docs on confluence (see `docs/source/conf.py` for details),
-## `make docs-clean` cleans the docs build directory
+## `make docs-clean` cleans the docs build directory)
 docs-%:
 	$(MAKE) $* -C docs
 
