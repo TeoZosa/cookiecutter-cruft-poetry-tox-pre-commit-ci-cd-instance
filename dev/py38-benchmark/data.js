@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633042405188,
+  "lastUpdate": 1633055114607,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1189,6 +1189,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001800724817926373",
             "extra": "mean: 572.9790523566439 usec\nrounds: 764"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e6d436afec27c7866d055cc8c5f846afc60b587b",
+          "message": ":recycle: Extract `SRC_DIR` variable\n\nBetter documentation and a single source of truth.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7bc8fd5",
+          "timestamp": "2021-10-01T02:15:52Z",
+          "tree_id": "c53e6f1e984bc8c5af4de4155d21035f52cdec58"
+        },
+        "date": 1633055111047,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 301.5311888943866,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022699242068013005",
+            "extra": "mean: 3.3164065172384434 msec\nrounds: 116"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 869.2911281662678,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002486375984484258",
+            "extra": "mean: 1.1503625972917233 msec\nrounds: 812"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1552.4192761588602,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003067570862610662",
+            "extra": "mean: 644.1558768030069 usec\nrounds: 763"
           }
         ]
       }
