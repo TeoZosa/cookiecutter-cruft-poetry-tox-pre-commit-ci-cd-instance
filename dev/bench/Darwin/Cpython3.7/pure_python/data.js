@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633355409115,
+  "lastUpdate": 1633356566890,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -82,6 +82,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004800404579307809",
             "extra": "mean: 609.1391982182438 usec\nrounds: 1796"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "8679cb9c951d4061aaf3032e932da1056fc0cea6",
+          "message": "Merge pull request #257 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.11.1",
+          "timestamp": "2021-10-04T13:25:39Z",
+          "tree_id": "c832f23ee0ee4150e089be6ed5cfdd673df85835"
+        },
+        "date": 1633356565211,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 273.49213044153737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003376713734678801",
+            "extra": "mean: 3.6564123376623576 msec\nrounds: 308"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 872.9816419588865,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000800566197432593",
+            "extra": "mean: 1.1454994606256512 msec\nrounds: 927"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1657.454988495787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005279689234285277",
+            "extra": "mean: 603.3346346904683 usec\nrounds: 1793"
           }
         ]
       }
