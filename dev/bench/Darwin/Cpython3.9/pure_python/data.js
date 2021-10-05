@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633356832076,
+  "lastUpdate": 1633444329378,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -123,6 +123,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006377690369701619",
             "extra": "mean: 588.5570801317182 usec\nrounds: 1822"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c0bcf09c28a7d4d24a3f083aa0ba3feeb14a5a30",
+          "message": "Merge pull request #367 from TeoZosa/dependabot/pip/docs/poetry-1.1.11\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@2787de0",
+          "timestamp": "2021-10-05T13:31:31Z",
+          "tree_id": "c2f7bfd1ba0e662e7444cfd4e6d4787e4b18128a"
+        },
+        "date": 1633444327484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 309.42418971241557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001707288063668309",
+            "extra": "mean: 3.231809384164238 msec\nrounds: 341"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 912.8307834047026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004450517899104826",
+            "extra": "mean: 1.0954932920537266 msec\nrounds: 969"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1698.8128306447302,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004014547687433606",
+            "extra": "mean: 588.6463664278318 usec\nrounds: 1954"
           }
         ]
       }
