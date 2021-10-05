@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633356566890,
+  "lastUpdate": 1633443929731,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -123,6 +123,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005279689234285277",
             "extra": "mean: 603.3346346904683 usec\nrounds: 1793"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c0bcf09c28a7d4d24a3f083aa0ba3feeb14a5a30",
+          "message": "Merge pull request #367 from TeoZosa/dependabot/pip/docs/poetry-1.1.11\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@2787de0",
+          "timestamp": "2021-10-05T13:31:31Z",
+          "tree_id": "c2f7bfd1ba0e662e7444cfd4e6d4787e4b18128a"
+        },
+        "date": 1633443927808,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 285.19013867929243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028847905377745933",
+            "extra": "mean: 3.5064326018808782 msec\nrounds: 319"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 897.4285221192539,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000056009668907329305",
+            "extra": "mean: 1.114294871794944 msec\nrounds: 936"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1683.4876607481233,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000044144483223247145",
+            "extra": "mean: 594.0049477734877 usec\nrounds: 1819"
           }
         ]
       }
