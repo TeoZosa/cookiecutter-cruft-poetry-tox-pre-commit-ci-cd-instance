@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633355920530,
+  "lastUpdate": 1633444040881,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -157,6 +157,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004931196451110864",
             "extra": "mean: 1.0759730538922156 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1828.5714285714282,
+            "unit": "iter/sec",
+            "range": "stddev: 0",
+            "extra": "mean: 546.875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c0bcf09c28a7d4d24a3f083aa0ba3feeb14a5a30",
+          "message": "Merge pull request #367 from TeoZosa/dependabot/pip/docs/poetry-1.1.11\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@2787de0",
+          "timestamp": "2021-10-05T13:31:31Z",
+          "tree_id": "c2f7bfd1ba0e662e7444cfd4e6d4787e4b18128a"
+        },
+        "date": 1633444036814,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 329.89690721649487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008068715304598792",
+            "extra": "mean: 3.03125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 937.5438596491227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000048315660506579485",
+            "extra": "mean: 1.0666167664670658 msec\nrounds: 10"
           },
           {
             "name": "tests/test_main.py::test_version_callback",
