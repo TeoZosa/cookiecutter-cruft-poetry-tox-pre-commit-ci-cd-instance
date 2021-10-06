@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633531244612,
+  "lastUpdate": 1633531962103,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -246,6 +246,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003142313151874658",
             "extra": "mean: 740.625 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "9f654694bd33b1b208ef22413b7ee8f5e14ebd28",
+          "message": "Merge pull request #263 from TeoZosa/dependabot/pip/dot-github/workflows/poetry-1.1.11",
+          "timestamp": "2021-10-06T13:13:27Z",
+          "tree_id": "5cd5922706ac547d9b8bd07513b8261642310eab"
+        },
+        "date": 1633531957796,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 260.1626016260163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022341261030757526",
+            "extra": "mean: 3.84375 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 800.0000000000002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008333333333333334",
+            "extra": "mean: 1.25 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1444.6952595936798,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000024484706819881583",
+            "extra": "mean: 692.1875 usec\nrounds: 10"
           }
         ]
       }
