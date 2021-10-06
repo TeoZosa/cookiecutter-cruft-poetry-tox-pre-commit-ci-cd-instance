@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633532897192,
+  "lastUpdate": 1633533068104,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -369,6 +369,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001368117243392053",
             "extra": "mean: 514.0625 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "ba7228cb82727ed9fb905e533c1f89d554d1125e",
+          "message": "Merge pull request #266 from TeoZosa/dependabot/pip/emoji-1.6.0",
+          "timestamp": "2021-10-06T13:54:02Z",
+          "tree_id": "07ac98a9378b926f63d82fac90973a9751d80f59"
+        },
+        "date": 1633533063618,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 267.7824267782427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001368117243392051",
+            "extra": "mean: 3.734375 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 800.0000000000002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005892556509887896",
+            "extra": "mean: 1.25 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1409.6916299559475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001834043423089482",
+            "extra": "mean: 709.3749999999999 usec\nrounds: 10"
           }
         ]
       }
