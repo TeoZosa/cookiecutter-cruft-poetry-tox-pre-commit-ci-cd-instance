@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633534913151,
+  "lastUpdate": 1633535238402,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -287,6 +287,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005407894079259631",
             "extra": "mean: 588.8387622149786 usec\nrounds: 1842"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "0f14a59ba5ae4299bc9d3625021de052b44a333f",
+          "message": "Merge pull request #265 from TeoZosa/dependabot/pip/rich-10.12.0",
+          "timestamp": "2021-10-06T13:47:51Z",
+          "tree_id": "07ac98a9378b926f63d82fac90973a9751d80f59"
+        },
+        "date": 1633535236452,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 308.990037384096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001708025220728564",
+            "extra": "mean: 3.236350299401177 msec\nrounds: 334"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 937.4947188093946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003876341262900078",
+            "extra": "mean: 1.0666726755218272 msec\nrounds: 1054"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1743.2350744941816,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000024794218309096983",
+            "extra": "mean: 573.6460989291194 usec\nrounds: 1961"
           }
         ]
       }
