@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633531892499,
+  "lastUpdate": 1633532572603,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -245,6 +245,47 @@ window.BENCHMARK_DATA = {
             "value": 1364.6055437100215,
             "unit": "iter/sec",
             "range": "stddev: 0.00002492392940417794",
+            "extra": "mean: 732.8125 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "2713caf2f774c87dc239634501f7042d28724cb4",
+          "message": "Merge pull request #264 from TeoZosa/dependabot/pip/xdoctest-0.15.10",
+          "timestamp": "2021-10-06T13:24:21Z",
+          "tree_id": "310745ecbb248fe7bd748fa629e1af316e3b09eb"
+        },
+        "date": 1633532567861,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 254.98007968127493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011529137302697227",
+            "extra": "mean: 3.921875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 740.7407407407409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000052704627669472945",
+            "extra": "mean: 1.3499999999999999 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1364.6055437100215,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001553795196893366",
             "extra": "mean: 732.8125 usec\nrounds: 10"
           }
         ]
