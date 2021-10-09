@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633812506779,
+  "lastUpdate": 1633813683075,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -410,6 +410,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003616415737670322",
             "extra": "mean: 579.4970635344289 usec\nrounds: 1873"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "aeb60126feea9640c05fabb9e508b2a8607d130d",
+          "message": "Merge pull request #373 from TeoZosa/dependabot/docker/{{cookiecutter.project_slug}}/python-3.10.0-slim\n\n⬆️ Bump python from 3.9.7-slim to 3.10.0-slim in /{{cookiecutter.project_slug}}\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ce7a63f",
+          "timestamp": "2021-10-09T20:34:04Z",
+          "tree_id": "79ea6079e5e91562681c590d2ff3682de7b34c9a"
+        },
+        "date": 1633813680819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 300.97986706410717,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023806902575184503",
+            "extra": "mean: 3.322481366459655 msec\nrounds: 322"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 889.0786249907093,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007521950310684252",
+            "extra": "mean: 1.1247599164927058 msec\nrounds: 958"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1741.1080113065188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000394653181705979",
+            "extra": "mean: 574.346906398762 usec\nrounds: 1891"
           }
         ]
       }
