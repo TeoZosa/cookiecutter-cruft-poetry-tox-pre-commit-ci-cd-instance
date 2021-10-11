@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633979248206,
+  "lastUpdate": 1633983005661,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -492,6 +492,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010546071214227398",
             "extra": "mean: 682.8124999999999 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "49ca1dfbc72568c22c3b167536a066e98b01174c",
+          "message": ":cookie: :green_heart: Fix `flakehell` error: `flake8` `4.0.0` compatibility issues\n\nsee: flakehell/flakehell#19\n\nError log:\n```\n[INFO] Installing environment for https://github.com/flakehell/flakehell.\n[INFO] Once installed this environment will be reused.\n[INFO] This may take a few minutes...\nAn unexpected error has occurred: CalledProcessError: command: ('/home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/bin/python', '-mpip', 'install', '.')\nreturn code: 1\nexpected return code: 0\nstdout:\n    Processing /home/runner/.cache/pre-commit/repon2u8h4ar\n      Installing build dependencies: started\n      Installing build dependencies: finished with status 'done'\n      Getting requirements to build wheel: started\n      Getting requirements to build wheel: finished with status 'done'\n      Installing backend dependencies: started\n      Installing backend dependencies: finished with status 'done'\n        Preparing wheel metadata: started\n        Preparing wheel metadata: finished with status 'error'\n\nstderr:\n      DEPRECATION: A future pip version will change local packages to be built in-place without first copying to a temporary directory. We recommend you use --use-feature=in-tree-build to test your packages with this new behavior before it becomes the default.\n       pip 21.3 will remove support for this functionality. You can find discussion regarding this at https://github.com/pypa/pip/issues/7555.\n        ERROR: Command errored out with exit status 1:\n         command: /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/bin/python /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /tmp/tmp6kspbrcm\n             cwd: /tmp/pip-req-build-7fx4ywsx\n        Complete output (36 lines):\n        Traceback (most recent call last):\n          File \"/home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py\", line 349, in <module>\n            main()\n          File \"/home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py\", line 331, in main\n            json_out['return_val'] = hook(**hook_input['kwargs'])\n          File \"/home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py\", line 151, in prepare_metadata_for_build_wheel\n            return hook(metadata_directory, config_settings)\n          File \"/tmp/pip-build-env-0s2_gtp1/overlay/lib/python3.9/site-packages/flit_core/buildapi.py\", line 49, in prepare_metadata_for_build_wheel\n            metadata = make_metadata(module, ini_info)\n          File \"/tmp/pip-build-env-0s2_gtp1/overlay/lib/python3.9/site-packages/flit_core/common.py\", line 392, in make_metadata\n            md_dict.update(get_info_from_module(module, ini_info.dynamic_metadata))\n          File \"/tmp/pip-build-env-0s2_gtp1/overlay/lib/python3.9/site-packages/flit_core/common.py\", line 189, in get_info_from_module\n            docstring, version = get_docstring_and_version_via_import(target)\n          File \"/tmp/pip-build-env-0s2_gtp1/overlay/lib/python3.9/site-packages/flit_core/common.py\", line 165, in get_docstring_and_version_via_import\n            m = sl.load_module()\n          File \"<frozen importlib._bootstrap_external>\", line 529, in _check_name_wrapper\n          File \"<frozen importlib._bootstrap_external>\", line 1029, in load_module\n          File \"<frozen importlib._bootstrap_external>\", line 854, in load_module\n          File \"<frozen importlib._bootstrap>\", line 274, in _load_module_shim\n          File \"<frozen importlib._bootstrap>\", line 711, in _load\n          File \"<frozen importlib._bootstrap>\", line 680, in _load_unlocked\n          File \"<frozen importlib._bootstrap_external>\", line 850, in exec_module\n          File \"<frozen importlib._bootstrap>\", line 228, in _call_with_frames_removed\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/__init__.py\", line 5, in <module>\n            from ._cli import entrypoint, flake8_entrypoint\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/_cli.py\", line 9, in <module>\n            from .commands import COMMANDS\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/commands/__init__.py\", line 5, in <module>\n            from ._baseline import baseline_command\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/commands/_baseline.py\", line 6, in <module>\n            from .._patched import FlakeHellApplication\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/_patched/__init__.py\", line 2, in <module>\n            from ._app import FlakeHellApplication\n          File \"/tmp/pip-req-build-7fx4ywsx/flakehell/_patched/_app.py\", line 10, in <module>\n            from flake8.options.config import MergedConfigParser, get_local_plugins\n        ImportError: cannot import name 'MergedConfigParser' from 'flake8.options.config' (/tmp/pip-build-env-0s2_gtp1/normal/lib/python3.9/site-packages/flake8/options/config.py)\n        ----------------------------------------\n    WARNING: Discarding file:///home/runner/.cache/pre-commit/repon2u8h4ar. Command errored out with exit status 1: /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/bin/python /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /tmp/tmp6kspbrcm Check the logs for full command output.\n    ERROR: Command errored out with exit status 1: /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/bin/python /home/runner/.cache/pre-commit/repon2u8h4ar/py_env-python3.9/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /tmp/tmp6kspbrcm Check the logs for full command output.\n\nCheck the log at /home/runner/.cache/pre-commit/pre-commit.log\nERROR: InvocationError for command /home/runner/work/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd/.tox/precommit/bin/pre-commit run -vv --all-files --color always (exited with code 3)\n___________________________________ summary ____________________________________\nERROR:   precommit: commands failed\n```\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@13195c3",
+          "timestamp": "2021-10-11T20:03:21Z",
+          "tree_id": "cd437e483f7de170d5f2c47d63d881e6b0c5b9d6"
+        },
+        "date": 1633983000421,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 286.9955156950672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000105460712142274",
+            "extra": "mean: 3.484375 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 809.9115044247785,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007374874974984187",
+            "extra": "mean: 1.2347027972027973 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1568.6274509803923,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012325166214790878",
+            "extra": "mean: 637.5 usec\nrounds: 10"
           }
         ]
       }
