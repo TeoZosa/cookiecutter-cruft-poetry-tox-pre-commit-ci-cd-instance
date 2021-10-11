@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633983472027,
+  "lastUpdate": 1633984209259,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -533,6 +533,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000075475920553070054",
             "extra": "mean: 479.68749999999994 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "fdf0960ed59650fa0e7f412e0703f55a899e3dcc",
+          "message": "Merge pull request #378 from TeoZosa/dependabot/pip/pytest-cov-3.0.0\n\n⬆️ Bump pytest-cov from 2.12.1 to 3.0.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@27bc4f1",
+          "timestamp": "2021-10-11T20:23:11Z",
+          "tree_id": "7caa7e8b551e870dd4a8761a839439c8bbee2a82"
+        },
+        "date": 1633984201529,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 310.6796116504854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000806871530459877",
+            "extra": "mean: 3.21875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 863.3962264150942,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000763992459331404",
+            "extra": "mean: 1.1582167832167831 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1612.090680100756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012863634411696333",
+            "extra": "mean: 620.3125 usec\nrounds: 10"
           }
         ]
       }
