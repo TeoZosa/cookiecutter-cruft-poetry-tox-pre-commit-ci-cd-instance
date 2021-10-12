@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057679182,
+  "lastUpdate": 1634058320458,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -820,6 +820,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000018696607766374688",
             "extra": "mean: 571.4135833755632 usec\nrounds: 1973"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634058318018,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 275.9491039472674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002296063436238634",
+            "extra": "mean: 3.623856666666674 msec\nrounds: 300"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 854.6097310433196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020144634179744688",
+            "extra": "mean: 1.170124752475245 msec\nrounds: 1010"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1667.0087986918559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000060958216063807574",
+            "extra": "mean: 599.8768577494765 usec\nrounds: 1884"
           }
         ]
       }
