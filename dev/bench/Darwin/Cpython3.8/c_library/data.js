@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057532236,
+  "lastUpdate": 1634058102707,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -820,6 +820,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007011990419329058",
             "extra": "mean: 610.0122494431855 usec\nrounds: 1796"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634058100481,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 282.54510148677974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003922737605437868",
+            "extra": "mean: 3.5392579617834574 msec\nrounds: 314"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 942.4745597124221,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005074443485939887",
+            "extra": "mean: 1.0610365974282963 msec\nrounds: 1011"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1780.8317575755323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003482967588814066",
+            "extra": "mean: 561.5353588266105 usec\nrounds: 1909"
           }
         ]
       }
