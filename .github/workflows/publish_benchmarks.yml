@@ -19,7 +19,6 @@ jobs:
         python-version: ["3.7", "3.8", "3.9"]
         library-type: ["pure_python", "c_library"]
 
-
     name: Performance testing for Python ${{ matrix.python-version }}  (${{ matrix.os }})  [${{ matrix.library-type }}]
     runs-on: ${{ matrix.os }}
 
@@ -72,7 +71,7 @@ jobs:
             TOX_TESTENV="py${TOX_COMPATIBLE_VERSION}-benchmark-${{ matrix.library-type }}"
             make "tox-${TOX_TESTENV}"
 
-            BENCHMARK_FILE=$(find .benchmarks -maxdepth 2 -type f -name "*.json" | tail -n 1)
+            BENCHMARK_FILE=$(find .benchmarks -maxdepth 2 -type f -name "*.json" | sort  --version-sort --reverse | tail -n 1)
             echo "::set-output name=benchmark_file_path::${BENCHMARK_FILE}"
 
             ENV_DIR_NAME=$(basename "${BENCHMARK_FILE%/*}" | tr '-' '/')
