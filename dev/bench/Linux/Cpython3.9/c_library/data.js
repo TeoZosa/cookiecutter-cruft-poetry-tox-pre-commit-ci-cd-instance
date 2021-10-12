@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057206908,
+  "lastUpdate": 1634057677431,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -697,6 +697,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000600973609196139",
             "extra": "mean: 581.7825531441374 usec\nrounds: 1797"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634057673922,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 302.50643599350013,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023700594215437298",
+            "extra": "mean: 3.305714791540788 msec\nrounds: 331"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 849.897256241391,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002590142163559664",
+            "extra": "mean: 1.1766128113207794 msec\nrounds: 954"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1706.3768210047724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012845854374817373",
+            "extra": "mean: 586.0370275137506 usec\nrounds: 1999"
           }
         ]
       }
