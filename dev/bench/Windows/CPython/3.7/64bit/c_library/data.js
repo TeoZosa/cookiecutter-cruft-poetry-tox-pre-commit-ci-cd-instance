@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634056796935,
+  "lastUpdate": 1634057376493,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010546071214227348",
             "extra": "mean: 667.1875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "4fa6b8739a2ea510cc52e5c688712125f9622340",
+          "message": "Merge pull request #380 from TeoZosa/dependabot/pip/dot-github/workflows/pip-21.3\n\n⬆️ Bump pip from 21.2.4 to 21.3 in /.github/workflows\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5733ee0",
+          "timestamp": "2021-10-12T16:42:33Z",
+          "tree_id": "3920782cac14ca665ae2dbb853b614ea7385dece"
+        },
+        "date": 1634057367888,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 254.98007968127493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004941058844013097",
+            "extra": "mean: 3.921875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 714.2857142857144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005270462766947303",
+            "extra": "mean: 1.4 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1353.065539112051,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012863634411696333",
+            "extra": "mean: 739.0625 usec\nrounds: 10"
           }
         ]
       }
