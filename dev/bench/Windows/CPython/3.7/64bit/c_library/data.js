@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634058176493,
+  "lastUpdate": 1634058952587,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -902,6 +902,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001368117243392053",
             "extra": "mean: 732.8125 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "7345a49401e4cac7ea42d4e2be88de5b518bf820",
+          "message": ":cookie: :lock: :rewind: Revert security fix introduced in `867a0dd`\n\nSuperseded by 4dcf97350eaf827088f7d08d927c50f3165e38b4.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@cda3914",
+          "timestamp": "2021-10-12T17:07:46Z",
+          "tree_id": "a64800c8dfc5c5e378e0f1ac4d4c05763d68c8a8"
+        },
+        "date": 1634058946099,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 270.04219409282706,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018117215761381336",
+            "extra": "mean: 3.7031250000000004 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 761.9047619047619,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008838834764831843",
+            "extra": "mean: 1.3125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1491.8414918414921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000017195389603353286",
+            "extra": "mean: 670.3125 usec\nrounds: 10"
           }
         ]
       }
