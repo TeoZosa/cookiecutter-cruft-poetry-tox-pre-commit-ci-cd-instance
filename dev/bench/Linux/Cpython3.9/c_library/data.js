@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634047075222,
+  "lastUpdate": 1634047704384,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008925714436322262",
             "extra": "mean: 609.5345981759466 usec\nrounds: 1864"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "5c7e4598ec896d064afd5fc185e91a7c93a03a9a",
+          "message": "Merge pull request #385 from TeoZosa/dependabot/pip/types-emoji-1.2.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5564bba",
+          "timestamp": "2021-10-12T13:50:37Z",
+          "tree_id": "cee53264d1035ff97f04a46dcb3458dcafa94585"
+        },
+        "date": 1634047701494,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 288.01709005313313,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004739208300598893",
+            "extra": "mean: 3.472016191176437 msec\nrounds: 340"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 863.0783447765641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003710843033972352",
+            "extra": "mean: 1.1586433677221766 msec\nrounds: 979"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1721.6746504698729,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015372842774141765",
+            "extra": "mean: 580.8298331668436 usec\nrounds: 2002"
           }
         ]
       }
