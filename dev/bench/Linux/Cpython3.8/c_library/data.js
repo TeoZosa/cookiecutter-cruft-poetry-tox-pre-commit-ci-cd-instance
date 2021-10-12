@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057979844,
+  "lastUpdate": 1634058703242,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009415431982664624",
             "extra": "mean: 611.0778681269481 usec\nrounds: 2237"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "7345a49401e4cac7ea42d4e2be88de5b518bf820",
+          "message": ":cookie: :lock: :rewind: Revert security fix introduced in `867a0dd`\n\nSuperseded by 4dcf97350eaf827088f7d08d927c50f3165e38b4.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@cda3914",
+          "timestamp": "2021-10-12T17:07:46Z",
+          "tree_id": "a64800c8dfc5c5e378e0f1ac4d4c05763d68c8a8"
+        },
+        "date": 1634058700285,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 272.49477783830474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008358687903270831",
+            "extra": "mean: 3.66979509821428 msec\nrounds: 336"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 822.8068418743838,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020262986882412846",
+            "extra": "mean: 1.2153520718446673 msec\nrounds: 1030"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1644.274573625244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015401871807075297",
+            "extra": "mean: 608.1709320574313 usec\nrounds: 2090"
           }
         ]
       }
