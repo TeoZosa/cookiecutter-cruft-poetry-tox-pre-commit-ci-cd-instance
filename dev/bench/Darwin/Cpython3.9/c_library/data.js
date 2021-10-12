@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057774086,
+  "lastUpdate": 1634058364435,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -820,6 +820,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011752481966467039",
             "extra": "mean: 616.8011789924864 usec\nrounds: 1866"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634058353456,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 298.2213228245819,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002536691139243054",
+            "extra": "mean: 3.353214285714287 msec\nrounds: 322"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 884.1890662794236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007795433563969093",
+            "extra": "mean: 1.1309798301486544 msec\nrounds: 942"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1688.2684679660363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000041788330651303816",
+            "extra": "mean: 592.3228556206841 usec\nrounds: 1877"
           }
         ]
       }
