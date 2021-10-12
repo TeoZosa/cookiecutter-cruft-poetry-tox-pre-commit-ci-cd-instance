@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057229187,
+  "lastUpdate": 1634057701952,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -697,6 +697,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015285953255992935",
             "extra": "mean: 597.8275751173937 usec\nrounds: 2130"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634057699275,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 344.4751362489352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003829655117472193",
+            "extra": "mean: 2.902967136871525 msec\nrounds: 358"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1014.1046575821217,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022009829353361295",
+            "extra": "mean: 986.0915168107492 usec\nrounds: 1041"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2108.627105597033,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013419240004833264",
+            "extra": "mean: 474.24222013728775 usec\nrounds: 2185"
           }
         ]
       }
