@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634057537580,
+  "lastUpdate": 1634058133766,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -820,6 +820,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004796376404286519",
             "extra": "mean: 618.3579787234102 usec\nrounds: 1880"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9fb0d1794f1baac1205078234094066b27c04b2f",
+          "message": ":cookie: :green_heart: :rewind: Revert `cf124b2`, apply 3rd-party patch\n\nsee: flakehell/flakehell#20\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@54d00aa",
+          "timestamp": "2021-10-12T16:48:44Z",
+          "tree_id": "c70ed65447820506fdb533504de97caba0495379"
+        },
+        "date": 1634058123912,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 282.6402026340596,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003317144836893598",
+            "extra": "mean: 3.53806709265179 msec\nrounds: 313"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 876.1397929714119,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000926181241321959",
+            "extra": "mean: 1.1413703703703704 msec\nrounds: 945"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1649.563009686645,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005288538348417202",
+            "extra": "mean: 606.2211592571796 usec\nrounds: 1777"
           }
         ]
       }
