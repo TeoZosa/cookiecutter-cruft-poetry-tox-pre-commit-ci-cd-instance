@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634133361969,
+  "lastUpdate": 1634134008048,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -82,6 +82,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003906025671299804",
             "extra": "mean: 594.7707641195917 usec\nrounds: 1806"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "172ecf9f0982fff99d9566a5b089450fb6a4f0b4",
+          "message": "Merge pull request #388 from TeoZosa/dependabot/pip/emoji-1.6.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@faf7bd6",
+          "timestamp": "2021-10-13T13:46:46Z",
+          "tree_id": "4b9bdd1bb320ed068209cecfc4bc47b3e6cf0f30"
+        },
+        "date": 1634134000916,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 265.3638087432342,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00036295178970154377",
+            "extra": "mean: 3.768411392405055 msec\nrounds: 316"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 743.7194621005746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005504760751631059",
+            "extra": "mean: 1.3445930232558148 msec\nrounds: 946"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1676.3241930405363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003612801850000562",
+            "extra": "mean: 596.5433202906821 usec\nrounds: 1789"
           }
         ]
       }
