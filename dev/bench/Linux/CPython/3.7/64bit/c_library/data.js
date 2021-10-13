@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634132158153,
+  "lastUpdate": 1634133172858,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -205,6 +205,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011676008814129522",
             "extra": "mean: 601.9623461895972 usec\nrounds: 2152"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "172ecf9f0982fff99d9566a5b089450fb6a4f0b4",
+          "message": "Merge pull request #388 from TeoZosa/dependabot/pip/emoji-1.6.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@faf7bd6",
+          "timestamp": "2021-10-13T13:46:46Z",
+          "tree_id": "4b9bdd1bb320ed068209cecfc4bc47b3e6cf0f30"
+        },
+        "date": 1634133169988,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 282.72010330717967,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005198702652274939",
+            "extra": "mean: 3.5370671851852173 msec\nrounds: 324"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 829.8242719523605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012468999434638305",
+            "extra": "mean: 1.2050744161137399 msec\nrounds: 1055"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1664.2702473112276,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026481765683047427",
+            "extra": "mean: 600.8639532044668 usec\nrounds: 1966"
           }
         ]
       }
