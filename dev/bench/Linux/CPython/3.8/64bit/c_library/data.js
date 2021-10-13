@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634132159776,
+  "lastUpdate": 1634133123101,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -205,6 +205,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020589851841601995",
             "extra": "mean: 585.8585168439712 usec\nrounds: 2256"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "172ecf9f0982fff99d9566a5b089450fb6a4f0b4",
+          "message": "Merge pull request #388 from TeoZosa/dependabot/pip/emoji-1.6.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@faf7bd6",
+          "timestamp": "2021-10-13T13:46:46Z",
+          "tree_id": "4b9bdd1bb320ed068209cecfc4bc47b3e6cf0f30"
+        },
+        "date": 1634133118295,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 419.14285887509135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003393158694541884",
+            "extra": "mean: 2.3858213943661863 msec\nrounds: 426"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1197.0450080040214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000019133236824991575",
+            "extra": "mean: 835.3904768104095 usec\nrounds: 1229"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2229.4888992318633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010684656291173492",
+            "extra": "mean: 448.53329404086054 usec\nrounds: 2299"
           }
         ]
       }
