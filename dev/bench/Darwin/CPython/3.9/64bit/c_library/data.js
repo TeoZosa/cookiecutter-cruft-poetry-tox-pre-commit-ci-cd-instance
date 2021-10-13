@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634133675549,
+  "lastUpdate": 1634134324369,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -82,6 +82,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000023916220512828113",
             "extra": "mean: 574.1709730621167 usec\nrounds: 1819"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "172ecf9f0982fff99d9566a5b089450fb6a4f0b4",
+          "message": "Merge pull request #388 from TeoZosa/dependabot/pip/emoji-1.6.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@faf7bd6",
+          "timestamp": "2021-10-13T13:46:46Z",
+          "tree_id": "4b9bdd1bb320ed068209cecfc4bc47b3e6cf0f30"
+        },
+        "date": 1634134320681,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 289.30534571988784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014281132912134914",
+            "extra": "mean: 3.4565555555555596 msec\nrounds: 315"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 881.1796358354204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011576956135307466",
+            "extra": "mean: 1.1348423855164667 msec\nrounds: 939"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1715.4951962367916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006246313765449088",
+            "extra": "mean: 582.9220636663147 usec\nrounds: 1822"
           }
         ]
       }
