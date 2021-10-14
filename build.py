@@ -1,3 +1,5 @@
+import pathlib
+
 import mypyc.build
 
 
@@ -5,15 +7,12 @@ def build(setup_kwargs: dict) -> None:
     """
     This function is mandatory in order to build the extensions.
     """
-    setup_kwargs.update(
-        {
-            "ext_modules": mypyc.build.mypycify(
-                [
-                    "--disallow-untyped-defs",
-                    "--ignore-missing-imports",
-                    "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/__init__.py",
-                    "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/main.py",
-                ]
-            ),
-        }
-    )
+    project_dir = pathlib.Path(__file__).resolve().parent
+    ext_modules = [
+        str(file)
+        for file in (
+            project_dir / "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"
+        ).rglob("*.py")
+    ]
+
+    setup_kwargs.update({"ext_modules": mypyc.build.mypycify(ext_modules)})
