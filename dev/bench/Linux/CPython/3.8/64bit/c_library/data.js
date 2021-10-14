@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634143248883,
+  "lastUpdate": 1634217680820,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -287,6 +287,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00030672306728350576",
             "extra": "mean: 613.849104356633 usec\nrounds: 1974"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6b5e9be9586296932350b5ab3ddaed540fda7101",
+          "message": "Merge pull request #389 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.12.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@bf1f292",
+          "timestamp": "2021-10-14T13:18:32Z",
+          "tree_id": "5f2735d3b75dff41c455ef382e74d5ddc96be271"
+        },
+        "date": 1634217677787,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 370.716059909511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000026305021325366213",
+            "extra": "mean: 2.6974822732095625 msec\nrounds: 377"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1081.4266792681976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014588974851797764",
+            "extra": "mean: 924.704392050602 usec\nrounds: 1107"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2211.416233092215,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002968321647979924",
+            "extra": "mean: 452.1989054053853 usec\nrounds: 2294"
           }
         ]
       }
