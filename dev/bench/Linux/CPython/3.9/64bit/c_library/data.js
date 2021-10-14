@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634143306343,
+  "lastUpdate": 1634217733449,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -328,6 +328,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013816931338608455",
             "extra": "mean: 604.907269733884 usec\nrounds: 2217"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6b5e9be9586296932350b5ab3ddaed540fda7101",
+          "message": "Merge pull request #389 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.12.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@bf1f292",
+          "timestamp": "2021-10-14T13:18:32Z",
+          "tree_id": "5f2735d3b75dff41c455ef382e74d5ddc96be271"
+        },
+        "date": 1634217730061,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 274.3926506047323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004356217743303313",
+            "extra": "mean: 3.644412478964382 msec\nrounds: 309"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 773.8393302983408,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00045731117433786794",
+            "extra": "mean: 1.292257915625026 msec\nrounds: 960"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1611.4511619927418,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011244334809838693",
+            "extra": "mean: 620.5586762948415 usec\nrounds: 2008"
           }
         ]
       }
