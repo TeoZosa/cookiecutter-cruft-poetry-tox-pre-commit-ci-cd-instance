@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635462555898,
+  "lastUpdate": 1635515069125,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -451,6 +451,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005713427594374988",
             "extra": "mean: 611.4291451520274 usec\nrounds: 1743"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635515059897,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 291.01762895252386,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017309638208324682",
+            "extra": "mean: 3.43621794871794 msec\nrounds: 312"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 810.1332629634662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002250606281123146",
+            "extra": "mean: 1.2343648208468831 msec\nrounds: 921"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1550.7210587388709,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001085004409485496",
+            "extra": "mean: 644.861301369863 usec\nrounds: 1752"
           }
         ]
       }
