@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635518658728,
+  "lastUpdate": 1635519682281,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003507407181595595",
             "extra": "mean: 580.7111468381806 usec\nrounds: 1866"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "af754349cfaf3e32f8e4fcd69e142cbec7069093",
+          "message": "Merge pull request #402 from TeoZosa/dependabot/pip/hypothesis-6.24.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@bbc3a36",
+          "timestamp": "2021-10-29T14:22:57Z",
+          "tree_id": "c5cce9c1d40b486ff9807564590f654e75fbb854"
+        },
+        "date": 1635519680449,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 295.7833631838641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026978233352957764",
+            "extra": "mean: 3.3808527607361833 msec\nrounds: 326"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 798.0351420175847,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00034578865262405677",
+            "extra": "mean: 1.2530776495278262 msec\nrounds: 953"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1680.3601760100385,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004910957526512685",
+            "extra": "mean: 595.1105092090841 usec\nrounds: 1846"
           }
         ]
       }
