@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635518105961,
+  "lastUpdate": 1635518658728,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -533,6 +533,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000040523295585418404",
             "extra": "mean: 572.3904813412958 usec\nrounds: 1849"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "494dd5fba45239fb78b2d866814f24d4497f79be",
+          "message": "Merge pull request #401 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.15.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@a19b9ab",
+          "timestamp": "2021-10-29T14:07:45Z",
+          "tree_id": "ca8867d47a04ea48ae82fe2446d0edc141dad965"
+        },
+        "date": 1635518656541,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 271.2765363823916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003599983820398843",
+            "extra": "mean: 3.686275316455675 msec\nrounds: 316"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 843.2862665458549,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001390055039816404",
+            "extra": "mean: 1.18583693304535 msec\nrounds: 926"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1722.026528067761,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003507407181595595",
+            "extra": "mean: 580.7111468381806 usec\nrounds: 1866"
           }
         ]
       }
