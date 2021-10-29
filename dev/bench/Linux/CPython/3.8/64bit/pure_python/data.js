@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635462453430,
+  "lastUpdate": 1635515052662,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010693859932882344",
             "extra": "mean: 573.045663384057 usec\nrounds: 2234"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635515049758,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 325.2406848940576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007193992891480963",
+            "extra": "mean: 3.0746460896358503 msec\nrounds: 357"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 940.478113174315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000032369618676807526",
+            "extra": "mean: 1.0632889654654332 msec\nrounds: 1332"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1920.7707046598543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020832223356097147",
+            "extra": "mean: 520.624350201701 usec\nrounds: 2727"
           }
         ]
       }
