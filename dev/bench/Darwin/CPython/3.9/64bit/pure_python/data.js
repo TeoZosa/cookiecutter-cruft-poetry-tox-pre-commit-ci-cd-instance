@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635516043137,
+  "lastUpdate": 1635518105961,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -492,6 +492,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000025025595971837136",
             "extra": "mean: 567.6646803900117 usec\nrounds: 1846"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "67698831ba87b6c63f6af37296d0030b36b79187",
+          "message": "Merge pull request #400 from TeoZosa/dependabot/pip/types-emoji-1.2.6\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4462229",
+          "timestamp": "2021-10-29T13:51:46Z",
+          "tree_id": "d2972c49d899bc4ed93738802c03c0f8e53f7cf4"
+        },
+        "date": 1635518102459,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 222.25550355916505,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005416264242250434",
+            "extra": "mean: 4.499326153846162 msec\nrounds: 325"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 859.222870271372,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011388158018522685",
+            "extra": "mean: 1.1638423913043254 msec\nrounds: 920"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1747.0591014313814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040523295585418404",
+            "extra": "mean: 572.3904813412958 usec\nrounds: 1849"
           }
         ]
       }
