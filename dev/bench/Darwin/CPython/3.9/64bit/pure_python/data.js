@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635463101649,
+  "lastUpdate": 1635516043137,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -451,6 +451,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006065620948132821",
             "extra": "mean: 599.0926748057875 usec\nrounds: 1802"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635516041192,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 315.41489962637934,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000065369019240227",
+            "extra": "mean: 3.1704272727272467 msec\nrounds: 330"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 895.5069713050489,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006255225606540958",
+            "extra": "mean: 1.1166858908341835 msec\nrounds: 971"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1761.6033453287143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000025025595971837136",
+            "extra": "mean: 567.6646803900117 usec\nrounds: 1846"
           }
         ]
       }
