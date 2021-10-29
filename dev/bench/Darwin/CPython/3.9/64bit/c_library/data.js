@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635462993193,
+  "lastUpdate": 1635515595135,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -451,6 +451,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000045867413199384545",
             "extra": "mean: 584.3428880476254 usec\nrounds: 1849"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635515588727,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 256.6783751052974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00045240603457589047",
+            "extra": "mean: 3.8959261744966605 msec\nrounds: 298"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 840.4051287775463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001427773657114692",
+            "extra": "mean: 1.1899023051591802 msec\nrounds: 911"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1560.384987636843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002000377352437663",
+            "extra": "mean: 640.8674832962026 usec\nrounds: 1796"
           }
         ]
       }
