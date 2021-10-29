@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635518385903,
+  "lastUpdate": 1635519459582,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009766251951777811",
             "extra": "mean: 620.9878183831838 usec\nrounds: 1806"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "af754349cfaf3e32f8e4fcd69e142cbec7069093",
+          "message": "Merge pull request #402 from TeoZosa/dependabot/pip/hypothesis-6.24.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@bbc3a36",
+          "timestamp": "2021-10-29T14:22:57Z",
+          "tree_id": "c5cce9c1d40b486ff9807564590f654e75fbb854"
+        },
+        "date": 1635519457613,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 321.3244688583053,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000858673262984769",
+            "extra": "mean: 3.1121190476190312 msec\nrounds: 336"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 963.8297690325334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003696804637707862",
+            "extra": "mean: 1.0375276134122453 msec\nrounds: 1014"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1791.299506369114,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005871047810941004",
+            "extra": "mean: 558.2539360081422 usec\nrounds: 1969"
           }
         ]
       }
