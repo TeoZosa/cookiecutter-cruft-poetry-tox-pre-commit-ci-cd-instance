@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635515052662,
+  "lastUpdate": 1635516756427,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -615,6 +615,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000020832223356097147",
             "extra": "mean: 520.624350201701 usec\nrounds: 2727"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "67698831ba87b6c63f6af37296d0030b36b79187",
+          "message": "Merge pull request #400 from TeoZosa/dependabot/pip/types-emoji-1.2.6\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4462229",
+          "timestamp": "2021-10-29T13:51:46Z",
+          "tree_id": "d2972c49d899bc4ed93738802c03c0f8e53f7cf4"
+        },
+        "date": 1635516753903,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 348.2814970889026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028383572455461983",
+            "extra": "mean: 2.871240672727266 msec\nrounds: 385"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 925.7307645972726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016388441399703248",
+            "extra": "mean: 1.0802276841636966 msec\nrounds: 1124"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2052.078169837608,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009726684492383554",
+            "extra": "mean: 487.31087085202773 usec\nrounds: 2230"
           }
         ]
       }
