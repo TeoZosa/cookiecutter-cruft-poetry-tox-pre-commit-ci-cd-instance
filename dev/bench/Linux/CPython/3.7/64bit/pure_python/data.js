@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635462427448,
+  "lastUpdate": 1635514950344,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010991331485125092",
             "extra": "mean: 472.0223725939293 usec\nrounds: 2182"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635514947347,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 252.8059354121023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004923814700323421",
+            "extra": "mean: 3.9556033301587115 msec\nrounds: 315"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 731.5433243858586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001673550567219662",
+            "extra": "mean: 1.3669730372285398 msec\nrounds: 967"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1517.2323688108004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018098406747045945",
+            "extra": "mean: 659.0948232826032 usec\nrounds: 1907"
           }
         ]
       }
