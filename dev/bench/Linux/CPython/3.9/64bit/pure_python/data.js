@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635462496800,
+  "lastUpdate": 1635515110802,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -574,6 +574,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000053548625223714784",
             "extra": "mean: 447.3014321120596 usec\nrounds: 2784"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "46ff94b8209062042851667b66da6b01714fead0",
+          "message": "Merge pull request #399 from TeoZosa/dependabot/pip/darglint-1.8.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7b92610",
+          "timestamp": "2021-10-29T13:23:49Z",
+          "tree_id": "34121dbcf838b2ec9adb128f6230df40afa1ec49"
+        },
+        "date": 1635515108700,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 368.7757345598156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000024328729633521805",
+            "extra": "mean: 2.7116751626666464 msec\nrounds: 375"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1037.4820081197217,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002438629703078157",
+            "extra": "mean: 963.872136744181 usec\nrounds: 1075"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2229.485845983184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012259359390712014",
+            "extra": "mean: 448.53390830073135 usec\nrounds: 2301"
           }
         ]
       }
