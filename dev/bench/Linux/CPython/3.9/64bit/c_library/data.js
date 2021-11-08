@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636381330370,
+  "lastUpdate": 1636381556073,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -902,6 +902,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010644698128434247",
             "extra": "mean: 442.61925831532966 usec\nrounds: 2315"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3007eaaf2b49bfdbcdd9298d8ef69bef4997f8c6",
+          "message": "Merge pull request #407 from TeoZosa/dependabot/pip/hypothesis-6.24.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8227f23",
+          "timestamp": "2021-11-08T14:21:51Z",
+          "tree_id": "066176a17458b989a89fc0fcab62718fb21091e0"
+        },
+        "date": 1636381553583,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 312.78480835536914,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004571703024262707",
+            "extra": "mean: 3.197086218023269 msec\nrounds: 344"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 881.7223531471641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009121930216009391",
+            "extra": "mean: 1.134143867886147 msec\nrounds: 984"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1873.6239161473557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004893065844563556",
+            "extra": "mean: 533.7250402184515 usec\nrounds: 2014"
           }
         ]
       }
