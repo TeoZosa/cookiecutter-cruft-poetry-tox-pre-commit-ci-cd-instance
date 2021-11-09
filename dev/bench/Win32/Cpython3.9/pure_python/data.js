@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636468092479,
+  "lastUpdate": 1636491204002,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006588078458684084",
             "extra": "mean: 659.375 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "38aee9f0cdd11bcc50020f14e90b39675e60dee7",
+          "message": "Merge pull request #403 from TeoZosa/dependabot/pip/black-21.10b0\n\n⬆️ Bump black from 21.9b0 to 21.10b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@d3400e7",
+          "timestamp": "2021-11-09T20:46:14Z",
+          "tree_id": "8d90733c806e28c53138a0de12361fb2edf3b2b6"
+        },
+        "date": 1636491195348,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 264.4628099173554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001435838411676064",
+            "extra": "mean: 3.78125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 701.7543859649124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006454972243679034",
+            "extra": "mean: 1.425 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1376.3440860215057,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000027804891281331566",
+            "extra": "mean: 726.5625 usec\nrounds: 10"
           }
         ]
       }
