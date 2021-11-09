@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636381712483,
+  "lastUpdate": 1636468084459,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -779,6 +779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008235098073355162",
             "extra": "mean: 492.1875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "336ace2e049c04bb53b9677cc6803149f9e4267b",
+          "message": "Merge pull request #408 from TeoZosa/dependabot/pip/importlib-metadata-4.8.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@e965154",
+          "timestamp": "2021-11-09T14:23:04Z",
+          "tree_id": "80c4fc635bbdeb444591fbb4a3e925259a4a7de5"
+        },
+        "date": 1636468079347,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 284.4444444444444,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011048543456039805",
+            "extra": "mean: 3.515625 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 775.593220338983,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000460704787320568",
+            "extra": "mean: 1.2893356643356644 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1513.002364066194,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007547592055306954",
+            "extra": "mean: 660.9375000000001 usec\nrounds: 10"
           }
         ]
       }
