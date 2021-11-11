@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636572480165,
+  "lastUpdate": 1636640820167,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1025,6 +1025,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012138018859860245",
             "extra": "mean: 471.6818536025654 usec\nrounds: 2179"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "f26707e1bd7be78c0c01948844f530e63ceb0a0e",
+          "message": "Merge pull request #409 from TeoZosa/dependabot/pip/sphinx-4.3.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@fba9080",
+          "timestamp": "2021-11-11T14:21:31Z",
+          "tree_id": "d4bb2237b2f61a05cfb6f2fdf8df37368e4c27ad"
+        },
+        "date": 1636640817014,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 245.30017616303232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00043288503890847663",
+            "extra": "mean: 4.076637920289858 msec\nrounds: 276"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 719.2245341769396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023617813321981807",
+            "extra": "mean: 1.390386384892128 msec\nrounds: 834"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1403.4328913364352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002613728115002217",
+            "extra": "mean: 712.5385233402492 usec\nrounds: 1928"
           }
         ]
       }
