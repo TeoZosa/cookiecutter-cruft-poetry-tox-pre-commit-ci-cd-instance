@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636572495213,
+  "lastUpdate": 1636640908025,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1025,6 +1025,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009656856836842546",
             "extra": "mean: 553.8851108676754 usec\nrounds: 2282"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "f26707e1bd7be78c0c01948844f530e63ceb0a0e",
+          "message": "Merge pull request #409 from TeoZosa/dependabot/pip/sphinx-4.3.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@fba9080",
+          "timestamp": "2021-11-11T14:21:31Z",
+          "tree_id": "d4bb2237b2f61a05cfb6f2fdf8df37368e4c27ad"
+        },
+        "date": 1636640905517,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 278.3662859521933,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004730173559097638",
+            "extra": "mean: 3.5923890588235246 msec\nrounds: 357"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 834.2709348943279,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012659638595913282",
+            "extra": "mean: 1.198651371124015 msec\nrounds: 1032"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1713.8481228716357,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008733341564620052",
+            "extra": "mean: 583.4822739861287 usec\nrounds: 2022"
           }
         ]
       }
