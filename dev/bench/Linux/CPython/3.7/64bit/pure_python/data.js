@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636572461872,
+  "lastUpdate": 1636640844605,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1025,6 +1025,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010821530581071454",
             "extra": "mean: 476.2478892493222 usec\nrounds: 2158"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "f26707e1bd7be78c0c01948844f530e63ceb0a0e",
+          "message": "Merge pull request #409 from TeoZosa/dependabot/pip/sphinx-4.3.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@fba9080",
+          "timestamp": "2021-11-11T14:21:31Z",
+          "tree_id": "d4bb2237b2f61a05cfb6f2fdf8df37368e4c27ad"
+        },
+        "date": 1636640841972,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 263.3529446338211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00044930697837619463",
+            "extra": "mean: 3.7971855655172155 msec\nrounds: 290"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 792.6662907174459,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022851679923436538",
+            "extra": "mean: 1.2615649381215586 msec\nrounds: 905"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1493.9477940395113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029866457902538577",
+            "extra": "mean: 669.367433045356 usec\nrounds: 1852"
           }
         ]
       }
