@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637591385799,
+  "lastUpdate": 1637591855624,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1476,6 +1476,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000013061598821621554",
             "extra": "mean: 556.9169612676014 usec\nrounds: 1988"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e80fd34afae31db959d325fb561d948b18990b83",
+          "message": "Merge pull request #421 from TeoZosa/dependabot/pip/hypothesis-6.27.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@e239803",
+          "timestamp": "2021-11-22T14:34:42Z",
+          "tree_id": "5c0db5398d184f0b6051f316501a93fb37283ec3"
+        },
+        "date": 1637591853141,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 359.4840743496748,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006438185193240835",
+            "extra": "mean: 2.781764398907104 msec\nrounds: 366"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1051.2979277230497,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012187177203711357",
+            "extra": "mean: 951.205147113575 usec\nrounds: 1074"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2114.364848438618,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010155987078856445",
+            "extra": "mean: 472.955271053841 usec\nrounds: 2173"
           }
         ]
       }
