@@ -480,7 +480,7 @@ dev = ["dlint", "flake8-2020", "flake8-aaa", "flake8-absolute-import", "flake8-a
 
 [[package]]
 name = "fonttools"
-version = "4.28.1"
+version = "4.28.2"
 description = "Tools to manipulate font files"
 category = "main"
 optional = false
@@ -498,14 +498,6 @@ type1 = ["xattr"]
 ufo = ["fs (>=2.2.0,<3)"]
 unicode = ["unicodedata2 (>=13.0.0)"]
 woff = ["zopfli (>=0.1.4)", "brotlicffi (>=0.8.0)", "brotli (>=1.0.1)"]
-
-[[package]]
-name = "future"
-version = "0.18.2"
-description = "Clean single-source support for Python 3 and 2"
-category = "main"
-optional = true
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "gitdb"
@@ -540,7 +532,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.26.0"
+version = "6.27.0"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -1988,14 +1980,13 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-confluencebuilder"
-version = "1.6.0"
+version = "1.7.0"
 description = "Sphinx extension to output Atlassian Confluence Storage Markup documents and publish to Confluence instances."
 category = "main"
 optional = true
 python-versions = "*"
 
 [package.dependencies]
-future = ">=0.16.0"
 requests = ">=2.14.0"
 sphinx = ">=1.8"
 
@@ -2729,11 +2720,8 @@ flakehell = [
     {file = "flakehell-0.9.0.tar.gz", hash = "sha256:208836d8d24194d50cfa4c1fc99f681f3c537cc232edcd06455abc2971460893"},
 ]
 fonttools = [
-    {file = "fonttools-4.28.1-py3-none-any.whl", hash = "sha256:68071406009e7ef6a5fdcd85d95975cd6963867bb226f2b786bfffe15d1959ef"},
-    {file = "fonttools-4.28.1.zip", hash = "sha256:8c8f84131bf04f3b1dcf99b9763cec35c347164ab6ad006e18d2f99fcab05529"},
-]
-future = [
-    {file = "future-0.18.2.tar.gz", hash = "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"},
+    {file = "fonttools-4.28.2-py3-none-any.whl", hash = "sha256:eff1da7ea274c54cb8842853005a139f711646cbf6f1bcfb6c9b86a627f35ff0"},
+    {file = "fonttools-4.28.2.zip", hash = "sha256:dca694331af74c8ad47acc5171e57f6b78fac5692bf050f2ab572964577ac0dd"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
@@ -2747,8 +2735,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.26.0-py3-none-any.whl", hash = "sha256:68331058d70ed608ff0d0d067e229e837cd67527583aa330f08a036dbbef7123"},
-    {file = "hypothesis-6.26.0.tar.gz", hash = "sha256:c1d5436410d788c9759164bda6cdee0590c81032b0bd0e8d1fa6c90d5934b082"},
+    {file = "hypothesis-6.27.0-py3-none-any.whl", hash = "sha256:cc1222e1e491c7101f572516d3b37b52cecdc689bc97d4fd860ed3a56d2f7899"},
+    {file = "hypothesis-6.27.0.tar.gz", hash = "sha256:1beddacc1917b272b4b04ce877984c18f5c9930d891614bc02c8a62ebe237285"},
 ]
 icontract = [
     {file = "icontract-2.5.5.tar.gz", hash = "sha256:409fdc796fa6fc97bad45d7470076a4679d77e7dabcb289d9b65f1f52723ef0b"},
@@ -3612,8 +3600,8 @@ sphinxcontrib-applehelp = [
     {file = "sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl", hash = "sha256:806111e5e962be97c29ec4c1e7fe277bfd19e9652fb1a4392105b43e01af885a"},
 ]
 sphinxcontrib-confluencebuilder = [
-    {file = "sphinxcontrib-confluencebuilder-1.6.0.tar.gz", hash = "sha256:b39f577151f1f3eb6f2b98353d253a6940864007f50fda8e77f6c99e6f56304e"},
-    {file = "sphinxcontrib_confluencebuilder-1.6.0-py2.py3-none-any.whl", hash = "sha256:a67304bb4145af72a340a2e764c08d03bdfa9ea4cb4da980562e3d9ad3ca20fc"},
+    {file = "sphinxcontrib-confluencebuilder-1.7.0.tar.gz", hash = "sha256:e5372b814000ce8207be2add03d3cd8a1309bd9bada8f035269b0d645a4a8190"},
+    {file = "sphinxcontrib_confluencebuilder-1.7.0-py2.py3-none-any.whl", hash = "sha256:4bff086e440af45f624c6b0c6e046f9426a6c42e684daf353b9497bc6c2d1f66"},
 ]
 sphinxcontrib-devhelp = [
     {file = "sphinxcontrib-devhelp-1.0.2.tar.gz", hash = "sha256:ff7f1afa7b9642e7060379360a67e9c41e8f3121f2ce9164266f61b9f4b338e4"},
