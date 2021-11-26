@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637938585792,
+  "lastUpdate": 1637939997908,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -902,6 +902,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006569100477089399",
             "extra": "mean: 628.981065088759 usec\nrounds: 1690"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6f8d5eacc2035ce20502f18e1b7a369426a70f63",
+          "message": "Merge pull request #425 from TeoZosa/dependabot/pip/pylint-2.12.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@09165c7",
+          "timestamp": "2021-11-26T14:24:41Z",
+          "tree_id": "36adba2f0c7a6fbdba4dc26c9447b2087a7e0c8f"
+        },
+        "date": 1637939988481,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 289.2466209022604,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018570669360319357",
+            "extra": "mean: 3.457257328990235 msec\nrounds: 307"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 870.5558556918812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000047380144206221255",
+            "extra": "mean: 1.1486913716814207 msec\nrounds: 904"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1555.7425397876434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000059655619043421515",
+            "extra": "mean: 642.7798780487797 usec\nrounds: 1640"
           }
         ]
       }
