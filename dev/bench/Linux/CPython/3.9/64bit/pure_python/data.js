@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637936873235,
+  "lastUpdate": 1637937169787,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1558,6 +1558,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009539442199954198",
             "extra": "mean: 462.37837087291547 usec\nrounds: 2211"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6f8d5eacc2035ce20502f18e1b7a369426a70f63",
+          "message": "Merge pull request #425 from TeoZosa/dependabot/pip/pylint-2.12.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@09165c7",
+          "timestamp": "2021-11-26T14:24:41Z",
+          "tree_id": "36adba2f0c7a6fbdba4dc26c9447b2087a7e0c8f"
+        },
+        "date": 1637937166760,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 315.025042293977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004392043552588139",
+            "extra": "mean: 3.1743508157894755 msec\nrounds: 342"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 885.8573666232036,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004252987418151184",
+            "extra": "mean: 1.1288499003083265 msec\nrounds: 973"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1838.8641224687744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015784153076886138",
+            "extra": "mean: 543.8139706904749 usec\nrounds: 2013"
           }
         ]
       }
