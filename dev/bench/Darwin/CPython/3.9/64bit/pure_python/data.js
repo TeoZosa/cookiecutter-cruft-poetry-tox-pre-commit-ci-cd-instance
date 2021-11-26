@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637939239602,
+  "lastUpdate": 1637940709853,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -902,6 +902,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000899234123502707",
             "extra": "mean: 631.0066334991945 usec\nrounds: 1809"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6f8d5eacc2035ce20502f18e1b7a369426a70f63",
+          "message": "Merge pull request #425 from TeoZosa/dependabot/pip/pylint-2.12.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@09165c7",
+          "timestamp": "2021-11-26T14:24:41Z",
+          "tree_id": "36adba2f0c7a6fbdba4dc26c9447b2087a7e0c8f"
+        },
+        "date": 1637940707269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 273.2616153816312,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00032050845273465895",
+            "extra": "mean: 3.6594967741935576 msec\nrounds: 310"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 847.4646682009713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001664800278882489",
+            "extra": "mean: 1.1799901960784231 msec\nrounds: 918"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1648.491826228009,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004749827377754522",
+            "extra": "mean: 606.6150793650864 usec\nrounds: 1764"
           }
         ]
       }
