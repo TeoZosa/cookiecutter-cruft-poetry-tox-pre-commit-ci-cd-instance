@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638198403396,
+  "lastUpdate": 1638199018416,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1763,6 +1763,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012118954385637261",
             "extra": "mean: 424.8616096339032 usec\nrounds: 2595"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "cc6d68136b708ac751dff8ca486ea4adc3ad5a99",
+          "message": "Merge pull request #432 from TeoZosa/dependabot/pip/poetry-1.1.12\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@9da095a",
+          "timestamp": "2021-11-29T14:51:55Z",
+          "tree_id": "c0708b29ad2d923633eacabd6c85c3b6d8422001"
+        },
+        "date": 1638199015483,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 268.7631163565881,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004816006535792201",
+            "extra": "mean: 3.720748641242965 msec\nrounds: 354"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 805.8813850358986,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020017917737058326",
+            "extra": "mean: 1.2408774027649916 msec\nrounds: 1085"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1550.961624377468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013042090562698702",
+            "extra": "mean: 644.761278604417 usec\nrounds: 1949"
           }
         ]
       }
