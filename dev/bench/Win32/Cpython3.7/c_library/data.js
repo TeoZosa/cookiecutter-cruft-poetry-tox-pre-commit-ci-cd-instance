@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638199295499,
+  "lastUpdate": 1638199491615,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1107,6 +1107,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001955727432866521",
             "extra": "mean: 832.8125 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "1f662787ddb1f6e20f64e55def014c0b7b083d89",
+          "message": "Merge pull request #436 from TeoZosa/dependabot/pip/icontract-2.6.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@fcd9738",
+          "timestamp": "2021-11-29T15:06:44Z",
+          "tree_id": "e92d837c1d90e96208f66b9fb7cf61b9e4e49a02"
+        },
+        "date": 1638199486370,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 227.75800711743767,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000136811724339205",
+            "extra": "mean: 4.390625 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 702.7450980392156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000882331936430909",
+            "extra": "mean: 1.4229910714285714 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1297.4545454545455,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004671150971599404",
+            "extra": "mean: 770.7399103139013 usec\nrounds: 10"
           }
         ]
       }
