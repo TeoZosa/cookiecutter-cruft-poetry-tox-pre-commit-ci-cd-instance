@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638198303157,
+  "lastUpdate": 1638198612639,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1066,6 +1066,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002681153682548697",
             "extra": "mean: 523.4375 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "14827c1f939e6f40f3e0c244df036d95670b500d",
+          "message": "Merge pull request #429 from TeoZosa/dependabot/pip/dot-github/workflows/poetry-1.1.12\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ab24745",
+          "timestamp": "2021-11-29T14:21:41Z",
+          "tree_id": "20a15443a92024d71b2303dab7563b7d8aae0d21"
+        },
+        "date": 1638198607728,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 275.8620689655172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016137430609197565",
+            "extra": "mean: 3.6249999999999996 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 855.3271028037382,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008995548539647776",
+            "extra": "mean: 1.1691433566433567 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1715.8176943699734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010546071214227398",
+            "extra": "mean: 582.8125 usec\nrounds: 10"
           }
         ]
       }
