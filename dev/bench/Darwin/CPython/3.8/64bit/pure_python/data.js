@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638202928276,
+  "lastUpdate": 1638204159337,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1066,6 +1066,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000021935686038642943",
             "extra": "mean: 597.4564719358754 usec\nrounds: 1746"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "cc6d68136b708ac751dff8ca486ea4adc3ad5a99",
+          "message": "Merge pull request #432 from TeoZosa/dependabot/pip/poetry-1.1.12\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@9da095a",
+          "timestamp": "2021-11-29T14:51:55Z",
+          "tree_id": "c0708b29ad2d923633eacabd6c85c3b6d8422001"
+        },
+        "date": 1638204150797,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 285.2049239735924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019969286796031038",
+            "extra": "mean: 3.5062508250825 msec\nrounds: 303"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 874.5159097883808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000056413537680964046",
+            "extra": "mean: 1.1434897739504641 msec\nrounds: 929"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1595.9490665885212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004006335896039936",
+            "extra": "mean: 626.5864123957202 usec\nrounds: 1678"
           }
         ]
       }
