@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638199269794,
+  "lastUpdate": 1638199538984,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1804,6 +1804,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000991254902385005",
             "extra": "mean: 464.8942829422417 usec\nrounds: 2216"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c81542d1bf2bc086e9f13587eb9cd8325198a5f7",
+          "message": "Merge pull request #436 from TeoZosa/dependabot/pip/icontract-2.6.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7e85c24",
+          "timestamp": "2021-11-29T15:14:55Z",
+          "tree_id": "e92d837c1d90e96208f66b9fb7cf61b9e4e49a02"
+        },
+        "date": 1638199536272,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 314.5564081429156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007948717570250942",
+            "extra": "mean: 3.1790800445103633 msec\nrounds: 337"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 905.3459548356465,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000038015852767806024",
+            "extra": "mean: 1.1045501387163503 msec\nrounds: 966"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1853.9151718353783,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020919887073344018",
+            "extra": "mean: 539.3990055165248 usec\nrounds: 1994"
           }
         ]
       }
