@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638369047176,
+  "lastUpdate": 1638369300951,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1271,6 +1271,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000494105884401308",
             "extra": "mean: 404.6875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "b09c8bd6e882b61106f970691701f67b0f825daf",
+          "message": "Merge pull request #438 from TeoZosa/dependabot/pip/pre-commit-2.16.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@47f8cb0",
+          "timestamp": "2021-12-01T14:23:07Z",
+          "tree_id": "1c0bba091829e5d844861b6ece9e0d61983533a1"
+        },
+        "date": 1638369295735,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 272.3404255319149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008235098073355139",
+            "extra": "mean: 3.671875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 761.9047619047622,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006588078458684119",
+            "extra": "mean: 1.3124999999999998 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1464.530892448513,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012863634411696333",
+            "extra": "mean: 682.8124999999999 usec\nrounds: 10"
           }
         ]
       }
