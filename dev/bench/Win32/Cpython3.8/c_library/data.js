@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638801275478,
+  "lastUpdate": 1638801574462,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1476,6 +1476,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001834043423089482",
             "extra": "mean: 709.3749999999999 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "fb052bb3859c48347da571dccb1caefecb5e129e",
+          "message": "Merge pull request #443 from TeoZosa/dependabot/pip/hypothesis-6.30.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@9de1fc5",
+          "timestamp": "2021-12-06T14:30:54Z",
+          "tree_id": "1f941012e358246b9f26803143edaef35aadf7a9"
+        },
+        "date": 1638801569727,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 367.816091954023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013176156917368238",
+            "extra": "mean: 2.71875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1103.4482758620688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040343576522993906",
+            "extra": "mean: 906.2499999999999 usec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2176.8707482993195,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015095184110613989",
+            "extra": "mean: 459.37500000000006 usec\nrounds: 10"
           }
         ]
       }
