@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638542017619,
+  "lastUpdate": 1638803634533,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1435,6 +1435,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000020520446463468704",
             "extra": "mean: 587.6592674805688 usec\nrounds: 1802"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ec191bd254b29ec803f7ecc5afa250f04e97ee5b",
+          "message": "Merge pull request #442 from TeoZosa/dependabot/pip/pylint-2.12.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@154dfda",
+          "timestamp": "2021-12-06T14:21:22Z",
+          "tree_id": "fd2e9ed10404988f04d241c9c8201a51d1c3488c"
+        },
+        "date": 1638803624982,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 284.31897243778246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021440652723263667",
+            "extra": "mean: 3.5171764705882578 msec\nrounds: 306"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 842.6940534592661,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009397577156711507",
+            "extra": "mean: 1.1866702937976028 msec\nrounds: 919"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1611.1013866651674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006647218915750217",
+            "extra": "mean: 620.6934015927505 usec\nrounds: 1758"
           }
         ]
       }
