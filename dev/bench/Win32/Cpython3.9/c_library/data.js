@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638801613558,
+  "lastUpdate": 1638973327442,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1558,6 +1558,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012325166214790878",
             "extra": "mean: 621.875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "b44562af99af68971f38d372a98ace578fdeda64",
+          "message": "Merge pull request #445 from TeoZosa/dependabot/github_actions/actions/download-artifact-2.1.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@2d7e681",
+          "timestamp": "2021-12-08T14:13:12Z",
+          "tree_id": "00ef6ee9a4930a96377fbbb9cb70bdebe7574313"
+        },
+        "date": 1638973320924,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 272.3404255319149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008235098073355139",
+            "extra": "mean: 3.671875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 775.5932203389829,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000460704787320568",
+            "extra": "mean: 1.2893356643356644 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1481.4814814814818,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001435838411676063",
+            "extra": "mean: 674.9999999999999 usec\nrounds: 10"
           }
         ]
       }
