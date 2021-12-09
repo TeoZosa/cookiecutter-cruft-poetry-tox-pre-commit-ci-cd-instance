@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638973549112,
+  "lastUpdate": 1639059724799,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1599,6 +1599,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008068715304598793",
             "extra": "mean: 490.62499999999994 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ed78a9580360e584237d1729e94f8669d88226bf",
+          "message": "Merge pull request #448 from TeoZosa/dependabot/pip/hypothesis-6.31.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@74d4e8d",
+          "timestamp": "2021-12-09T14:17:13Z",
+          "tree_id": "9cd22c6ba9a08dba45a3a105bc3ed102f1dee13d"
+        },
+        "date": 1639059719269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 301.88679245283015,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012325166214790864",
+            "extra": "mean: 3.3125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 809.9115044247787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005278036402312586",
+            "extra": "mean: 1.2347027972027973 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1520.1900237529694,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004941058844013063",
+            "extra": "mean: 657.8125 usec\nrounds: 10"
           }
         ]
       }
