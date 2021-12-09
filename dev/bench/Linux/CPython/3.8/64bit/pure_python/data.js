@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638973419625,
+  "lastUpdate": 1639059621642,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2255,6 +2255,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001624299187332887",
             "extra": "mean: 424.0942481807647 usec\nrounds: 2611"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ed78a9580360e584237d1729e94f8669d88226bf",
+          "message": "Merge pull request #448 from TeoZosa/dependabot/pip/hypothesis-6.31.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@74d4e8d",
+          "timestamp": "2021-12-09T14:17:13Z",
+          "tree_id": "9cd22c6ba9a08dba45a3a105bc3ed102f1dee13d"
+        },
+        "date": 1639059618123,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 243.65534198122768,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00064689482865567",
+            "extra": "mean: 4.104157913669074 msec\nrounds: 278"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 713.993708545207,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00044754959992729176",
+            "extra": "mean: 1.4005725653206988 msec\nrounds: 842"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1368.8837274868333,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00045464466290208",
+            "extra": "mean: 730.5222349570362 usec\nrounds: 1745"
           }
         ]
       }
