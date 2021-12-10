@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639146348889,
+  "lastUpdate": 1639146908414,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2337,6 +2337,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022123700529808055",
             "extra": "mean: 655.513031771671 usec\nrounds: 1857"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "fcf39c7a53c9f991a7b663d4794250b09a5e102b",
+          "message": "Merge pull request #450 from TeoZosa/dependabot/pip/hypothesis-6.31.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@323ef30",
+          "timestamp": "2021-12-10T14:32:30Z",
+          "tree_id": "dc81da6a356db00da7da7803c06cd501897757f1"
+        },
+        "date": 1639146905653,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 341.5307109481446,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001632661401893995",
+            "extra": "mean: 2.927994373401554 msec\nrounds: 391"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 949.0182253391503,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007505052561973251",
+            "extra": "mean: 1.053720543293708 msec\nrounds: 1178"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1924.8120300751855,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003814884393809151",
+            "extra": "mean: 519.5312500000007 usec\nrounds: 2272"
           }
         ]
       }
