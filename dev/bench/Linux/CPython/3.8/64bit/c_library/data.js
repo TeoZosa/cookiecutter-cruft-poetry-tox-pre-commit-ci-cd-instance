@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639146856855,
+  "lastUpdate": 1639406524932,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2419,6 +2419,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021327381170916816",
             "extra": "mean: 595.8360448807629 usec\nrounds: 2139"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ef99a8a47caa92e67040baa46c2ad6379f1e8d61",
+          "message": "Merge pull request #451 from TeoZosa/dependabot/pip/hypothesis-6.31.4\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@82e6026",
+          "timestamp": "2021-12-13T14:23:52Z",
+          "tree_id": "8a2aaf2f098fe8942d58108cbcd5d89c05596fa1"
+        },
+        "date": 1639406521148,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 358.45532271781985,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000042621173443623854",
+            "extra": "mean: 2.789747945205466 msec\nrounds: 365"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1048.1103127321383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001941606846715994",
+            "extra": "mean: 954.098044692712 usec\nrounds: 1074"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1900.172218837264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003413481565364753",
+            "extra": "mean: 526.2680877483363 usec\nrounds: 2416"
           }
         ]
       }
