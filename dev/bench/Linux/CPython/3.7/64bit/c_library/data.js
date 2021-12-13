@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639146841715,
+  "lastUpdate": 1639406539154,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2337,6 +2337,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001509010255966802",
             "extra": "mean: 504.9528182701797 usec\nrounds: 2058"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ef99a8a47caa92e67040baa46c2ad6379f1e8d61",
+          "message": "Merge pull request #451 from TeoZosa/dependabot/pip/hypothesis-6.31.4\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@82e6026",
+          "timestamp": "2021-12-13T14:23:52Z",
+          "tree_id": "8a2aaf2f098fe8942d58108cbcd5d89c05596fa1"
+        },
+        "date": 1639406536135,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 245.00075541899434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011054370149550395",
+            "extra": "mean: 4.081620068027237 msec\nrounds: 294"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 757.2495430117617,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039010114307634934",
+            "extra": "mean: 1.320568641115004 msec\nrounds: 861"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1613.5980931013007,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011573493838622823",
+            "extra": "mean: 619.7330080367296 usec\nrounds: 1742"
           }
         ]
       }
