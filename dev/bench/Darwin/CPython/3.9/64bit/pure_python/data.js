@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639411354124,
+  "lastUpdate": 1639580223905,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -1804,6 +1804,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001391281098801138",
             "extra": "mean: 738.7646402677207 usec\nrounds: 1793"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2f9b95b3394bb88d1198ca6e1fd67fee73d168df",
+          "message": "Merge pull request #453 from TeoZosa/dependabot/pip/hypothesis-6.31.6\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5459dc8",
+          "timestamp": "2021-12-15T14:18:49Z",
+          "tree_id": "a639f6be41ea9000e26fb766c2c10933a30ad812"
+        },
+        "date": 1639580221269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 287.9324031591802,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019712177035559976",
+            "extra": "mean: 3.473037383177611 msec\nrounds: 321"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 861.8982727092787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014128506482236742",
+            "extra": "mean: 1.1602297297297213 msec\nrounds: 962"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1692.1741988117362,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006837801241970842",
+            "extra": "mean: 590.9557069846658 usec\nrounds: 1761"
           }
         ]
       }
