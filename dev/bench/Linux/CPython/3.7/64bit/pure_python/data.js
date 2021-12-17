@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639665474997,
+  "lastUpdate": 1639750936019,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2583,6 +2583,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003355724948374842",
             "extra": "mean: 689.3850510204239 usec\nrounds: 1960"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "10d199a1ed2e0cdf059879dcad5ff383a0a7373e",
+          "message": "Merge pull request #457 from TeoZosa/dependabot/pip/importlib-metadata-4.9.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@775920e",
+          "timestamp": "2021-12-17T14:19:33Z",
+          "tree_id": "76b15cbf08f69bec8e04993ff0fa6c924a0fa49f"
+        },
+        "date": 1639750933081,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 277.9622957962586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000292227686479927",
+            "extra": "mean: 3.597610233918136 msec\nrounds: 342"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 803.9355738399444,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014537931879287386",
+            "extra": "mean: 1.243880769230757 msec\nrounds: 1014"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1646.5236972470698,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010166468528416602",
+            "extra": "mean: 607.3401808136531 usec\nrounds: 1991"
           }
         ]
       }
