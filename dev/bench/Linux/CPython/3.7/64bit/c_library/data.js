@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639665485434,
+  "lastUpdate": 1639750941966,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2542,6 +2542,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012508071763985062",
             "extra": "mean: 501.9559413202713 usec\nrounds: 2045"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "10d199a1ed2e0cdf059879dcad5ff383a0a7373e",
+          "message": "Merge pull request #457 from TeoZosa/dependabot/pip/importlib-metadata-4.9.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@775920e",
+          "timestamp": "2021-12-17T14:19:33Z",
+          "tree_id": "76b15cbf08f69bec8e04993ff0fa6c924a0fa49f"
+        },
+        "date": 1639750938868,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 254.83865916839102,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009233265884744787",
+            "extra": "mean: 3.924051410658321 msec\nrounds: 319"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 776.982475374387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031989537687210595",
+            "extra": "mean: 1.2870303149606463 msec\nrounds: 1016"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1436.728645167741,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039385044118497186",
+            "extra": "mean: 696.0256575682375 usec\nrounds: 2015"
           }
         ]
       }
