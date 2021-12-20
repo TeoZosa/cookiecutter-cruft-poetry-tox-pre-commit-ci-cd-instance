@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640011294666,
+  "lastUpdate": 1640011564954,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2665,6 +2665,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010752557643082062",
             "extra": "mean: 502.3572058823596 usec\nrounds: 2040"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9759589cce5c80978bd4b491767d38fc46cd456c",
+          "message": "Merge pull request #460 from TeoZosa/dependabot/pip/sphinx-4.3.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8c23eae",
+          "timestamp": "2021-12-20T14:38:52Z",
+          "tree_id": "f371682c7a9af087bd838bf01ec83b87344684fa"
+        },
+        "date": 1640011560659,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 340.9293832675338,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021288719008628254",
+            "extra": "mean: 2.9331587392550467 msec\nrounds: 349"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1002.5203558318204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013916956479213939",
+            "extra": "mean: 997.4859803921596 usec\nrounds: 1020"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1996.343080102928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001241735364288387",
+            "extra": "mean: 500.91590466927244 usec\nrounds: 2056"
           }
         ]
       }
