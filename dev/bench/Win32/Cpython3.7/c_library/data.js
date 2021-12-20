@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640011475720,
+  "lastUpdate": 1640011730151,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2049,6 +2049,47 @@ window.BENCHMARK_DATA = {
             "value": 1502.3474178403758,
             "unit": "iter/sec",
             "range": "stddev: 0.000016796370308955276",
+            "extra": "mean: 665.625 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9759589cce5c80978bd4b491767d38fc46cd456c",
+          "message": "Merge pull request #460 from TeoZosa/dependabot/pip/sphinx-4.3.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8c23eae",
+          "timestamp": "2021-12-20T14:38:52Z",
+          "tree_id": "f371682c7a9af087bd838bf01ec83b87344684fa"
+        },
+        "date": 1640011724929,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 264.4628099173554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012325166214790872",
+            "extra": "mean: 3.78125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 776.6990291262138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008436856971381908",
+            "extra": "mean: 1.2875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1502.3474178403758,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001092509216843904",
             "extra": "mean: 665.625 usec\nrounds: 10"
           }
         ]
