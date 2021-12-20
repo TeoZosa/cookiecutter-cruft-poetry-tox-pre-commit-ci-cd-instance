@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640011368414,
+  "lastUpdate": 1640011625350,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2706,6 +2706,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009638937527977482",
             "extra": "mean: 476.7376274328023 usec\nrounds: 2158"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9759589cce5c80978bd4b491767d38fc46cd456c",
+          "message": "Merge pull request #460 from TeoZosa/dependabot/pip/sphinx-4.3.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8c23eae",
+          "timestamp": "2021-12-20T14:38:52Z",
+          "tree_id": "f371682c7a9af087bd838bf01ec83b87344684fa"
+        },
+        "date": 1640011622819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 358.2105812445283,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040984636715564454",
+            "extra": "mean: 2.7916539944903564 msec\nrounds: 363"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1048.0331585177407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013017890499400633",
+            "extra": "mean: 954.1682835821005 usec\nrounds: 1072"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2074.8607840791883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011138774729038945",
+            "extra": "mean: 481.960046511648 usec\nrounds: 2150"
           }
         ]
       }
