@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640012737975,
+  "lastUpdate": 1640013633522,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2009,6 +2009,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000033743395159168",
             "extra": "mean: 609.1777909037148 usec\nrounds: 1693"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "00ebb226284f443ff8469ecf607e1224b384f8fc",
+          "message": "Merge pull request #459 from TeoZosa/dependabot/pip/importlib-metadata-4.10.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ac4c8ce",
+          "timestamp": "2021-12-20T14:25:21Z",
+          "tree_id": "eece0f6c97b311b56e24594af6c988c932824365"
+        },
+        "date": 1640013629802,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 281.71233999690315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002793212317812636",
+            "extra": "mean: 3.5497202572347133 msec\nrounds: 311"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 891.5765755011878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000825343245516542",
+            "extra": "mean: 1.121608650875404 msec\nrounds: 971"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1650.1214240292957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000297467913750077",
+            "extra": "mean: 606.0160091480919 usec\nrounds: 1749"
           }
         ]
       }
