@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640013820061,
+  "lastUpdate": 1640014282918,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2050,6 +2050,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000556148117726267",
             "extra": "mean: 594.3937823833996 usec\nrounds: 1737"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9759589cce5c80978bd4b491767d38fc46cd456c",
+          "message": "Merge pull request #460 from TeoZosa/dependabot/pip/sphinx-4.3.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8c23eae",
+          "timestamp": "2021-12-20T14:38:52Z",
+          "tree_id": "f371682c7a9af087bd838bf01ec83b87344684fa"
+        },
+        "date": 1640014280855,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 291.63021289005525,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024115524711479936",
+            "extra": "mean: 3.429000000000002 msec\nrounds: 328"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 913.0014426744586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004246336263456959",
+            "extra": "mean: 1.0952885211995897 msec\nrounds: 967"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1755.576705051857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002233797158553594",
+            "extra": "mean: 569.6133909286872 usec\nrounds: 1852"
           }
         ]
       }
