@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640787578726,
+  "lastUpdate": 1640788351768,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2829,6 +2829,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015865644215058307",
             "extra": "mean: 587.8735497604905 usec\nrounds: 1879"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "536eadec0e411d9dcff954393d6aa9b9bfbb679f",
+          "message": "Merge pull request #467 from TeoZosa/dependabot/pip/tox-3.24.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@f42a498",
+          "timestamp": "2021-12-29T14:29:41Z",
+          "tree_id": "32e9c298038af68969c9054952393b64e481fb37"
+        },
+        "date": 1640788348334,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 258.0377887504729,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007661579943461093",
+            "extra": "mean: 3.8754013698629923 msec\nrounds: 292"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 750.3082860089307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003988774259788215",
+            "extra": "mean: 1.3327854945055175 msec\nrounds: 910"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1475.209917786407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017151358207752798",
+            "extra": "mean: 677.8696292257358 usec\nrounds: 1834"
           }
         ]
       }
