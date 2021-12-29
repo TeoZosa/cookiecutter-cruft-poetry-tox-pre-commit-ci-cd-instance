@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640787574744,
+  "lastUpdate": 1640788278389,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2870,6 +2870,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013555789131741632",
             "extra": "mean: 543.5669298245548 usec\nrounds: 2280"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "536eadec0e411d9dcff954393d6aa9b9bfbb679f",
+          "message": "Merge pull request #467 from TeoZosa/dependabot/pip/tox-3.24.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@f42a498",
+          "timestamp": "2021-12-29T14:29:41Z",
+          "tree_id": "32e9c298038af68969c9054952393b64e481fb37"
+        },
+        "date": 1640788275829,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 342.3727030900097,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001916517735682924",
+            "extra": "mean: 2.9207935999999988 msec\nrounds: 375"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 980.2869967771314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009619390025483641",
+            "extra": "mean: 1.0201094202898524 msec\nrounds: 1242"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1982.8085022167663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004563346567028725",
+            "extra": "mean: 504.3351382052311 usec\nrounds: 2641"
           }
         ]
       }
