@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640787566038,
+  "lastUpdate": 1640788292144,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2829,6 +2829,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008973752071360778",
             "extra": "mean: 557.4119188921895 usec\nrounds: 2022"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "536eadec0e411d9dcff954393d6aa9b9bfbb679f",
+          "message": "Merge pull request #467 from TeoZosa/dependabot/pip/tox-3.24.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@f42a498",
+          "timestamp": "2021-12-29T14:29:41Z",
+          "tree_id": "32e9c298038af68969c9054952393b64e481fb37"
+        },
+        "date": 1640788289130,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 266.08424503016573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005422298438024415",
+            "extra": "mean: 3.7582082317073335 msec\nrounds: 328"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 808.1867217825222,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002949921831647947",
+            "extra": "mean: 1.2373378243513056 msec\nrounds: 1002"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1636.9946263171298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019981175557612802",
+            "extra": "mean: 610.8755544602949 usec\nrounds: 2029"
           }
         ]
       }
