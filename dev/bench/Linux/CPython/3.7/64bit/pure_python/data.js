@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640788351768,
+  "lastUpdate": 1640874400225,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2870,6 +2870,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017151358207752798",
             "extra": "mean: 677.8696292257358 usec\nrounds: 1834"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "0292013023880726f737f8b2c4d3dc1b91a0554e",
+          "message": "Merge pull request #468 from TeoZosa/dependabot/pip/hypothesis-6.33.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@46142bb",
+          "timestamp": "2021-12-30T14:21:21Z",
+          "tree_id": "11130950f2ffd2db5ec09c5213a4ca001f14bc54"
+        },
+        "date": 1640874396508,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 236.2255652546558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005734913309443525",
+            "extra": "mean: 4.233242066420628 msec\nrounds: 271"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 700.996129970787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016555244764870388",
+            "extra": "mean: 1.4265413990825793 msec\nrounds: 872"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1382.7947395560586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008165886711609903",
+            "extra": "mean: 723.1731300345028 usec\nrounds: 1738"
           }
         ]
       }
