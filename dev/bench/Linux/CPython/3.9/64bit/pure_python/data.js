@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640874383294,
+  "lastUpdate": 1640874990040,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2952,6 +2952,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012995888556612107",
             "extra": "mean: 412.97500977708796 usec\nrounds: 2557"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "36d25103c60cfc1753b8f0778eafaeac2fc45c8c",
+          "message": "Merge pull request #469 from TeoZosa/dependabot/pip/pygments-2.11.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@dd5637f",
+          "timestamp": "2021-12-30T14:33:18Z",
+          "tree_id": "477eabbf4c40d812a7fe009a2edcc8082d99d7a7"
+        },
+        "date": 1640874987507,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 414.7086052315151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004330734866890561",
+            "extra": "mean: 2.4113316853932667 msec\nrounds: 445"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1163.6784805527536,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020848020125261705",
+            "extra": "mean: 859.3438967136306 usec\nrounds: 1278"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2444.8759844594897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015439195551021017",
+            "extra": "mean: 409.0187012986995 usec\nrounds: 2695"
           }
         ]
       }
