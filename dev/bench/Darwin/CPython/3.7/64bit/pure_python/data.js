@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640879030095,
+  "lastUpdate": 1640960436760,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2337,6 +2337,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007409827624192206",
             "extra": "mean: 634.885833831474 usec\nrounds: 1673"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a9ac1f0a3158d425a0581fa63a402eede671853a",
+          "message": "Merge pull request #470 from TeoZosa/dependabot/pip/hypothesis-6.34.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4184473",
+          "timestamp": "2021-12-31T14:15:54Z",
+          "tree_id": "2710e974ac15124ddad28f954f76f5a691b5e04f"
+        },
+        "date": 1640960434237,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 264.96457634182116,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002507458150023054",
+            "extra": "mean: 3.7740894039735196 msec\nrounds: 302"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 855.2968061895409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004701319479985606",
+            "extra": "mean: 1.1691847704367455 msec\nrounds: 893"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1526.7343355451205,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000716256539040885",
+            "extra": "mean: 654.9928017718615 usec\nrounds: 1806"
           }
         ]
       }
