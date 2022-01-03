@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640960387518,
+  "lastUpdate": 1641222741347,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2378,6 +2378,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011592847655811947",
             "extra": "mean: 673.6348645465209 usec\nrounds: 1698"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "80dd505e8d54ca26b46de9043702ed40a171ce4e",
+          "message": "Merge pull request #471 from TeoZosa/dependabot/pip/sphinx-autodoc-typehints-1.13.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@20f8841",
+          "timestamp": "2022-01-03T14:18:58Z",
+          "tree_id": "fc6b1bcd1160bc1fe2b3e600ff6ae4b7d8a36b9f"
+        },
+        "date": 1641222738822,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 254.4054402594946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003968079625392514",
+            "extra": "mean: 3.9307335526315623 msec\nrounds: 304"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 850.167448833029,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006999712298768614",
+            "extra": "mean: 1.1762388707926146 msec\nrounds: 921"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1568.5828763036393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000053919384025843",
+            "extra": "mean: 637.5181159420132 usec\nrounds: 1656"
           }
         ]
       }
