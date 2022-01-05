@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641392495931,
+  "lastUpdate": 1641393049855,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3157,6 +3157,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009294733017784225",
             "extra": "mean: 413.699475595005 usec\nrounds: 2479"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "902ba91bf4b9b080acb577fe5c3fdbe2bf2ffcb0",
+          "message": "Merge pull request #474 from TeoZosa/dependabot/pip/sphinx-autodoc-typehints-1.13.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@1ebf36f",
+          "timestamp": "2022-01-05T14:29:10Z",
+          "tree_id": "db5790b0f0d54ce653bd66650e6ced975b0dc031"
+        },
+        "date": 1641393046830,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 325.4938208926443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002900551457057995",
+            "extra": "mean: 3.072254942528768 msec\nrounds: 435"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 958.5000094473224,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001289866579499394",
+            "extra": "mean: 1.043296807661595 msec\nrounds: 1253"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1988.7486300404776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009207501095894189",
+            "extra": "mean: 502.82875618103975 usec\nrounds: 2629"
           }
         ]
       }
