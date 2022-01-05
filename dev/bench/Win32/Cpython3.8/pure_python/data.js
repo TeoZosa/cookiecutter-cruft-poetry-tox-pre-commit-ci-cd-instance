@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641220423822,
+  "lastUpdate": 1641392633951,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2460,6 +2460,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000007547592055306979",
             "extra": "mean: 401.5625 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "8074af874c1842a401f4529c242a99640439490f",
+          "message": "Merge pull request #473 from TeoZosa/dependabot/pip/hypothesis-6.34.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@4ca6029",
+          "timestamp": "2022-01-05T14:19:13Z",
+          "tree_id": "18cd2bb03b92cfe436cdbc499c24799372af1d1d"
+        },
+        "date": 1641392628971,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 304.76190476190476,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012757759076995713",
+            "extra": "mean: 3.28125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 884.8695652173914,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006948769469207423",
+            "extra": "mean: 1.1301100628930818 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1688.6543535620056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002010443652668625",
+            "extra": "mean: 592.1874999999999 usec\nrounds: 10"
           }
         ]
       }
