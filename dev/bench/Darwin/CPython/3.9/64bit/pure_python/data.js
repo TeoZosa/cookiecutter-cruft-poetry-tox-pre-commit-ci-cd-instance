@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641485515678,
+  "lastUpdate": 1641486279447,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2624,6 +2624,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004852281039519412",
             "extra": "mean: 602.7864406779759 usec\nrounds: 1770"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a64d58ccd6dcdf3eeb4959bdb16935d03dc28141",
+          "message": "Merge pull request #477 from TeoZosa/dependabot/pip/pygments-2.11.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@a15e016",
+          "timestamp": "2022-01-06T16:10:46Z",
+          "tree_id": "e979a9e1c416a588af6e18cf47a70245a33beb6e"
+        },
+        "date": 1641486277154,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 290.57002176939295,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000184311287444324",
+            "extra": "mean: 3.4415112540193045 msec\nrounds: 311"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 893.7031715125732,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003620984644278068",
+            "extra": "mean: 1.1189397463002417 msec\nrounds: 946"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1637.160401351023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008108081798243778",
+            "extra": "mean: 610.813698630126 usec\nrounds: 1825"
           }
         ]
       }
