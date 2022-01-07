@@ -2273,7 +2273,7 @@ typer = ">=0.3.0,<0.4.0"
 
 [[package]]
 name = "types-emoji"
-version = "1.2.6"
+version = "1.2.7"
 description = "Typing stubs for emoji"
 category = "main"
 optional = true
@@ -3737,8 +3737,8 @@ typer-cli = [
     {file = "typer_cli-0.0.12-py3-none-any.whl", hash = "sha256:f9b810d4fbdb750b28ceaa5fd8f737db596570418ae092e6d54a64d378e843ca"},
 ]
 types-emoji = [
-    {file = "types-emoji-1.2.6.tar.gz", hash = "sha256:184113c4fbfaaba90d08aae03f11a23c21074cf1852cb0d010cbe5d926b02895"},
-    {file = "types_emoji-1.2.6-py3-none-any.whl", hash = "sha256:2e7fcf2ede905bc7c9e9b66fe8668ebc41be272800b1ec2823f80c84958dfde5"},
+    {file = "types-emoji-1.2.7.tar.gz", hash = "sha256:3be036d560ff90351944bb08f8e70447c7e831660fe51c4599974a326585aacb"},
+    {file = "types_emoji-1.2.7-py3-none-any.whl", hash = "sha256:003f6140fffe8ab8a606bf030416f8a48785039882c97e3d1c5d9a1baf7c7673"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.0.1-py3-none-any.whl", hash = "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"},
