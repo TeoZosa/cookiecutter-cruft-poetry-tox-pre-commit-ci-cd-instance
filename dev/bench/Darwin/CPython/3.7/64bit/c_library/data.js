@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641520962811,
+  "lastUpdate": 1641521836037,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2706,6 +2706,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000033652004439002885",
             "extra": "mean: 636.6085663295896 usec\nrounds: 1681"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641521833279,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 257.817964950376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030561600139514803",
+            "extra": "mean: 3.8787056603773786 msec\nrounds: 265"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 752.4626241669099,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024139456608720082",
+            "extra": "mean: 1.328969662921333 msec\nrounds: 890"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1499.6671934217247,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008402839430313465",
+            "extra": "mean: 666.8146135265812 usec\nrounds: 1656"
           }
         ]
       }
