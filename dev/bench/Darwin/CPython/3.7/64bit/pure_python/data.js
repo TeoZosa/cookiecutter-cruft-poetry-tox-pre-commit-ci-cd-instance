@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641520954810,
+  "lastUpdate": 1641521566357,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2706,6 +2706,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007925097765048519",
             "extra": "mean: 640.5548022598871 usec\nrounds: 1770"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641521563990,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 277.33048607367834,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002630898030614773",
+            "extra": "mean: 3.605806249999974 msec\nrounds: 320"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 885.2889399937151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004813276952491882",
+            "extra": "mean: 1.1295747126436473 msec\nrounds: 957"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1649.6133547435606,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000026444399699750636",
+            "extra": "mean: 606.2026578073226 usec\nrounds: 1806"
           }
         ]
       }
