@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641568350446,
+  "lastUpdate": 1641570547059,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2829,6 +2829,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008097143755311506",
             "extra": "mean: 616.4772468714499 usec\nrounds: 1758"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "17d0ee9675be8fcd79fe4ab9cc52809eefd479b0",
+          "message": "Merge pull request #480 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.16.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@2c5576e",
+          "timestamp": "2022-01-07T14:28:33Z",
+          "tree_id": "e2b3d58a03b8ba134db492cc08afb06e6b76cdfa"
+        },
+        "date": 1641570544054,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 240.8597605698582,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00038698679466651095",
+            "extra": "mean: 4.151793548387105 msec\nrounds: 310"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 770.0786945462514,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001583553685702417",
+            "extra": "mean: 1.2985685840707792 msec\nrounds: 904"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1641.5139341617137,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000044764658460938633",
+            "extra": "mean: 609.1937321937379 usec\nrounds: 1755"
           }
         ]
       }
