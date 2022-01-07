@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641486279447,
+  "lastUpdate": 1641521403982,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2665,6 +2665,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008108081798243778",
             "extra": "mean: 610.813698630126 usec\nrounds: 1825"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2cc32fdf0fcabd2f61dc03975d2f8690c3fafbf9",
+          "message": "Merge pull request #463 from TeoZosa/dependabot/pip/mypy-0.930\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ce67bf",
+          "timestamp": "2022-01-07T01:48:59Z",
+          "tree_id": "ea5508efe6ec081f501cbe45a59c60d20890bc1f"
+        },
+        "date": 1641521400262,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 283.73397537588073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015302472391768546",
+            "extra": "mean: 3.5244281150159593 msec\nrounds: 313"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 850.5557910581002,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011553453547204397",
+            "extra": "mean: 1.1757018299246305 msec\nrounds: 929"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1633.7183574312073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000048639997796987",
+            "extra": "mean: 612.1006080707568 usec\nrounds: 1809"
           }
         ]
       }
