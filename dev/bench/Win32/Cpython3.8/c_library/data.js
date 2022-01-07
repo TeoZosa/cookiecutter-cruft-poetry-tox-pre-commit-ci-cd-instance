@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641565997924,
+  "lastUpdate": 1641566769927,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2870,6 +2870,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000013176156917368258",
             "extra": "mean: 696.875 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "9b150788b60771567fd777ae6926bdb20fecaab8",
+          "message": "Merge pull request #482 from TeoZosa/dependabot/pip/sphinx-autodoc-typehints-1.14.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@3ff6422",
+          "timestamp": "2022-01-07T14:42:25Z",
+          "tree_id": "245390ce647051ca4d0775e8787d30ad47972c2d"
+        },
+        "date": 1641566763762,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 283.1858407079646,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010925092168439078",
+            "extra": "mean: 3.53125 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 817.142857142857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000460704787320568",
+            "extra": "mean: 1.223776223776224 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1502.347417840376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003547788826234665",
+            "extra": "mean: 665.625 usec\nrounds: 10"
           }
         ]
       }
