@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641521282849,
+  "lastUpdate": 1641521935008,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2706,6 +2706,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001040024045365842",
             "extra": "mean: 635.7289459007008 usec\nrounds: 1793"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641521931582,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 286.2555885753877,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002112781138114692",
+            "extra": "mean: 3.493381578947381 msec\nrounds: 304"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 838.5053235127211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008722189507685593",
+            "extra": "mean: 1.1925982721382553 msec\nrounds: 926"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1679.6026631537393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003146047428911917",
+            "extra": "mean: 595.3789083200965 usec\nrounds: 1887"
           }
         ]
       }
