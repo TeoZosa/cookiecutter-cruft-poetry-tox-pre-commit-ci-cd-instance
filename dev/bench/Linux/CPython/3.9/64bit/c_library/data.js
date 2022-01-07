@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641520307120,
+  "lastUpdate": 1641520698827,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3362,6 +3362,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003702194235898518",
             "extra": "mean: 515.4378782075812 usec\nrounds: 2611"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641520696015,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 363.8213307953309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000017472155540106695",
+            "extra": "mean: 2.748601897018935 msec\nrounds: 369"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1021.7980659616792,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012351504834746968",
+            "extra": "mean: 978.6669531996388 usec\nrounds: 1047"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2127.878095883058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000996043275342031",
+            "extra": "mean: 469.9517335766387 usec\nrounds: 2192"
           }
         ]
       }
