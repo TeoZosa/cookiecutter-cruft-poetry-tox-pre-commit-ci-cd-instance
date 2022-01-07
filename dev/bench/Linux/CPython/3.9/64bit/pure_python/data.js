@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641520296421,
+  "lastUpdate": 1641520690276,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3362,6 +3362,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009493954737667753",
             "extra": "mean: 464.9719655796967 usec\nrounds: 2208"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641520686451,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 266.2023219977788,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027181153134022123",
+            "extra": "mean: 3.756541237113416 msec\nrounds: 291"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 733.9841771715929,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002557766697855184",
+            "extra": "mean: 1.3624271899886162 msec\nrounds: 879"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1474.4272981447941,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00025952540217473783",
+            "extra": "mean: 678.2294394971223 usec\nrounds: 1909"
           }
         ]
       }
