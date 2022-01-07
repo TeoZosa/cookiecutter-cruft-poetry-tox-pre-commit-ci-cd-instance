@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641521307973,
+  "lastUpdate": 1641521979037,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2706,6 +2706,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007726923424116407",
             "extra": "mean: 635.4831061055266 usec\nrounds: 1687"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641521976094,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 261.3027881089917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004840315949954919",
+            "extra": "mean: 3.8269779179810786 msec\nrounds: 317"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 824.6070272274594,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016392293416689037",
+            "extra": "mean: 1.2126988577362199 msec\nrounds: 963"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1580.382225543561,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008023177561122166",
+            "extra": "mean: 632.7583187390362 usec\nrounds: 1713"
           }
         ]
       }
