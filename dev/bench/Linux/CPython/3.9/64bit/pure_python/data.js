@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641485563751,
+  "lastUpdate": 1641520296421,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3321,6 +3321,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012223312802602567",
             "extra": "mean: 664.7408719346197 usec\nrounds: 1835"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2cc32fdf0fcabd2f61dc03975d2f8690c3fafbf9",
+          "message": "Merge pull request #463 from TeoZosa/dependabot/pip/mypy-0.930\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ce67bf",
+          "timestamp": "2022-01-07T01:48:59Z",
+          "tree_id": "ea5508efe6ec081f501cbe45a59c60d20890bc1f"
+        },
+        "date": 1641520293103,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 364.8008864364959,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016737586320460982",
+            "extra": "mean: 2.7412214092140887 msec\nrounds: 369"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1034.3334170836988,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012539028902490926",
+            "extra": "mean: 966.8062381852636 usec\nrounds: 1058"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2150.6672961525005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009493954737667753",
+            "extra": "mean: 464.9719655796967 usec\nrounds: 2208"
           }
         ]
       }
