@@ -44,6 +44,8 @@ Table of Contents
   * [:children_crossing: Running The Project](#children_crossing-running-the-project)
     + [:one: Docker Container Project Environment (recommended)](#one-docker-container-project-environment-recommended)
     + [:two: Locally via Poetry (development workflow)](#two-locally-via-poetry-development-workflow)
+- [:clipboard: Summary](#clipboard-summary)
+- [:books: Further Reading](#books-further-reading)
 - [:wrench: Development](#wrench-development)
   * [:building_construction: Package and Dependencies Installation](#building_construction-package-and-dependencies-installation)
   * [:package: Python Module to C-Extension Compilation](#package-python-module-to-c-extension-compilation)
@@ -52,8 +54,6 @@ Table of Contents
   * [:rotating_light: Code Quality](#rotating_light-code-quality)
     + [:arrows_counterclockwise: Automate via Git Pre-Commit Hooks](#arrows_counterclockwise-automate-via-git-pre-commit-hooks)
   * [:memo: Documentation](#memo-documentation)
-- [:clipboard: Summary](#clipboard-summary)
-- [:books: Further Reading](#books-further-reading)
 - [:judge: Legal](#judge-legal)
   * [:page_facing_up: License](#page_facing_up-license)
   * [:busts_in_silhouette: Credits](#busts_in_silhouette-credits)
@@ -125,6 +125,18 @@ make provision-environment # Note: installs ALL dependencies!
 poetry shell # Activate the project's virtual environment
 
 ```
+
+:clipboard: Summary
+===================
+
+- TODO
+
+:books: Further Reading
+=======================
+
+- TODO
+
+---
 
 :wrench: Development
 ====================
@@ -250,18 +262,6 @@ make docs-clean docs-html
 > :fire: **Tip**  
 > For faster feedback loops, this will attempt to automatically open the newly
 > built documentation static HTML in your browser.
-
-:clipboard: Summary
-===================
-
-- TODO
-
-:books: Further Reading
-=======================
-
-- TODO
-
----
 
 :judge: Legal
 =============
