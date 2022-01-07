@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641485619469,
+  "lastUpdate": 1641520330686,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3280,6 +3280,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015535562213807847",
             "extra": "mean: 593.6153089119708 usec\nrounds: 1829"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2cc32fdf0fcabd2f61dc03975d2f8690c3fafbf9",
+          "message": "Merge pull request #463 from TeoZosa/dependabot/pip/mypy-0.930\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ce67bf",
+          "timestamp": "2022-01-07T01:48:59Z",
+          "tree_id": "ea5508efe6ec081f501cbe45a59c60d20890bc1f"
+        },
+        "date": 1641520327151,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 245.47619919082473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031046193032149486",
+            "extra": "mean: 4.073714695340522 msec\nrounds: 279"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 709.0896923483944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003471775099509779",
+            "extra": "mean: 1.4102588301462344 msec\nrounds: 889"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1419.1238469294767,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000924750820003375",
+            "extra": "mean: 704.6601339014036 usec\nrounds: 1643"
           }
         ]
       }
