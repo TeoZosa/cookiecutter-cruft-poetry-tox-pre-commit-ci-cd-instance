@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641485830019,
+  "lastUpdate": 1641520954810,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -2665,6 +2665,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010040577442125889",
             "extra": "mean: 671.1360946745621 usec\nrounds: 1690"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2cc32fdf0fcabd2f61dc03975d2f8690c3fafbf9",
+          "message": "Merge pull request #463 from TeoZosa/dependabot/pip/mypy-0.930\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ce67bf",
+          "timestamp": "2022-01-07T01:48:59Z",
+          "tree_id": "ea5508efe6ec081f501cbe45a59c60d20890bc1f"
+        },
+        "date": 1641520952416,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 264.81220326446135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037325740649364294",
+            "extra": "mean: 3.776261016949151 msec\nrounds: 295"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 841.8043654247308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008041744879840671",
+            "extra": "mean: 1.1879244644870093 msec\nrounds: 887"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1561.1466754631842,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007925097765048519",
+            "extra": "mean: 640.5548022598871 usec\nrounds: 1770"
           }
         ]
       }
