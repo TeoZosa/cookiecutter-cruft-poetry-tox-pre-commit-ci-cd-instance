@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641520330686,
+  "lastUpdate": 1641520707574,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3321,6 +3321,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000924750820003375",
             "extra": "mean: 704.6601339014036 usec\nrounds: 1643"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a79c0736566b15af749153d5401f3e90f10dcdfe",
+          "message": "Merge pull request #444 from TeoZosa/dependabot/pip/black-21.12b0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@ff268a2",
+          "timestamp": "2022-01-07T01:56:02Z",
+          "tree_id": "c02263b9b5aca2dbb6a470280f67e82aa5ac02cb"
+        },
+        "date": 1641520704289,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 337.60149695439395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002978089234792442",
+            "extra": "mean: 2.962072173913045 msec\nrounds: 345"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 985.7777551312683,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014047170100926294",
+            "extra": "mean: 1.0144274353876426 msec\nrounds: 1006"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1966.1463068170146,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016292409677643385",
+            "extra": "mean: 508.60914904084404 usec\nrounds: 2033"
           }
         ]
       }
