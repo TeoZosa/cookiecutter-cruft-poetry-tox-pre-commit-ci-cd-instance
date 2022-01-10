@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641826772098,
+  "lastUpdate": 1641848369729,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3690,6 +3690,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013425456041148373",
             "extra": "mean: 604.0816022356556 usec\nrounds: 2147"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "4d945524da24395c23dee5dc8df96d10f8204583",
+          "message": "Merge pull request #483 from TeoZosa/dependabot/docker/{{cookiecutter.project_slug}}/python-dd3016f\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@06967eb",
+          "timestamp": "2022-01-10T20:56:35Z",
+          "tree_id": "1a300cde5e0eb90cf9e94ba1e15030c751fb1b4c"
+        },
+        "date": 1641848366097,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 268.9817466362522,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00036693279432356346",
+            "extra": "mean: 3.7177243902439003 msec\nrounds: 328"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 775.2958294493557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023217279757019755",
+            "extra": "mean: 1.2898302325581164 msec\nrounds: 946"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1608.965854373241,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001097796017474232",
+            "extra": "mean: 621.5172293942444 usec\nrounds: 2014"
           }
         ]
       }
