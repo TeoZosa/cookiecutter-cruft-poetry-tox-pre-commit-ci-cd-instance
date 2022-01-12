@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641911545408,
+  "lastUpdate": 1641997154669,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3854,6 +3854,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002232351558169558",
             "extra": "mean: 554.1008733624799 usec\nrounds: 2519"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e7ea4feaf08d66a21174e9bec7ce59d6018f22b1",
+          "message": "Merge pull request #492 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.17.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@d61b2f4",
+          "timestamp": "2022-01-12T14:16:19Z",
+          "tree_id": "410ed0af398394e92270fbb1b4fd5819a2c40e96"
+        },
+        "date": 1641997150485,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 265.6872408904528,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00032494284014223865",
+            "extra": "mean: 3.7638239482200664 msec\nrounds: 309"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 767.837909657981,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027672669985048055",
+            "extra": "mean: 1.3023582027168095 msec\nrounds: 957"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1550.034118474516,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010031967425687338",
+            "extra": "mean: 645.1470893970783 usec\nrounds: 1924"
           }
         ]
       }
