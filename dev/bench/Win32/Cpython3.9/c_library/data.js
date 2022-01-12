@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641911723811,
+  "lastUpdate": 1641997284734,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3198,6 +3198,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010416666666666676",
             "extra": "mean: 484.375 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "e7ea4feaf08d66a21174e9bec7ce59d6018f22b1",
+          "message": "Merge pull request #492 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.17.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@d61b2f4",
+          "timestamp": "2022-01-12T14:16:19Z",
+          "tree_id": "410ed0af398394e92270fbb1b4fd5819a2c40e96"
+        },
+        "date": 1641997267465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 357.5418994413409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004941058844013083",
+            "extra": "mean: 2.796875 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1072.4324324324325,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000047685333685949804",
+            "extra": "mean: 932.4596774193549 usec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2057.877813504823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011529137302697228",
+            "extra": "mean: 485.9375 usec\nrounds: 10"
           }
         ]
       }
