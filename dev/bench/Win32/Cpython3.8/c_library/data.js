@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641997272320,
+  "lastUpdate": 1642083675594,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3198,6 +3198,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008869472065586663",
             "extra": "mean: 470.3125 usec\nrounds: 10"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3f3b84e82e20a9b30044b512d10cd9ed8c38ddc0",
+          "message": "Merge pull request #493 from TeoZosa/dependabot/github_actions/release-drafter/release-drafter-5.16.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@d50c10b",
+          "timestamp": "2022-01-13T14:16:54Z",
+          "tree_id": "9fa85074a38d8796a94b72523dc719d78a85cb46"
+        },
+        "date": 1642083670476,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 376.4705882352942,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007365695637359866",
+            "extra": "mean: 2.65625 msec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1066.6666666666665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000036828478186799355",
+            "extra": "mean: 937.5 usec\nrounds: 10"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2071.197411003236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002598953114557219",
+            "extra": "mean: 482.8125 usec\nrounds: 10"
           }
         ]
       }
