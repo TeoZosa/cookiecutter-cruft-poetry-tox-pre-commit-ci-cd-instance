@@ -34,7 +34,7 @@ python = "^3.7"
 
 # Monitoring and Observability
 sentry-sdk = "^1.1.0"
-structlog-sentry-logger = "^0.15.0"
+structlog-sentry-logger = ">=0.15,<0.18"
 # Jupyter Notebook
 jupyter = "^1.0.0"
 matplotlib = "^3.4.2"
