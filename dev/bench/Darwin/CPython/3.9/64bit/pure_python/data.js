@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642434770226,
+  "lastUpdate": 1642436630628,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3362,6 +3362,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000028578267802494153",
             "extra": "mean: 559.6921066387985 usec\nrounds: 1913"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2e27e85b5dc2795fbb08229e0fa59db6bd9598ee",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@83b9207",
+          "timestamp": "2022-01-17T14:53:55Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642436628034,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 298.581870610934,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027005877269698484",
+            "extra": "mean: 3.3491651651651893 msec\nrounds: 333"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 907.2659165421899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011927990172769187",
+            "extra": "mean: 1.1022126829267898 msec\nrounds: 1025"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1711.3813520712126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004854096333404152",
+            "extra": "mean: 584.3233004670421 usec\nrounds: 1927"
           }
         ]
       }
