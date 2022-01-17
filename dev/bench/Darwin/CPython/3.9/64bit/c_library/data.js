@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642436802105,
+  "lastUpdate": 1642437565356,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3403,6 +3403,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003051499205205957",
             "extra": "mean: 612.0051282051412 usec\nrounds: 1755"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3a8ddbe35c3df23dd7dc2fb4e564fed2d8c81ec0",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5dfb52e",
+          "timestamp": "2022-01-17T15:03:07Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642437559696,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 268.54785170523655,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003933877989660128",
+            "extra": "mean: 3.72373114754096 msec\nrounds: 305"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 809.9454406964853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016487338398441797",
+            "extra": "mean: 1.2346510638297854 msec\nrounds: 940"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1535.6931121030239,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008811065000555819",
+            "extra": "mean: 651.1717687074666 usec\nrounds: 1764"
           }
         ]
       }
