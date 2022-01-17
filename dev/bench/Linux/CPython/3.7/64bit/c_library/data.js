@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642431831495,
+  "lastUpdate": 1642432160879,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3977,6 +3977,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001769400732480561",
             "extra": "mean: 593.2646258503411 usec\nrounds: 2058"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "2e27e85b5dc2795fbb08229e0fa59db6bd9598ee",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@83b9207",
+          "timestamp": "2022-01-17T14:53:55Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642432156923,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 248.51188496541997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030016386240606815",
+            "extra": "mean: 4.023952416356861 msec\nrounds: 269"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 724.3395773253322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003462223312896685",
+            "extra": "mean: 1.3805679425837265 msec\nrounds: 836"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1384.1631306169222,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030776125154875983",
+            "extra": "mean: 722.4581972171875 usec\nrounds: 1653"
           }
         ]
       }
