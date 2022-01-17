@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432211461,
+  "lastUpdate": 1642432426173,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4018,6 +4018,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001025681281673104",
             "extra": "mean: 643.4536824877081 usec\nrounds: 1833"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3a8ddbe35c3df23dd7dc2fb4e564fed2d8c81ec0",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5dfb52e",
+          "timestamp": "2022-01-17T15:03:07Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642432422336,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 289.8095967369244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037247215010345754",
+            "extra": "mean: 3.450541359773373 msec\nrounds: 353"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 789.2889305919018,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019533685520352348",
+            "extra": "mean: 1.2669631629700955 msec\nrounds: 1037"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1545.9168040003703,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010985437849605227",
+            "extra": "mean: 646.8653406265454 usec\nrounds: 2011"
           }
         ]
       }
