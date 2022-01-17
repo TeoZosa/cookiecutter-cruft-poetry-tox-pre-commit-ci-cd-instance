@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432160879,
+  "lastUpdate": 1642432378383,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4018,6 +4018,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00030776125154875983",
             "extra": "mean: 722.4581972171875 usec\nrounds: 1653"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3a8ddbe35c3df23dd7dc2fb4e564fed2d8c81ec0",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5dfb52e",
+          "timestamp": "2022-01-17T15:03:07Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642432374377,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 221.64773780777506,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010948137725720706",
+            "extra": "mean: 4.511663461538481 msec\nrounds: 260"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 643.1941354025195,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006729352006170416",
+            "extra": "mean: 1.5547405440414763 msec\nrounds: 772"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1314.6856595209033,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00041668912516626736",
+            "extra": "mean: 760.6380983606524 usec\nrounds: 1525"
           }
         ]
       }
