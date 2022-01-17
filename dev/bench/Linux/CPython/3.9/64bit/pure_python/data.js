@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432162459,
+  "lastUpdate": 1642432367291,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4059,6 +4059,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010092299731123372",
             "extra": "mean: 466.7286621315292 usec\nrounds: 2205"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "3a8ddbe35c3df23dd7dc2fb4e564fed2d8c81ec0",
+          "message": "Merge pull request #499 from TeoZosa/dependabot/pip/sphinx-4.4.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@5dfb52e",
+          "timestamp": "2022-01-17T15:03:07Z",
+          "tree_id": "583c0f37a90496f17fd450dd825892f0946e31be"
+        },
+        "date": 1642432363892,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 365.1246039659672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016709753765135268",
+            "extra": "mean: 2.7387910569105576 msec\nrounds: 369"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1026.7500535780293,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000201869210210735",
+            "extra": "mean: 973.9468690702178 usec\nrounds: 1054"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2144.4436824921695,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009577801973711181",
+            "extra": "mean: 466.3214092140895 usec\nrounds: 2214"
           }
         ]
       }
