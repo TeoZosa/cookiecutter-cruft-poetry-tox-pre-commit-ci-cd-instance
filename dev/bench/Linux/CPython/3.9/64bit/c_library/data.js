@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432406321,
+  "lastUpdate": 1645920771943,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4100,6 +4100,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009260552202790615",
             "extra": "mean: 467.52994120307955 usec\nrounds: 2211"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c2d77a83d039af4c9b9829fa81177ecbec16cd9d",
+          "message": ":heavy_minus_sign: Remove `flakeheaven` from dev deps\n\nSufficient to run it solely via `pre-commit`.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30559bb",
+          "timestamp": "2022-02-26T23:54:16Z",
+          "tree_id": "c82b9da1258bdbce962ee1c17d86607def9d8b54"
+        },
+        "date": 1645920768386,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 290.6051424232082,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00034390786290126407",
+            "extra": "mean: 3.4410953352769664 msec\nrounds: 343"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 820.2825007779605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001561480701761834",
+            "extra": "mean: 1.219092201834849 msec\nrounds: 1090"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1667.7818021697904,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009300353843324019",
+            "extra": "mean: 599.5988196411523 usec\nrounds: 2118"
           }
         ]
       }
