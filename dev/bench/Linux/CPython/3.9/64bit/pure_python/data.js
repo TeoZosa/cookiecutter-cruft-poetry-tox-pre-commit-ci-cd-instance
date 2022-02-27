@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645920570433,
+  "lastUpdate": 1645924240677,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4141,6 +4141,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001543090621830845",
             "extra": "mean: 422.7134443541818 usec\nrounds: 2462"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "ac19be627ebd55d0735ab258313b2ff4f97bc335",
+          "message": "Merge pull request #514 from TeoZosa/dependabot/pip/dot-github/workflows/pip-22.0.3\n\n⬆️ Bump pip from 21.3.1 to 22.0.3 in /.github/workflows\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@08a0cad",
+          "timestamp": "2022-02-27T00:11:44Z",
+          "tree_id": "fc39297d660f74c5d2d3b0aab408d2bd0f8e2888"
+        },
+        "date": 1645924236831,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 315.8666844474038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004804060076627583",
+            "extra": "mean: 3.165892603550324 msec\nrounds: 338"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 913.8833546793746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005246494536237628",
+            "extra": "mean: 1.0942315503173141 msec\nrounds: 1103"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1879.7736844501633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002978090719139991",
+            "extra": "mean: 531.9789335664104 usec\nrounds: 2288"
           }
         ]
       }
