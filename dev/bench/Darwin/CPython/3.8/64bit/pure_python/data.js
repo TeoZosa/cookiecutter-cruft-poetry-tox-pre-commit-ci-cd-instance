@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642437292068,
+  "lastUpdate": 1645920786902,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3444,6 +3444,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00027676978215782663",
             "extra": "mean: 652.0299295774674 usec\nrounds: 1704"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c2d77a83d039af4c9b9829fa81177ecbec16cd9d",
+          "message": ":heavy_minus_sign: Remove `flakeheaven` from dev deps\n\nSufficient to run it solely via `pre-commit`.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30559bb",
+          "timestamp": "2022-02-26T23:54:16Z",
+          "tree_id": "c82b9da1258bdbce962ee1c17d86607def9d8b54"
+        },
+        "date": 1645920784531,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 292.3073831364235,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021880777687507098",
+            "extra": "mean: 3.421056249999979 msec\nrounds: 320"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 917.9687311471345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004461051996267917",
+            "extra": "mean: 1.0893617245005238 msec\nrounds: 951"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1667.4597887122547,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000017231107996132167",
+            "extra": "mean: 599.7146118721578 usec\nrounds: 1752"
           }
         ]
       }
