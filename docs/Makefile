@@ -28,14 +28,7 @@ clean:
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-#
-%: USAGE_PAGE := source/usage.md
-#
 %: Makefile
-#
-	@echo "# Usage" > "$(USAGE_PAGE)"
-	poetry run typer $(shell git rev-parse --show-toplevel)/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/main.py utils docs --name cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance | tail -n +2 >> "$(USAGE_PAGE)"
-#
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 ifneq ($(filter html,$(MAKECMDGOALS)),)
 ifneq ($(shell command -v open),)
