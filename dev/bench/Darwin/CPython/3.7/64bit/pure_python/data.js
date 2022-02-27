@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642437168548,
+  "lastUpdate": 1645920676608,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3444,6 +3444,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000834331234053833",
             "extra": "mean: 666.1291079812222 usec\nrounds: 1704"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c2d77a83d039af4c9b9829fa81177ecbec16cd9d",
+          "message": ":heavy_minus_sign: Remove `flakeheaven` from dev deps\n\nSufficient to run it solely via `pre-commit`.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30559bb",
+          "timestamp": "2022-02-26T23:54:16Z",
+          "tree_id": "c82b9da1258bdbce962ee1c17d86607def9d8b54"
+        },
+        "date": 1645920670872,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 240.28770660950863,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004959681499883841",
+            "extra": "mean: 4.161677740863786 msec\nrounds: 301"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 684.5749408442198,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004205749555436741",
+            "extra": "mean: 1.4607604519773936 msec\nrounds: 885"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1340.501712510755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014917726174694078",
+            "extra": "mean: 745.989349112433 usec\nrounds: 1690"
           }
         ]
       }
