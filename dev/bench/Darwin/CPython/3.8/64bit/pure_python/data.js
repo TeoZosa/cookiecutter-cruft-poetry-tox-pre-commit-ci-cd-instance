@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645926473114,
+  "lastUpdate": 1645927131078,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3567,6 +3567,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008106457495869512",
             "extra": "mean: 644.320359281468 usec\nrounds: 1670"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "60cbccd6c292db4adc0df9eb1175045b6b3aae44",
+          "message": "Merge pull request #535 from TeoZosa/dependabot/github_actions/JamesIves/github-pages-deploy-action-4.2.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@df19510",
+          "timestamp": "2022-02-27T00:32:26Z",
+          "tree_id": "929eb5c86b4d9e0aad93610ed00789d08eac406c"
+        },
+        "date": 1645927128219,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 291.20776554041475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015277629859100728",
+            "extra": "mean: 3.433974358974355 msec\nrounds: 312"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 859.872611464954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008493079001700883",
+            "extra": "mean: 1.1629629629629818 msec\nrounds: 945"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1601.3629562432347,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040480626849958454",
+            "extra": "mean: 624.4680483592426 usec\nrounds: 1737"
           }
         ]
       }
