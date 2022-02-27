@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432355542,
+  "lastUpdate": 1645920448157,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4141,6 +4141,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010793990659722207",
             "extra": "mean: 579.4746610565688 usec\nrounds: 2139"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c2d77a83d039af4c9b9829fa81177ecbec16cd9d",
+          "message": ":heavy_minus_sign: Remove `flakeheaven` from dev deps\n\nSufficient to run it solely via `pre-commit`.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30559bb",
+          "timestamp": "2022-02-26T23:54:16Z",
+          "tree_id": "c82b9da1258bdbce962ee1c17d86607def9d8b54"
+        },
+        "date": 1645920444784,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 264.8704985654736,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000527452852524603",
+            "extra": "mean: 3.7754299003322527 msec\nrounds: 301"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 778.0157287845633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017626880350835812",
+            "extra": "mean: 1.2853210584344181 msec\nrounds: 907"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1496.148664660691,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015542928913479757",
+            "extra": "mean: 668.3827774740475 usec\nrounds: 1829"
           }
         ]
       }
