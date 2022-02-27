@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642432426173,
+  "lastUpdate": 1645920381418,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4059,6 +4059,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010985437849605227",
             "extra": "mean: 646.8653406265454 usec\nrounds: 2011"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erinzosa@ucla.edu",
+            "name": "Teo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "c2d77a83d039af4c9b9829fa81177ecbec16cd9d",
+          "message": ":heavy_minus_sign: Remove `flakeheaven` from dev deps\n\nSufficient to run it solely via `pre-commit`.\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30559bb",
+          "timestamp": "2022-02-26T23:54:16Z",
+          "tree_id": "c82b9da1258bdbce962ee1c17d86607def9d8b54"
+        },
+        "date": 1645920378075,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 339.4902715002524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003512244479909521",
+            "extra": "mean: 2.945592507204603 msec\nrounds: 347"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 988.6321994274258,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013285712868998556",
+            "extra": "mean: 1.0114985133795542 msec\nrounds: 1009"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1991.5466252337546,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014098199684051528",
+            "extra": "mean: 502.1223140495777 usec\nrounds: 2057"
           }
         ]
       }
