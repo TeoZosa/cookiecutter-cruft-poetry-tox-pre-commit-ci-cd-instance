@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645927739957,
+  "lastUpdate": 1645928597192,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4428,6 +4428,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012438607235418575",
             "extra": "mean: 554.647049356213 usec\nrounds: 1864"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "1bbb509770150ba62cb950c082a02c43b3425967",
+          "message": "Merge pull request #531 from TeoZosa/dependabot/pip/pytest-7.0.1\n\n⬆️ Bump pytest from 6.2.5 to 7.0.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@70b425c",
+          "timestamp": "2022-02-27T02:03:34Z",
+          "tree_id": "f11334795e1069a2b911a543756478e809941976"
+        },
+        "date": 1645928594057,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 274.6358067841712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003424272099747578",
+            "extra": "mean: 3.6411858006041897 msec\nrounds: 331"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 792.0281660143997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001411317794476273",
+            "extra": "mean: 1.262581361256563 msec\nrounds: 955"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1581.9047383139985,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015892327959272822",
+            "extra": "mean: 632.1493170731663 usec\nrounds: 2050"
           }
         ]
       }
