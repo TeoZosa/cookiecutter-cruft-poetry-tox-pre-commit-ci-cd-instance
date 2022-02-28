@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646061864184,
+  "lastUpdate": 1646086999055,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4510,6 +4510,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021065755297000017",
             "extra": "mean: 586.3172804532824 usec\nrounds: 2118"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "04daff7bdaf49cb3e2bb39c3e6442d595710741a",
+          "message": "Merge pull request #543 from TeoZosa/dependabot/github_actions/actions/setup-python-3\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@15de0e2",
+          "timestamp": "2022-02-28T22:17:24Z",
+          "tree_id": "5a913a0ab2834f7a187663943011afcd3989d089"
+        },
+        "date": 1646086995484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 276.4966579201839,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031819108943379246",
+            "extra": "mean: 3.6166802431610923 msec\nrounds: 329"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 613.8890242724555,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026144727182013914",
+            "extra": "mean: 1.628958916776758 msec\nrounds: 757"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1536.99362249789,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011139312504386118",
+            "extra": "mean: 650.6207868155111 usec\nrounds: 1881"
           }
         ]
       }
