@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646087903899,
+  "lastUpdate": 1646145332661,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -3936,6 +3936,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000016290754793849105",
             "extra": "mean: 582.1658510060039 usec\nrounds: 1839"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "8011584d866c2886574b4d36d6a6d2a7a9933ac5",
+          "message": "Merge pull request #545 from TeoZosa/dependabot/pip/hypothesis-6.39.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@30cc8f4",
+          "timestamp": "2022-03-01T14:19:43Z",
+          "tree_id": "e6eb73f4aaee2495d0311ea4d1bb110989d57d15"
+        },
+        "date": 1646145323121,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 303.4054910740389,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002518599960976961",
+            "extra": "mean: 3.2959192546583598 msec\nrounds: 322"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 632.1394641752784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011999739980557378",
+            "extra": "mean: 1.5819293948126643 msec\nrounds: 694"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1608.6974517460267,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007002767381257771",
+            "extra": "mean: 621.6209262435477 usec\nrounds: 1749"
           }
         ]
       }
