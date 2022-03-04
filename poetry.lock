@@ -1636,11 +1636,11 @@ python-versions = "*"
 
 [[package]]
 name = "pywinpty"
-version = "2.0.3"
+version = "2.0.4"
 description = "Pseudo terminal support for Windows from Python."
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [[package]]
 name = "pyyaml"
@@ -3323,11 +3323,11 @@ pywin32 = [
     {file = "pywin32-303-cp39-cp39-win_amd64.whl", hash = "sha256:79cbb862c11b9af19bcb682891c1b91942ec2ff7de8151e2aea2e175899cda34"},
 ]
 pywinpty = [
-    {file = "pywinpty-2.0.3-cp310-none-win_amd64.whl", hash = "sha256:7a330ef7a2ce284370b1a1fdd2a80c523585464fa5e5ab934c9f27220fa7feab"},
-    {file = "pywinpty-2.0.3-cp37-none-win_amd64.whl", hash = "sha256:6455f1075f978942d318f95616661c605d5e0f991c5b176c0c852d237aafefc0"},
-    {file = "pywinpty-2.0.3-cp38-none-win_amd64.whl", hash = "sha256:2e7a288a8121393c526d4e6ec7d65edef75d68c7787ab9560e438df867b75a5d"},
-    {file = "pywinpty-2.0.3-cp39-none-win_amd64.whl", hash = "sha256:def51627e6aa659f33ea7a0ea4c6b68365c83af4aad7940600f844746817a0ed"},
-    {file = "pywinpty-2.0.3.tar.gz", hash = "sha256:6b29a826e896105370c38d53904c3aaac6c36146a50448fc0ed5082cf9d092bc"},
+    {file = "pywinpty-2.0.4-cp310-none-win_amd64.whl", hash = "sha256:b13b6736e41437492f2e322294b7ed5b1ac71586f72de998515be2e9b3077b21"},
+    {file = "pywinpty-2.0.4-cp37-none-win_amd64.whl", hash = "sha256:a024231bd077c17cc2d27b63a60d0717745f37e5ef6c1f688cc20a438e761e59"},
+    {file = "pywinpty-2.0.4-cp38-none-win_amd64.whl", hash = "sha256:50209e09fbc96dc6a7d9d5300c87528e2987c55f0761bab0a233e304319429cc"},
+    {file = "pywinpty-2.0.4-cp39-none-win_amd64.whl", hash = "sha256:1eab7442f4a42dfd2a8f5e0b195e018884a58331e8c0289f041b03d3fd875d7f"},
+    {file = "pywinpty-2.0.4.tar.gz", hash = "sha256:a5002c74afc1ddcc85fca25de58ce9cef1a22957582981418c81aaee218675ad"},
 ]
 pyyaml = [
     {file = "PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"},
