@@ -484,7 +484,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.39.1"
+version = "6.39.2"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -812,7 +812,7 @@ test = ["codecov", "coverage", "ipykernel", "ipython", "mock", "mypy", "pre-comm
 
 [[package]]
 name = "jupyter-console"
-version = "6.4.0"
+version = "6.4.2"
 description = "Jupyter terminal console"
 category = "main"
 optional = false
@@ -1047,7 +1047,7 @@ testing = ["beautifulsoup4", "coverage", "docutils (>=0.17.0,<0.18.0)", "pytest 
 
 [[package]]
 name = "nbclient"
-version = "0.5.11"
+version = "0.5.12"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
 category = "main"
 optional = false
@@ -1057,7 +1057,7 @@ python-versions = ">=3.7.0"
 jupyter-client = ">=6.1.5"
 nbformat = ">=5.0"
 nest-asyncio = "*"
-traitlets = ">=4.2"
+traitlets = ">=5.0.0"
 
 [package.extras]
 sphinx = ["Sphinx (>=1.7)", "sphinx-book-theme", "mock", "moto", "myst-parser"]
@@ -1113,7 +1113,7 @@ test = ["check-manifest", "fastjsonschema", "testpath", "pytest", "pytest-cov"]
 
 [[package]]
 name = "nbqa"
-version = "1.2.3"
+version = "1.3.0"
 description = "Run any standard Python code quality tool on a Jupyter Notebook"
 category = "dev"
 optional = false
@@ -1636,7 +1636,7 @@ python-versions = "*"
 
 [[package]]
 name = "pywinpty"
-version = "2.0.4"
+version = "2.0.5"
 description = "Pseudo terminal support for Windows from Python."
 category = "main"
 optional = false
@@ -2684,8 +2684,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.39.1-py3-none-any.whl", hash = "sha256:963bf340994a7acea2a56e9f79a0e67aefc6ab31cbbc5b052c37d7e9cd582334"},
-    {file = "hypothesis-6.39.1.tar.gz", hash = "sha256:f0d39e9c99bc01efcb1741a2e75474db342184b8c070eb0efc8e3943e11bf60e"},
+    {file = "hypothesis-6.39.2-py3-none-any.whl", hash = "sha256:8685bc3a1da8527334b38fd84bdb627dbbff9959ed9c9592e32292fd091f748c"},
+    {file = "hypothesis-6.39.2.tar.gz", hash = "sha256:7a16ba804baeebdcc5dc4638c32c5fc3fc552c1be30ae21a84c5d9c802b06e31"},
 ]
 icontract = [
     {file = "icontract-2.6.1.tar.gz", hash = "sha256:dacfc55009993058cd17576faa291ab76b6f39d80ec9d1e524778cd79da11857"},
@@ -2766,8 +2766,8 @@ jupyter-client = [
     {file = "jupyter_client-7.1.2.tar.gz", hash = "sha256:4ea61033726c8e579edb55626d8ee2e6bf0a83158ddf3751b8dd46b2c5cd1e96"},
 ]
 jupyter-console = [
-    {file = "jupyter_console-6.4.0-py3-none-any.whl", hash = "sha256:7799c4ea951e0e96ba8260575423cb323ea5a03fcf5503560fa3e15748869e27"},
-    {file = "jupyter_console-6.4.0.tar.gz", hash = "sha256:242248e1685039cd8bff2c2ecb7ce6c1546eb50ee3b08519729e6e881aec19c7"},
+    {file = "jupyter_console-6.4.2-py3-none-any.whl", hash = "sha256:1d52cf1a80f0c7accaa2b8c68ca3e6fa2311ec33ac9651d6cb6b9168cca1dad9"},
+    {file = "jupyter_console-6.4.2.tar.gz", hash = "sha256:fce5bccac926c690924168ad46cae33a7d78d643a7b60af0f260af25d38ecf26"},
 ]
 jupyter-core = [
     {file = "jupyter_core-4.9.2-py3-none-any.whl", hash = "sha256:f875e4d27e202590311d468fa55f90c575f201490bd0c18acabe4e318db4a46d"},
@@ -3003,8 +3003,8 @@ myst-parser = [
     {file = "myst_parser-0.17.0-py3-none-any.whl", hash = "sha256:555ec2950aba5ae5dac5c162c7e9a43ad4a7291cfac644d8f5f84da8efa6f356"},
 ]
 nbclient = [
-    {file = "nbclient-0.5.11-py3-none-any.whl", hash = "sha256:03e857bea3012377289daa1e1c1651f4fc0295bcd109ccd36a337efcdbebaed7"},
-    {file = "nbclient-0.5.11.tar.gz", hash = "sha256:751516992f34b58172bad54eef1e4bf7e4f4460d58e255ca1a4e5c9649476007"},
+    {file = "nbclient-0.5.12-py3-none-any.whl", hash = "sha256:ff2d908024aaabb8864e5392c3517c76e17994b1f9330dda9b5284da9275c499"},
+    {file = "nbclient-0.5.12.tar.gz", hash = "sha256:0dd7ee6db59753563035f606421c3b558bd8c28b116d7e3ab8a0b4026cb44e38"},
 ]
 nbconvert = [
     {file = "nbconvert-6.4.2-py3-none-any.whl", hash = "sha256:7b006ae9979af56200e7fa3db39d9d12c99e811e8843b05dbe518e5b754bcb2e"},
@@ -3015,8 +3015,8 @@ nbformat = [
     {file = "nbformat-5.1.3.tar.gz", hash = "sha256:b516788ad70771c6250977c1374fcca6edebe6126fd2adb5a69aa5c2356fd1c8"},
 ]
 nbqa = [
-    {file = "nbqa-1.2.3-py3-none-any.whl", hash = "sha256:ffabf18f318f91ef13d8f2545cc068474502e5f378d6b6a065a224b166e6e951"},
-    {file = "nbqa-1.2.3.tar.gz", hash = "sha256:07cb2774b844683e85600acb20cf202e9878e9146b4198b0d354ebac44f8568a"},
+    {file = "nbqa-1.3.0-py3-none-any.whl", hash = "sha256:678d7a2c34091e711c698be3b3570228d9724cf8de5efae4b88a967e2a436639"},
+    {file = "nbqa-1.3.0.tar.gz", hash = "sha256:4b26352f1ab64f2b6c7e09413486009ecd6843e5b85af2df6ff72b9d04e36b9a"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.4-py3-none-any.whl", hash = "sha256:3fdd0d6061a2bb16f21fe8a9c6a7945be83521d81a0d15cff52e9edee50101d6"},
@@ -3323,11 +3323,11 @@ pywin32 = [
     {file = "pywin32-303-cp39-cp39-win_amd64.whl", hash = "sha256:79cbb862c11b9af19bcb682891c1b91942ec2ff7de8151e2aea2e175899cda34"},
 ]
 pywinpty = [
-    {file = "pywinpty-2.0.4-cp310-none-win_amd64.whl", hash = "sha256:b13b6736e41437492f2e322294b7ed5b1ac71586f72de998515be2e9b3077b21"},
-    {file = "pywinpty-2.0.4-cp37-none-win_amd64.whl", hash = "sha256:a024231bd077c17cc2d27b63a60d0717745f37e5ef6c1f688cc20a438e761e59"},
-    {file = "pywinpty-2.0.4-cp38-none-win_amd64.whl", hash = "sha256:50209e09fbc96dc6a7d9d5300c87528e2987c55f0761bab0a233e304319429cc"},
-    {file = "pywinpty-2.0.4-cp39-none-win_amd64.whl", hash = "sha256:1eab7442f4a42dfd2a8f5e0b195e018884a58331e8c0289f041b03d3fd875d7f"},
-    {file = "pywinpty-2.0.4.tar.gz", hash = "sha256:a5002c74afc1ddcc85fca25de58ce9cef1a22957582981418c81aaee218675ad"},
+    {file = "pywinpty-2.0.5-cp310-none-win_amd64.whl", hash = "sha256:f86c76e2881c37e69678cbbf178109f8da1fa8584db24d58e1b9369b0276cfcb"},
+    {file = "pywinpty-2.0.5-cp37-none-win_amd64.whl", hash = "sha256:ff9b52f182650cfdf3db1b264a6fe0963eb9d996a7a1fa843ac406c1e32111f8"},
+    {file = "pywinpty-2.0.5-cp38-none-win_amd64.whl", hash = "sha256:651ee1467bd7eb6f64d44dbc954b7ab7d15ab6d8adacc4e13299692c67c5d5d2"},
+    {file = "pywinpty-2.0.5-cp39-none-win_amd64.whl", hash = "sha256:e59a508ae78374febada3e53b5bbc90b5ad07ae68cbfd72a2e965f9793ae04f3"},
+    {file = "pywinpty-2.0.5.tar.gz", hash = "sha256:e125d3f1804d8804952b13e33604ad2ca8b9b2cac92b27b521c005d1604794f8"},
 ]
 pyyaml = [
     {file = "PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"},
