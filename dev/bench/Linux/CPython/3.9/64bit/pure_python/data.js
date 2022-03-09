@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646667010072,
+  "lastUpdate": 1646837453370,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4879,6 +4879,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010301992703063645",
             "extra": "mean: 461.0470694319383 usec\nrounds: 2218"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6ca66af8c2a2a81f90bc77806b8272e9eeb87ec7",
+          "message": "Merge pull request #557 from TeoZosa/dependabot/pip/emoji-1.7.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7fe9946",
+          "timestamp": "2022-03-09T14:29:30Z",
+          "tree_id": "43eeef161e7f4a2a7943b195d8d596945a0b1504"
+        },
+        "date": 1646837448955,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 279.12904273587446,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006876139093286042",
+            "extra": "mean: 3.5825723837209194 msec\nrounds: 344"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 612.6684498753349,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004014511738950904",
+            "extra": "mean: 1.6322041720990839 msec\nrounds: 767"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1528.640765096957,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002677747599843622",
+            "extra": "mean: 654.1759338313689 usec\nrounds: 1874"
           }
         ]
       }
