@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646667279126,
+  "lastUpdate": 1646837753086,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4223,6 +4223,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000045678150142526144",
             "extra": "mean: 649.1979845880244 usec\nrounds: 1687"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6ca66af8c2a2a81f90bc77806b8272e9eeb87ec7",
+          "message": "Merge pull request #557 from TeoZosa/dependabot/pip/emoji-1.7.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@7fe9946",
+          "timestamp": "2022-03-09T14:29:30Z",
+          "tree_id": "43eeef161e7f4a2a7943b195d8d596945a0b1504"
+        },
+        "date": 1646837739673,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 265.6488975135252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003338144421923868",
+            "extra": "mean: 3.76436721311477 msec\nrounds: 305"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 613.1103275427317,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012573695061479127",
+            "extra": "mean: 1.6310278184480644 msec\nrounds: 683"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1551.938035689889,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000030136358400091795",
+            "extra": "mean: 644.3556231002909 usec\nrounds: 1645"
           }
         ]
       }
