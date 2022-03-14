@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646838328978,
+  "lastUpdate": 1647269019276,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4264,6 +4264,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000041551068383380856",
             "extra": "mean: 619.1390804597565 usec\nrounds: 1740"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "d20d4c6ad877f485eb4ad3ae83f5bd00766327d7",
+          "message": "Merge pull request #560 from TeoZosa/dependabot/pip/pytest-7.1.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8baaec3",
+          "timestamp": "2022-03-14T14:04:31Z",
+          "tree_id": "28c0d3ca376d1fc4a77f626c30f77d99a90d56e2"
+        },
+        "date": 1647269015903,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 299.543358669321,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020056059948101145",
+            "extra": "mean: 3.3384148606811332 msec\nrounds: 323"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 658.181804848182,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005651595884935393",
+            "extra": "mean: 1.5193370473537517 msec\nrounds: 718"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1654.6465805176513,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000238349622202467",
+            "extra": "mean: 604.3586659376849 usec\nrounds: 1829"
           }
         ]
       }
