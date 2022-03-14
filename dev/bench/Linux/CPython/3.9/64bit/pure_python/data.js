@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647268717928,
+  "lastUpdate": 1647269590853,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4961,6 +4961,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000011553218668146081",
             "extra": "mean: 472.7743106617277 usec\nrounds: 2176"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "77606ac413657b997407f0ee394ab0f2d16f0689",
+          "message": "Merge pull request #560 from TeoZosa/dependabot/pip/pytest-7.1.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@69b2e59",
+          "timestamp": "2022-03-14T14:18:35Z",
+          "tree_id": "28c0d3ca376d1fc4a77f626c30f77d99a90d56e2"
+        },
+        "date": 1647269586330,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 331.4258261668605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001933513500532912",
+            "extra": "mean: 3.0172663716814196 msec\nrounds: 339"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 703.6486097715352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016688129333449522",
+            "extra": "mean: 1.4211638964577586 msec\nrounds: 734"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1815.2898953298786,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012391843925953682",
+            "extra": "mean: 550.876200309746 usec\nrounds: 1937"
           }
         ]
       }
