@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647269019276,
+  "lastUpdate": 1647270729705,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4305,6 +4305,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000238349622202467",
             "extra": "mean: 604.3586659376849 usec\nrounds: 1829"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "77606ac413657b997407f0ee394ab0f2d16f0689",
+          "message": "Merge pull request #560 from TeoZosa/dependabot/pip/pytest-7.1.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@69b2e59",
+          "timestamp": "2022-03-14T14:18:35Z",
+          "tree_id": "28c0d3ca376d1fc4a77f626c30f77d99a90d56e2"
+        },
+        "date": 1647270722724,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 232.93077479738716,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007282268383990515",
+            "extra": "mean: 4.293120996441288 msec\nrounds: 281"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 539.0869819624089,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033329424823744783",
+            "extra": "mean: 1.8549882179676358 msec\nrounds: 679"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1529.1196588066455,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008250637765232987",
+            "extra": "mean: 653.97105729477 usec\nrounds: 1693"
           }
         ]
       }
