@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647523827476,
+  "lastUpdate": 1647612950193,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4387,6 +4387,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004382687719662905",
             "extra": "mean: 609.9346961953737 usec\nrounds: 1761"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "1ee678091888bde33391cde28cd170f059f39c29",
+          "message": "Merge pull request #564 from TeoZosa/dependabot/pip/pytest-7.1.1\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@218e669",
+          "timestamp": "2022-03-18T13:33:10Z",
+          "tree_id": "5924cab4f532ef0ec69d4e469233c422f611e158"
+        },
+        "date": 1647612946101,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 222.54583125908113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007879880399273258",
+            "extra": "mean: 4.4934564459930515 msec\nrounds: 287"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 492.75029540059734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004122824747699915",
+            "extra": "mean: 2.0294254703328334 msec\nrounds: 691"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1516.182741402747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000643524035575959",
+            "extra": "mean: 659.5511033681973 usec\nrounds: 1722"
           }
         ]
       }
