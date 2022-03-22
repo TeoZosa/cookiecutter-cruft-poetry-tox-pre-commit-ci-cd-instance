@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647611945041,
+  "lastUpdate": 1647926656259,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -5125,6 +5125,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010400582702228071",
             "extra": "mean: 472.98619420154745 usec\nrounds: 2173"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "914948f4304d292710980e81846e432be9fe8621",
+          "message": "Merge pull request #561 from TeoZosa/dependabot/pip/mypy-0.941\n\n⬆️ Bump mypy from 0.931 to 0.941\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@8a86b71",
+          "timestamp": "2022-03-22T05:12:03Z",
+          "tree_id": "0c3f681dc5cad527848b1d903dc09842a67b69b1"
+        },
+        "date": 1647926651925,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 321.4178954375697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030170910676205844",
+            "extra": "mean: 3.111214447592057 msec\nrounds: 353"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 683.7962507640976,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003766042644630428",
+            "extra": "mean: 1.4624239294710453 msec\nrounds: 794"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1699.9181082177286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026998140892518205",
+            "extra": "mean: 588.263631739558 usec\nrounds: 1966"
           }
         ]
       }
