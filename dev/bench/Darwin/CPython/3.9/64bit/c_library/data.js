@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648220254253,
+  "lastUpdate": 1648482462986,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4592,6 +4592,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009577953366943485",
             "extra": "mean: 650.2913429522902 usec\nrounds: 1802"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a70aad69c999c320700abfb8aff00a9c006d5744",
+          "message": "Merge pull request #572 from TeoZosa/dependabot/pip/pylint-2.13.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ccb527",
+          "timestamp": "2022-03-28T14:56:43Z",
+          "tree_id": "4424ba53b68fae1668affd2ff6fc06c472ffbf03"
+        },
+        "date": 1648482459992,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 280.34435631767815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004282398975269483",
+            "extra": "mean: 3.5670416666666505 msec\nrounds: 312"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 539.5267793160973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037654425632992656",
+            "extra": "mean: 1.853476117103209 msec\nrounds: 649"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1535.1438283562973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009565238055216649",
+            "extra": "mean: 651.4047619047628 usec\nrounds: 1806"
           }
         ]
       }
