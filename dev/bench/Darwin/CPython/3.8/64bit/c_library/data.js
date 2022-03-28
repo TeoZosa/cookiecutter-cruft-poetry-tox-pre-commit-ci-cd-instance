@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648219623142,
+  "lastUpdate": 1648481997194,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4592,6 +4592,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007390363225822597",
             "extra": "mean: 631.7081871344925 usec\nrounds: 1710"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a70aad69c999c320700abfb8aff00a9c006d5744",
+          "message": "Merge pull request #572 from TeoZosa/dependabot/pip/pylint-2.13.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ccb527",
+          "timestamp": "2022-03-28T14:56:43Z",
+          "tree_id": "4424ba53b68fae1668affd2ff6fc06c472ffbf03"
+        },
+        "date": 1648481993871,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 277.96575248792726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002643930695306717",
+            "extra": "mean: 3.59756549520766 msec\nrounds: 313"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 615.4706460067857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011318125084402705",
+            "extra": "mean: 1.6247728571428486 msec\nrounds: 700"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1564.442799890078,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009560952755506738",
+            "extra": "mean: 639.2052173913056 usec\nrounds: 1725"
           }
         ]
       }
