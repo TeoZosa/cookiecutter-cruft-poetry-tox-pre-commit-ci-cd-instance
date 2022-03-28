@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648481741103,
+  "lastUpdate": 1648484296203,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4633,6 +4633,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005933845472150276",
             "extra": "mean: 656.4542682926989 usec\nrounds: 1640"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "6622a4c2848afb95f81faf5a088c6608205082ff",
+          "message": "Merge pull request #575 from TeoZosa/dependabot/pip/sphinxcontrib-confluencebuilder-1.8.0\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0405001",
+          "timestamp": "2022-03-28T15:19:53Z",
+          "tree_id": "3be12ab5ea2a8527c51043c5120c0181872e2ec7"
+        },
+        "date": 1648484292849,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 252.75111434704917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004916336515781083",
+            "extra": "mean: 3.9564612903225953 msec\nrounds: 310"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 565.7078060078193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029401240401221",
+            "extra": "mean: 1.7676970149253655 msec\nrounds: 670"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1413.8604653556924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009682177325804622",
+            "extra": "mean: 707.2833737864115 usec\nrounds: 1648"
           }
         ]
       }
