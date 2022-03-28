@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648482999598,
+  "lastUpdate": 1648484022571,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -5330,6 +5330,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000011178540427165626",
             "extra": "mean: 546.3751126689941 usec\nrounds: 1997"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "d20e2b98b3d52154d520fc0c37ae0675836fefb7",
+          "message": "Merge pull request #574 from TeoZosa/dependabot/pip/hypothesis-6.39.6\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@b7a2128",
+          "timestamp": "2022-03-28T15:41:55Z",
+          "tree_id": "265d4eef2eb0c88d986a0495ad57dfd22708f9e4"
+        },
+        "date": 1648484018939,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 338.88760949059827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000049917842643921006",
+            "extra": "mean: 2.9508308123249423 msec\nrounds: 357"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 716.0366947745872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012012480486525026",
+            "extra": "mean: 1.3965764705882933 msec\nrounds: 799"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1854.1554161685956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000019290206449011627",
+            "extra": "mean: 539.3291151754624 usec\nrounds: 2023"
           }
         ]
       }
