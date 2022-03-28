@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648219306029,
+  "lastUpdate": 1648481729366,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -4592,6 +4592,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016635776307806347",
             "extra": "mean: 688.4760751060003 usec\nrounds: 1651"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action"
+          },
+          "id": "a70aad69c999c320700abfb8aff00a9c006d5744",
+          "message": "Merge pull request #572 from TeoZosa/dependabot/pip/pylint-2.13.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@0ccb527",
+          "timestamp": "2022-03-28T14:56:43Z",
+          "tree_id": "4424ba53b68fae1668affd2ff6fc06c472ffbf03"
+        },
+        "date": 1648481724946,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 270.1372618245237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028448419907609415",
+            "extra": "mean: 3.7018217821782096 msec\nrounds: 303"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 619.5901457423882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008970575886402957",
+            "extra": "mean: 1.613970149253758 msec\nrounds: 670"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1547.1275970651257,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003598986637948788",
+            "extra": "mean: 646.3590992087419 usec\nrounds: 1643"
           }
         ]
       }
