@@ -15,7 +15,6 @@ classifiers = [
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: Implementation :: CPython",
@@ -30,7 +29,7 @@ generate-setup-file = true
 Changelog = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
 # Monitoring and Observability
 sentry-sdk = "^1.5.6"
