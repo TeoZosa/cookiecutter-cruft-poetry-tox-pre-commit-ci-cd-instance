@@ -57,7 +57,7 @@ types-emoji = { version = "^1.2.7", optional = true} # PEP 561 compliant stub pa
 # Project-Specific
 python-dotenv = "^0.19.2"
 importlib-metadata = "^4.11.1"
-rich = "^11.2.0"
+rich = ">=11.2,<13.0"
 typer = {extras = ["all"], version = "^0.4.0"}
 
 [tool.poetry.dev-dependencies]
