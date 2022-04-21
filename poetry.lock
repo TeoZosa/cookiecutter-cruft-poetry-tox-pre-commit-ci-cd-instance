@@ -321,11 +321,11 @@ toml = ["tomli"]
 
 [[package]]
 name = "cruft"
-version = "2.10.0"
+version = "2.10.2"
 description = "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of CookieCutter."
 category = "dev"
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.6.2,<4.0.0"
 
 [package.dependencies]
 click = ">=7.1.2,<9.0.0"
@@ -2431,7 +2431,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "3239362f7fe61a875e0cf4a6bfa99d2a460c627544dbd3247193a2f36056a499"
+content-hash = "01a7817153b3db646d2da3e664ad8bff7078cc15ea196ec501d373c94f36ac70"
 
 [metadata.files]
 alabaster = [
@@ -2685,8 +2685,8 @@ coverage = [
     {file = "coverage-6.3.2.tar.gz", hash = "sha256:03e2a7826086b91ef345ff18742ee9fc47a6839ccd517061ef8fa1976e652ce9"},
 ]
 cruft = [
-    {file = "cruft-2.10.0-py3-none-any.whl", hash = "sha256:72dc58799e308571a4edbb13bcd589260a2ce0003682c167e41c81c4078d5723"},
-    {file = "cruft-2.10.0.tar.gz", hash = "sha256:4d3737eb072f44737f501ff1e88de4f762a4a3bb1f08784e708b0598a4581516"},
+    {file = "cruft-2.10.2-py3-none-any.whl", hash = "sha256:8ccf0b74ea07f4de3bc7c6a798c0fbfb922a02c7c44f472905edd624f383085c"},
+    {file = "cruft-2.10.2.tar.gz", hash = "sha256:fe7aaace048df17efc0e597c8035cb0deaa7a8734a86eb8c6cca5388971a2a42"},
 ]
 cycler = [
     {file = "cycler-0.11.0-py3-none-any.whl", hash = "sha256:3a27e95f763a428a739d2add979fa7494c912a32c17c4c38c4d5f082cad165a3"},
