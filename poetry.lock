@@ -475,19 +475,20 @@ testing = ["covdefaults (>=1.2.0)", "coverage (>=4)", "pytest (>=4)", "pytest-co
 
 [[package]]
 name = "fonttools"
-version = "4.32.0"
+version = "4.33.1"
 description = "Tools to manipulate font files"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.extras]
-all = ["fs (>=2.2.0,<3)", "lxml (>=4.0,<5)", "zopfli (>=0.1.4)", "lz4 (>=1.7.4.2)", "matplotlib", "sympy", "skia-pathops (>=0.5.0)", "brotlicffi (>=0.8.0)", "scipy", "brotli (>=1.0.1)", "munkres", "unicodedata2 (>=14.0.0)", "xattr"]
+all = ["fs (>=2.2.0,<3)", "lxml (>=4.0,<5)", "zopfli (>=0.1.4)", "lz4 (>=1.7.4.2)", "matplotlib", "sympy", "skia-pathops (>=0.5.0)", "uharfbuzz (>=0.23.0)", "brotlicffi (>=0.8.0)", "scipy", "brotli (>=1.0.1)", "munkres", "unicodedata2 (>=14.0.0)", "xattr"]
 graphite = ["lz4 (>=1.7.4.2)"]
 interpolatable = ["scipy", "munkres"]
 lxml = ["lxml (>=4.0,<5)"]
 pathops = ["skia-pathops (>=0.5.0)"]
 plot = ["matplotlib"]
+repacker = ["uharfbuzz (>=0.23.0)"]
 symfont = ["sympy"]
 type1 = ["xattr"]
 ufo = ["fs (>=2.2.0,<3)"]
@@ -526,7 +527,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.43.3"
+version = "6.44.0"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -2431,7 +2432,7 @@ docs = ["emoji", "myst-parser", "pygments", "sphinx", "sphinx-autoapi", "sphinx-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "01a7817153b3db646d2da3e664ad8bff7078cc15ea196ec501d373c94f36ac70"
+content-hash = "3239362f7fe61a875e0cf4a6bfa99d2a460c627544dbd3247193a2f36056a499"
 
 [metadata.files]
 alabaster = [
@@ -2764,8 +2765,8 @@ filelock = [
     {file = "filelock-3.6.0.tar.gz", hash = "sha256:9cd540a9352e432c7246a48fe4e8712b10acb1df2ad1f30e8c070b82ae1fed85"},
 ]
 fonttools = [
-    {file = "fonttools-4.32.0-py3-none-any.whl", hash = "sha256:b038d1a0dee0079de7ade57071e2e2aced6e35bd697de244ac62938b2b1628c1"},
-    {file = "fonttools-4.32.0.zip", hash = "sha256:59a90de72149893167e3d552ae2402c6874e006b9adc3feaf5f6d706fe20d392"},
+    {file = "fonttools-4.33.1-py3-none-any.whl", hash = "sha256:50f0c76985321412123a1c32d1017ccad0e4ab1c71c8e64797cd7ffcbb7a379f"},
+    {file = "fonttools-4.33.1.zip", hash = "sha256:66dd757b8a9d7b07d61c22b8d973282990c45343572b88e5fc722b3a8272598e"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
@@ -2779,8 +2780,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.43.3-py3-none-any.whl", hash = "sha256:b8588f4b6511481dd967686db2915104d547899e441af4d670fc1a3051cae573"},
-    {file = "hypothesis-6.43.3.tar.gz", hash = "sha256:8580703d83cf9552489195e9c603047efde56d1551d6df1d22f11055186dc734"},
+    {file = "hypothesis-6.44.0-py3-none-any.whl", hash = "sha256:8b43dd0154f5918b0faa3f9d59f5552d9c8671073f6b906c797a8505fd5d09c3"},
+    {file = "hypothesis-6.44.0.tar.gz", hash = "sha256:620ffa1782f9cb0b732b66b811d11c3beeb678b96fae947740aaab1dfd74a996"},
 ]
 icontract = [
     {file = "icontract-2.6.1.tar.gz", hash = "sha256:dacfc55009993058cd17576faa291ab76b6f39d80ec9d1e524778cd79da11857"},
