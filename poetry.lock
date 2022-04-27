@@ -585,7 +585,7 @@ dev = ["black (==20.8b1)", "mypy (==0.902)", "pylint (==2.3.1)", "pydocstyle (>=
 
 [[package]]
 name = "identify"
-version = "2.4.12"
+version = "2.5.0"
 description = "File identification library for Python"
 category = "dev"
 optional = false
@@ -2294,7 +2294,7 @@ test = ["shellingham (>=1.3.0,<2.0.0)", "pytest (>=4.4.0,<5.4.0)", "pytest-cov (
 
 [[package]]
 name = "types-emoji"
-version = "1.2.7"
+version = "1.2.8"
 description = "Typing stubs for emoji"
 category = "main"
 optional = true
@@ -2790,8 +2790,8 @@ icontract-hypothesis = [
     {file = "icontract-hypothesis-1.1.7.tar.gz", hash = "sha256:40f5be35ae5a7d32b7058b579b1eb574367c80709de8bebb52bef685aa01662f"},
 ]
 identify = [
-    {file = "identify-2.4.12-py2.py3-none-any.whl", hash = "sha256:5f06b14366bd1facb88b00540a1de05b69b310cbc2654db3c7e07fa3a4339323"},
-    {file = "identify-2.4.12.tar.gz", hash = "sha256:3f3244a559290e7d3deb9e9adc7b33594c1bc85a9dd82e0f1be519bf12a1ec17"},
+    {file = "identify-2.5.0-py2.py3-none-any.whl", hash = "sha256:3acfe15a96e4272b4ec5662ee3e231ceba976ef63fd9980ed2ce9cc415df393f"},
+    {file = "identify-2.5.0.tar.gz", hash = "sha256:c83af514ea50bf2be2c4a3f2fb349442b59dc87284558ae9ff54191bff3541d2"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
@@ -3755,8 +3755,8 @@ typer = [
     {file = "typer-0.4.1.tar.gz", hash = "sha256:5646aef0d936b2c761a10393f0384ee6b5c7fe0bb3e5cd710b17134ca1d99cff"},
 ]
 types-emoji = [
-    {file = "types-emoji-1.2.7.tar.gz", hash = "sha256:3be036d560ff90351944bb08f8e70447c7e831660fe51c4599974a326585aacb"},
-    {file = "types_emoji-1.2.7-py3-none-any.whl", hash = "sha256:003f6140fffe8ab8a606bf030416f8a48785039882c97e3d1c5d9a1baf7c7673"},
+    {file = "types-emoji-1.2.8.tar.gz", hash = "sha256:6170e368b596ae32b24204505c5edbd2e17868198aad2ceb5875e3afc5593399"},
+    {file = "types_emoji-1.2.8-py3-none-any.whl", hash = "sha256:49b87d2f0a178d4df2a41dccce71a58c4947a80adf0234dbe327ae8823659884"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.2.0-py3-none-any.whl", hash = "sha256:6657594ee297170d19f67d55c05852a874e7eb634f4f753dbd667855e07c1708"},
