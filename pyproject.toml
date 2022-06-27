@@ -76,7 +76,7 @@ pytest-emoji = "^0.2.0"
 pytest-mock = "^3.7.0"
 pytest-sugar = "^0.9.4"
 pytest-xdist = "^2.5.0"
-hypothesis = "^6.38.0"
+hypothesis = "^6.47.5"
 icontract-hypothesis = "^1.1.7"
 mutmut = "^2.4.0"
 xdoctest = {extras = ["all"], version = "^0.15.10"}
