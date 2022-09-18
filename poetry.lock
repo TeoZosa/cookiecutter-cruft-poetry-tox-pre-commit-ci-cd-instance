@@ -575,36 +575,6 @@ redis = ["redis (>=3.0.0)"]
 zoneinfo = ["backports.zoneinfo (>=0.2.1)", "tzdata (>=2022.2)"]
 
 [[package]]
-name = "icontract"
-version = "2.6.2"
-description = "Provide design-by-contract with informative violation messages."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-asttokens = ">=2,<3"
-typing-extensions = "*"
-
-[package.extras]
-dev = ["astor (==0.8.1)", "asyncstdlib (==3.9.1)", "coverage (>=4.5.1,<5)", "deal (==4.23.3)", "docutils (>=0.14,<1)", "dpcontracts (==0.6.0)", "mypy (==0.971)", "numpy (>=1,<2)", "py-cpuinfo (>=5.0.0,<6)", "pydocstyle (>=6.1.1,<7)", "pygments (>=2.2.0,<3)", "pylint (==2.13.9)", "tabulate (>=0.8.7,<1)", "tox (>=3.0.0)", "typeguard (>=2,<3)", "yapf (==0.20.2)"]
-
-[[package]]
-name = "icontract-hypothesis"
-version = "1.1.7"
-description = "Combine contracts and automatic testing."
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-hypothesis = ">=5,<7"
-icontract = ">=2.5.2,<3"
-
-[package.extras]
-dev = ["black (==20.8b1)", "coverage (>=4.5.1,<5)", "deal (==4.4.0)", "docutils (>=0.14,<1)", "dpcontracts (==0.6.0)", "hypothesis[dpcontracts] (>=5,<6)", "mypy (==0.902)", "py-cpuinfo (>=5,<6)", "pydocstyle (>=2.1.1,<3)", "pygments (>=2,<3)", "pylint (==2.3.1)", "tabulate (==0.8.7)"]
-
-[[package]]
 name = "identify"
 version = "2.5.5"
 description = "File identification library for Python"
@@ -2510,7 +2480,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "3d68cc293505b935086dea739a2e824e8c6e4f84320ed3e464fc68415dccfd90"
+content-hash = "dfb3f4e8cd32d4bef957cd724d6f2faa05b6a170486e2bdb794c67f29490c489"
 
 [metadata.files]
 alabaster = [
@@ -2954,13 +2924,6 @@ glob2 = [
 hypothesis = [
     {file = "hypothesis-6.54.6-py3-none-any.whl", hash = "sha256:e44833325f9a55f795596ceefd7ede7d626cfe45836025d2647cccaff7070e10"},
     {file = "hypothesis-6.54.6.tar.gz", hash = "sha256:2d5e2d5ccd0efce4e0968a6164f4e4853f808e33f4d91490c975c98beec0c7c3"},
-]
-icontract = [
-    {file = "icontract-2.6.2-py3-none-any.whl", hash = "sha256:1a441dad41c9a0615c6ae96464190eddccd2de8153254059ff18ffd7b3b84800"},
-    {file = "icontract-2.6.2.tar.gz", hash = "sha256:b87d2b33eb5d7f2c9a5af4770d6d106560c9688c79a821e5fe1bbd41188f5dcc"},
-]
-icontract-hypothesis = [
-    {file = "icontract-hypothesis-1.1.7.tar.gz", hash = "sha256:40f5be35ae5a7d32b7058b579b1eb574367c80709de8bebb52bef685aa01662f"},
 ]
 identify = [
     {file = "identify-2.5.5-py2.py3-none-any.whl", hash = "sha256:ef78c0d96098a3b5fe7720be4a97e73f439af7cf088ebf47b620aeaa10fadf97"},

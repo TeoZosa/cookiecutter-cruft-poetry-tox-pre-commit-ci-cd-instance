@@ -218,7 +218,6 @@ jobs:
         env:
           PACKAGE_VERSION: ${{ needs.pypi-packages-upload.outputs.package-version }}
         shell: bash
-      # Note: must rip out `icontract` integration to fix C-compiled CLI applications
       - name: Run basic commands
         run: |
           cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance --help || true
