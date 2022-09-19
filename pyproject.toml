@@ -21,9 +21,12 @@ classifiers = [
     "Programming Language :: Python",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+
+#
 [tool.poetry.build]
 script = "build.py"
 generate-setup-file = true
+#
 
 [tool.poetry.urls]
 Changelog = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/releases"
@@ -34,17 +37,24 @@ python = "^3.8,<3.11"
 # Monitoring and Observability
 sentry-sdk = "^1.5.6"
 structlog-sentry-logger = "^0.17.3"
+
+#
 # Jupyter Notebook
 jupyter = "^1.0.0"
 matplotlib = "^3.5.1"
+#
+#
 # Type Checking and Data Validation
 typeguard = "^2.13.3" # Runtime type checker; Note: Mypyc-compiled C-extensions also perform runtime type checking.
+#
 
 # Project-Specific
 python-dotenv = "^0.19.2"
+#
 importlib-metadata = "^4.11.1"
 rich = "^11.2.0"
 typer = {extras = ["all"], version = "^0.4.0"}
+#
 
 [tool.poetry.dev-dependencies]
 # Standardized Developer Workflow Orchestration
@@ -54,16 +64,24 @@ cruft = "^2.11.1" # Automated Cookiecutter template synchronization
 mypy = "^0.931" # Static type checker (includes Mypyc Python module to C-Extension compiler, enabled by standard Python type annotations)
 
 # Testing
+#
 nbqa = "^1.2.3"
+#
 pytest = "^7.0.1"
+#
 pytest-benchmark = {extras = ["histogram"], version = "^3.4.1"}
+#
 pytest-cov = "^3.0.0"
 pytest-emoji = "^0.2.0"
 pytest-mock = "^3.7.0"
 pytest-sugar = "^0.9.4"
 pytest-xdist = "^2.5.0"
+#
 hypothesis = "^6.38.0"
+#
+#
 mutmut = "^2.4.0"
+#
 xdoctest = {extras = ["all"], version = "^0.15.10"}
 tox = "^3.24.5"
 tox-wheel = "^0.7.0"
@@ -81,13 +99,16 @@ tox-gh-actions = "^2.9.1"
 
 # Documentation
 darglint = "^1.8.1"
+#
 nodeenv = "^1.6.0" # ADR documentation Node dependency
+#
 
 [tool.poetry.group.docs]
 optional = true
 
 [tool.poetry.group.docs.dependencies]
 emoji = "^1.6.3"
+#
 myst-parser = "^0.17.0"
 pygments = "^2.11.2"
 sphinx = "^4.4.0"
@@ -95,8 +116,11 @@ sphinx-autoapi = "^1.8.4"
 sphinx-rtd-theme = "^1.0.0"
 sphinxcontrib-confluencebuilder = "^1.7.1"
 types-emoji = "^1.2.7" # PEP 561 compliant stub package for mypy
+
+#
 [tool.poetry.scripts]
 "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance" = "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.main:app"
+#
 
 #################################################################################
 # Tooling configs                                                               #
@@ -145,10 +169,12 @@ pycodestyle = ["+*",
     "-E203", # Whitespace before ":"
     "-E501", # Line too long (82 > 78 characters)
     "-W503",  # Line break occurred before a binary operator <- this is now considered best practice by PEP 8
+#
     # Ignore errors resulting from Jupyter notebook to Python module portability formatting
     "-E265", # block comment should start with '# '
     # Ignore errors resulting from Jupyter notebook-style programming
     "-E402", # module level import not at top of file
+#
 ]
 
 [tool.interrogate]
@@ -189,6 +215,7 @@ disable = [
   # Black & Flake8 purview
   "line-too-long",
   "c-extension-no-member",
+#
   # Ignore errors resulting from Jupyter notebook-style programming
   "invalid-name",
   "redefined-outer-name",
@@ -196,6 +223,7 @@ disable = [
   "ungrouped-imports",
   "wrong-import-order",
   "wrong-import-position",
+#
 ]
 
 [tool.pylint.similarities]
@@ -212,5 +240,9 @@ testpaths = ["tests",]
 norecursedirs = [".*", "*.egg", "build", "dist",]
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "mypy", "setuptools"]
+requires = ["poetry-core>=1.0.0",
+    #
+    "mypy", "setuptools",
+    #
+]
 build-backend = "poetry.core.masonry.api"
