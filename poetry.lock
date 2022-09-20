@@ -1168,7 +1168,7 @@ test = ["check-manifest", "pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nbqa"
-version = "1.5.0"
+version = "1.5.1"
 description = "Run any standard Python code quality tool on a Jupyter Notebook"
 category = "dev"
 optional = false
@@ -2491,7 +2491,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "d59520b074c8ce4d79ab0034c09f0fac3609599bb8745ecb885bc8ac44554ce5"
+content-hash = "af87ca70392505c81c1214545a6436e2561a4762ac62a3ef2091aed7f3bc1837"
 
 [metadata.files]
 alabaster = [
@@ -2696,6 +2696,7 @@ cmake = [
 ]
 codecov = [
     {file = "codecov-2.1.12-py2.py3-none-any.whl", hash = "sha256:585dc217dc3d8185198ceb402f85d5cb5dbfa0c5f350a5abcdf9e347776a5b47"},
+    {file = "codecov-2.1.12-py3.8.egg", hash = "sha256:782a8e5352f22593cbc5427a35320b99490eb24d9dcfa2155fd99d2b75cfb635"},
     {file = "codecov-2.1.12.tar.gz", hash = "sha256:a0da46bb5025426da895af90938def8ee12d37fcbcbbbc15b6dc64cf7ebc51c1"},
 ]
 colorama = [
@@ -3362,8 +3363,8 @@ nbformat = [
     {file = "nbformat-5.5.0.tar.gz", hash = "sha256:9ebe30e6c3b3e5b47d39ff0a3897a1acf523d2bfafcb4e2d04cdb70f8a66c507"},
 ]
 nbqa = [
-    {file = "nbqa-1.5.0-py3-none-any.whl", hash = "sha256:511a9e5f4f510548a7a4f0f45f6c16ae1fdc7aba8a06b26cca3cb1ac4cf83977"},
-    {file = "nbqa-1.5.0.tar.gz", hash = "sha256:ebeb984f69e5ff4a28bd06c9ae40e15f9fd4bc5a129db0e65d74c0cc7da044a2"},
+    {file = "nbqa-1.5.1-py3-none-any.whl", hash = "sha256:5c9520cb23abe39bf2b3884e6f6590eda496644d2edd9edf0d704e34ff4e520c"},
+    {file = "nbqa-1.5.1.tar.gz", hash = "sha256:056d6bce2347e4d8e9ab65ac9b9ee3cea5758e9e63ae7f25badcde46ee4c9ffc"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.5-py3-none-any.whl", hash = "sha256:b98e3ec1b246135e4642eceffa5a6c23a3ab12c82ff816a92c612d68205813b2"},
