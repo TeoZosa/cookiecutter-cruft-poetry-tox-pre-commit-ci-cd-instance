@@ -830,7 +830,7 @@ qtconsole = "*"
 
 [[package]]
 name = "jupyter-client"
-version = "7.3.5"
+version = "7.4.0"
 description = "Jupyter protocol implementation and client libraries"
 category = "main"
 optional = false
@@ -2990,8 +2990,8 @@ jupyter = [
     {file = "jupyter-1.0.0.zip", hash = "sha256:3e1f86076bbb7c8c207829390305a2b1fe836d471ed54be66a3b8c41e7f46cc7"},
 ]
 jupyter-client = [
-    {file = "jupyter_client-7.3.5-py3-none-any.whl", hash = "sha256:b33222bdc9dd1714228bd286af006533a0abe2bbc093e8f3d29dc0b91bdc2be4"},
-    {file = "jupyter_client-7.3.5.tar.gz", hash = "sha256:3c58466a1b8d55dba0bf3ce0834e4f5b7760baf98d1d73db0add6f19de9ecd1d"},
+    {file = "jupyter_client-7.4.0-py3-none-any.whl", hash = "sha256:b26e3e47df5b9fbc72cb0838c6cf378bbfdfb85a13983f742eae97188493cc20"},
+    {file = "jupyter_client-7.4.0.tar.gz", hash = "sha256:1683bb16c2c9c95ea3b0bde71008010e924b4dd3025a2ad02eb84db698a815d4"},
 ]
 jupyter-console = [
     {file = "jupyter_console-6.4.4-py3-none-any.whl", hash = "sha256:756df7f4f60c986e7bc0172e4493d3830a7e6e75c08750bbe59c0a5403ad6dee"},
