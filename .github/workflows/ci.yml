@@ -24,7 +24,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0
@@ -49,7 +49,7 @@ jobs:
 
       - name: Load cached tox testenv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .tox
@@ -83,7 +83,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0
@@ -108,7 +108,7 @@ jobs:
 
       - name: Load cached tox testenv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .tox
@@ -126,7 +126,7 @@ jobs:
     name: Semgrep
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Disable Git LFS
         run: |
@@ -154,7 +154,7 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0
@@ -180,7 +180,7 @@ jobs:
 
       - name: Load cached tox testenv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .tox
@@ -215,7 +215,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0
@@ -235,7 +235,7 @@ jobs:
 
       - name: Load cached venv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .venv
@@ -264,7 +264,7 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
         with:
           lfs: true
 
@@ -291,7 +291,7 @@ jobs:
 
       - name: Load cached tox testenv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .tox
