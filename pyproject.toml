@@ -65,7 +65,7 @@ mypy = "^0.971" # Static type checker (includes Mypyc Python module to C-Extensi
 
 # Testing
 #
-nbqa = "^1.5.3"
+nbqa = "^1.2.3"
 #
 pytest = "^7.0.1"
 #

@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0
@@ -52,7 +52,7 @@ jobs:
 
       - name: Load cached tox testenv(s) (if they exist)
         id: cached-poetry-dependencies
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.0.1
         with:
           path: |
             .tox
@@ -112,7 +112,7 @@ jobs:
       PY_COLORS: 1
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.0.2
 
       - name: Set up Python
         uses: actions/setup-python@v4.2.0

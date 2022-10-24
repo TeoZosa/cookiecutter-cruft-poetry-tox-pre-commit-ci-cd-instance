@@ -405,11 +405,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "dill"
-version = "0.3.5.1"
+version = "0.3.6"
 description = "serialize all of python"
 category = "dev"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*"
+python-versions = ">=3.7"
 
 [package.extras]
 graph = ["objgraph (>=1.7.2)"]
@@ -515,7 +515,7 @@ testing = ["covdefaults (>=2.2)", "coverage (>=6.4.2)", "pytest (>=7.1.2)", "pyt
 
 [[package]]
 name = "fonttools"
-version = "4.37.4"
+version = "4.38.0"
 description = "Tools to manipulate font files"
 category = "main"
 optional = false
@@ -662,7 +662,7 @@ python-versions = "*"
 
 [[package]]
 name = "ipykernel"
-version = "6.16.0"
+version = "6.16.1"
 description = "IPython Kernel for Jupyter"
 category = "main"
 optional = false
@@ -682,7 +682,8 @@ tornado = ">=6.1"
 traitlets = ">=5.1.0"
 
 [package.extras]
-test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=6.0)", "pytest-cov", "pytest-timeout"]
+docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinxcontrib-github-alt"]
+test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-cov", "pytest-timeout"]
 
 [[package]]
 name = "ipython"
@@ -847,7 +848,7 @@ qtconsole = "*"
 
 [[package]]
 name = "jupyter-client"
-version = "7.4.2"
+version = "7.4.3"
 description = "Jupyter protocol implementation and client libraries"
 category = "main"
 optional = false
@@ -864,7 +865,7 @@ traitlets = "*"
 
 [package.extras]
 doc = ["ipykernel", "myst-parser", "sphinx (>=1.3.6)", "sphinx-rtd-theme", "sphinxcontrib-github-alt"]
-test = ["codecov", "coverage", "ipykernel (>=6.5)", "ipython", "mypy", "pre-commit", "pytest", "pytest-asyncio (>=0.18)", "pytest-cov", "pytest-timeout"]
+test = ["codecov", "coverage", "ipykernel (>=6.12)", "ipython", "mypy", "pre-commit", "pytest", "pytest-asyncio (>=0.18)", "pytest-cov", "pytest-timeout"]
 
 [[package]]
 name = "jupyter-console"
@@ -886,7 +887,7 @@ test = ["pexpect"]
 
 [[package]]
 name = "jupyter-core"
-version = "4.11.1"
+version = "4.11.2"
 description = "Jupyter core package. A base package on which Jupyter projects rely."
 category = "main"
 optional = false
@@ -1182,7 +1183,7 @@ test = ["black", "check-manifest", "flake8", "ipykernel", "ipython", "ipywidgets
 
 [[package]]
 name = "nbconvert"
-version = "7.2.1"
+version = "7.2.2"
 description = "Converting Jupyter Notebooks"
 category = "main"
 optional = false
@@ -1587,14 +1588,14 @@ plugins = ["importlib-metadata"]
 
 [[package]]
 name = "pylint"
-version = "2.15.4"
+version = "2.15.5"
 description = "python code static checker"
 category = "dev"
 optional = false
 python-versions = ">=3.7.2"
 
 [package.dependencies]
-astroid = ">=2.12.11,<=2.14.0-dev0"
+astroid = ">=2.12.12,<=2.14.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = ">=0.2"
 isort = ">=4.2.5,<6"
@@ -1932,7 +1933,7 @@ win32 = ["pywin32"]
 
 [[package]]
 name = "sentry-sdk"
-version = "1.9.10"
+version = "1.10.1"
 description = "Python client for Sentry (https://sentry.io)"
 category = "main"
 optional = false
@@ -2581,7 +2582,7 @@ tests-strict = ["cmake (==3.21.2)", "codecov (==2.0.15)", "ninja (==1.10.2)", "p
 
 [[package]]
 name = "zipp"
-version = "3.9.0"
+version = "3.10.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
 category = "main"
 optional = false
@@ -2594,7 +2595,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "d0ef5816d271cb3fdb2a502079e43b7bb1797c513a591aa9fd8bc60396389c3f"
+content-hash = "d59520b074c8ce4d79ab0034c09f0fac3609599bb8745ecb885bc8ac44554ce5"
 
 [metadata.files]
 alabaster = [
@@ -2979,8 +2980,8 @@ defusedxml = [
     {file = "defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69"},
 ]
 dill = [
-    {file = "dill-0.3.5.1-py2.py3-none-any.whl", hash = "sha256:33501d03270bbe410c72639b350e941882a8b0fd55357580fbc873fba0c59302"},
-    {file = "dill-0.3.5.1.tar.gz", hash = "sha256:d75e41f3eff1eee599d738e76ba8f4ad98ea229db8b085318aa2b3333a208c86"},
+    {file = "dill-0.3.6-py3-none-any.whl", hash = "sha256:a07ffd2351b8c678dfc4a856a3005f8067aea51d6ba6c700796a4d9e280f39f0"},
+    {file = "dill-0.3.6.tar.gz", hash = "sha256:e5db55f3687856d8fbdab002ed78544e1c4559a130302693d839dfe8f93f2373"},
 ]
 distlib = [
     {file = "distlib-0.3.6-py2.py3-none-any.whl", hash = "sha256:f35c4b692542ca110de7ef0bea44d73981caeb34ca0b9b6b2e6d7790dda8f80e"},
@@ -3022,8 +3023,8 @@ filelock = [
     {file = "filelock-3.8.0.tar.gz", hash = "sha256:55447caa666f2198c5b6b13a26d2084d26fa5b115c00d065664b2124680c4edc"},
 ]
 fonttools = [
-    {file = "fonttools-4.37.4-py3-none-any.whl", hash = "sha256:afae1b39555f9c3f0ad1f0f1daf678e5ad157e38c8842ecb567951bf1a9b9fd7"},
-    {file = "fonttools-4.37.4.zip", hash = "sha256:86918c150c6412798e15a0de6c3e0d061ddefddd00f97b4f7b43dfa867ad315e"},
+    {file = "fonttools-4.38.0-py3-none-any.whl", hash = "sha256:820466f43c8be8c3009aef8b87e785014133508f0de64ec469e4efb643ae54fb"},
+    {file = "fonttools-4.38.0.zip", hash = "sha256:2bb244009f9bf3fa100fc3ead6aeb99febe5985fa20afbfbaa2f8946c2fbdaf1"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
@@ -3065,8 +3066,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 ipykernel = [
-    {file = "ipykernel-6.16.0-py3-none-any.whl", hash = "sha256:d3d95241cd4dd302fea9d5747b00509b58997356d1f6333c9a074c3eccb78cb3"},
-    {file = "ipykernel-6.16.0.tar.gz", hash = "sha256:7fe42c0d58435e971dc15fd42189f20d66bf35f3056bda4f6554271bc1fa3d0d"},
+    {file = "ipykernel-6.16.1-py3-none-any.whl", hash = "sha256:32eb7bdc5af57185e9a42b0dcef66413ef91a0490b378eae46cbdf0d4e0b5912"},
+    {file = "ipykernel-6.16.1.tar.gz", hash = "sha256:3a27a550c1d682e7825f0f7732b0142b79ef1b21cd2e713cacac0c9847535f13"},
 ]
 ipython = [
     {file = "ipython-8.5.0-py3-none-any.whl", hash = "sha256:6f090e29ab8ef8643e521763a4f1f39dc3914db643122b1e9d3328ff2e43ada2"},
@@ -3109,16 +3110,16 @@ jupyter = [
     {file = "jupyter-1.0.0.zip", hash = "sha256:3e1f86076bbb7c8c207829390305a2b1fe836d471ed54be66a3b8c41e7f46cc7"},
 ]
 jupyter-client = [
-    {file = "jupyter_client-7.4.2-py3-none-any.whl", hash = "sha256:f8929321204d3f0b446401cfadc04ed8226e77002a9e379416df8c252607f695"},
-    {file = "jupyter_client-7.4.2.tar.gz", hash = "sha256:b91a9a7b91ac69adf170d98c87917320f6b466e1c5e89b300226ef4047193376"},
+    {file = "jupyter_client-7.4.3-py3-none-any.whl", hash = "sha256:8845e3f5a339734b1ecc21d2100638aa1c7a145e356a31845f155cda5b624b1c"},
+    {file = "jupyter_client-7.4.3.tar.gz", hash = "sha256:4fa2514cdb54dd9fbdcf7d7e4c5c3c8a973028168a8b4fc097b6aef625be13b0"},
 ]
 jupyter-console = [
     {file = "jupyter_console-6.4.4-py3-none-any.whl", hash = "sha256:756df7f4f60c986e7bc0172e4493d3830a7e6e75c08750bbe59c0a5403ad6dee"},
     {file = "jupyter_console-6.4.4.tar.gz", hash = "sha256:172f5335e31d600df61613a97b7f0352f2c8250bbd1092ef2d658f77249f89fb"},
 ]
 jupyter-core = [
-    {file = "jupyter_core-4.11.1-py3-none-any.whl", hash = "sha256:715e22bb6cc7db3718fddfac1f69f1c7e899ca00e42bdfd4bf3705452b9fd84a"},
-    {file = "jupyter_core-4.11.1.tar.gz", hash = "sha256:2e5f244d44894c4154d06aeae3419dd7f1b0ef4494dc5584929b398c61cfd314"},
+    {file = "jupyter_core-4.11.2-py3-none-any.whl", hash = "sha256:3815e80ec5272c0c19aad087a0d2775df2852cfca8f5a17069e99c9350cecff8"},
+    {file = "jupyter_core-4.11.2.tar.gz", hash = "sha256:c2909b9bc7dca75560a6c5ae78c34fd305ede31cd864da3c0d0bb2ed89aa9337"},
 ]
 jupyter-server = [
     {file = "jupyter_server-1.21.0-py3-none-any.whl", hash = "sha256:992531008544d77e05a16251cdfbd0bdff1b1efa14760c79b9cc776ac9214cf1"},
@@ -3395,8 +3396,8 @@ nbclient = [
     {file = "nbclient-0.7.0.tar.gz", hash = "sha256:a1d844efd6da9bc39d2209bf996dbd8e07bf0f36b796edfabaa8f8a9ab77c3aa"},
 ]
 nbconvert = [
-    {file = "nbconvert-7.2.1-py3-none-any.whl", hash = "sha256:50a54366ab53da20e82668818b7b2f3f7b85c0bcd46ec8e18836f12b39180dfa"},
-    {file = "nbconvert-7.2.1.tar.gz", hash = "sha256:1e180801205ad831b6e2480c5a03307dfb6327fa5b2f9b156d6fed45f9700686"},
+    {file = "nbconvert-7.2.2-py3-none-any.whl", hash = "sha256:fc7a3787c927cbd45a52e088e934fbbaab39afe61767522168a724b7483992be"},
+    {file = "nbconvert-7.2.2.tar.gz", hash = "sha256:24acfaa466d2c9b7eb524800e4a45afbed862c5d058cfb30fc7aa24d448c95eb"},
 ]
 nbformat = [
     {file = "nbformat-5.7.0-py3-none-any.whl", hash = "sha256:1b05ec2c552c2f1adc745f4eddce1eac8ca9ffd59bb9fd859e827eaa031319f9"},
@@ -3698,8 +3699,8 @@ pygments = [
     {file = "Pygments-2.13.0.tar.gz", hash = "sha256:56a8508ae95f98e2b9bdf93a6be5ae3f7d8af858b43e02c5a2ff083726be40c1"},
 ]
 pylint = [
-    {file = "pylint-2.15.4-py3-none-any.whl", hash = "sha256:629cf1dbdfb6609d7e7a45815a8bb59300e34aa35783b5ac563acaca2c4022e9"},
-    {file = "pylint-2.15.4.tar.gz", hash = "sha256:5441e9294335d354b7bad57c1044e5bd7cce25c433475d76b440e53452fa5cb8"},
+    {file = "pylint-2.15.5-py3-none-any.whl", hash = "sha256:c2108037eb074334d9e874dc3c783752cc03d0796c88c9a9af282d0f161a1004"},
+    {file = "pylint-2.15.5.tar.gz", hash = "sha256:3b120505e5af1d06a5ad76b55d8660d44bf0f2fc3c59c2bdd94e39188ee3a4df"},
 ]
 pyparsing = [
     {file = "pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},
@@ -3942,8 +3943,8 @@ send2trash = [
     {file = "Send2Trash-1.8.0.tar.gz", hash = "sha256:d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d"},
 ]
 sentry-sdk = [
-    {file = "sentry-sdk-1.9.10.tar.gz", hash = "sha256:4fbace9a763285b608c06f01a807b51acb35f6059da6a01236654e08b0ee81ff"},
-    {file = "sentry_sdk-1.9.10-py2.py3-none-any.whl", hash = "sha256:2469240f6190aaebcb453033519eae69cfe8cc602065b4667e18ee14fc1e35dc"},
+    {file = "sentry-sdk-1.10.1.tar.gz", hash = "sha256:105faf7bd7b7fa25653404619ee261527266b14103fe1389e0ce077bd23a9691"},
+    {file = "sentry_sdk-1.10.1-py2.py3-none-any.whl", hash = "sha256:06c0fa9ccfdc80d7e3b5d2021978d6eb9351fa49db9b5847cf4d1f2a473414ad"},
 ]
 setuptools = [
     {file = "setuptools-65.5.0-py3-none-any.whl", hash = "sha256:f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356"},
@@ -4261,6 +4262,6 @@ xdoctest = [
     {file = "xdoctest-1.1.0.tar.gz", hash = "sha256:0fd4fad7932f0a2f082dfdfb857dd6ca41603757586c39b1e5b4d333fc389f8a"},
 ]
 zipp = [
-    {file = "zipp-3.9.0-py3-none-any.whl", hash = "sha256:972cfa31bc2fedd3fa838a51e9bc7e64b7fb725a8c00e7431554311f180e9980"},
-    {file = "zipp-3.9.0.tar.gz", hash = "sha256:3a7af91c3db40ec72dd9d154ae18e008c69efe8ca88dde4f9a731bb82fe2f9eb"},
+    {file = "zipp-3.10.0-py3-none-any.whl", hash = "sha256:4fcb6f278987a6605757302a6e40e896257570d11c51628968ccb2a47e80c6c1"},
+    {file = "zipp-3.10.0.tar.gz", hash = "sha256:7a7262fd930bd3e36c50b9a64897aec3fafff3dfdeec9623ae22b40e93f99bb8"},
 ]
