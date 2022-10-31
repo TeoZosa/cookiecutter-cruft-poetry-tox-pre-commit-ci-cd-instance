@@ -80,7 +80,7 @@ pytest-xdist = "^2.5.0"
 hypothesis = "^6.38.0"
 #
 #
-mutmut = "^2.4.0"
+mutmut = "^2.4.2"
 #
 xdoctest = {extras = ["all"], version = "^1.1.0"}
 tox = "^3.24.5"
