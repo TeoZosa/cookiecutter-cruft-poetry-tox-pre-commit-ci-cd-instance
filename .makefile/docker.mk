@@ -84,7 +84,7 @@ deploy-container: IS_INTERACTIVE_SESSION ?= false
 
 # If you want to validate that a set of pre-defined env vars are specified
 # prior to container launch, list them in the REQ_ENV_VARS array
-deploy-container: REQ_ENV_VARS := BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER IS_INTERACTIVE_SESSION 
+deploy-container: REQ_ENV_VARS := BIND_MOUNT_APPLICATION_DIR_ON_CONTAINER IS_INTERACTIVE_SESSION
 deploy-container: _validate-req-env-vars stop-container
 	@echo "Launching $(PROJECT_NAME) container"
 	@if [ "$(IS_INTERACTIVE_SESSION)" != false ]; then \
