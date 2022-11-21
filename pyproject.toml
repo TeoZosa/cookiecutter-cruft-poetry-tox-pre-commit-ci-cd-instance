@@ -56,7 +56,7 @@ rich = "^12.5.1"
 typer = {extras = ["all"], version = ">=0.4,<0.7"}
 #
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 # Standardized Developer Workflow Orchestration
 cruft = "^2.11.1" # Automated Cookiecutter template synchronization
 
