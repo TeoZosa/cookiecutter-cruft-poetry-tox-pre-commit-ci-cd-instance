@@ -12,7 +12,7 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 
 ---
 
-**Documentation**: [https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io](https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io)
+**Documentation**: [https://github.readthedocs.io](https://github.readthedocs.io)
 
 **Source Code**: [https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance](https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance)
 

@@ -14,7 +14,7 @@ Here is a list of important resources for contributors:
 
 .. _Apache license: https://opensource.org/licenses/Apache-2.0
 .. _Source Code: https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
-.. _Documentation: https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io
+.. _Documentation: https://github.readthedocs.io
 .. _Issue Tracker: https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/issues
 
 How to report a bug
