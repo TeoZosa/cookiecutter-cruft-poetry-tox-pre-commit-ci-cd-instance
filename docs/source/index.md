@@ -7,7 +7,6 @@
    :maxdepth: 1
 
    readme
-   usage
    API Reference <autoapi/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/index>
    Developer Reference <autoapi/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/PATH_TO_HIDDEN_MODULES/index>
    contributing
