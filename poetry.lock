@@ -229,11 +229,11 @@ python-versions = ">=3.6.1"
 
 [[package]]
 name = "chardet"
-version = "5.0.0"
+version = "5.1.0"
 description = "Universal encoding detector for Python 3"
 category = "dev"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [[package]]
 name = "charset-normalizer"
@@ -570,7 +570,7 @@ python-versions = "*"
 
 [[package]]
 name = "hypothesis"
-version = "6.58.2"
+version = "6.59.0"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -1897,7 +1897,7 @@ jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
 
 [[package]]
 name = "scikit-build"
-version = "0.16.2"
+version = "0.16.3"
 description = "Improved build system generator for Python C/C++/Fortran/Cython extensions"
 category = "dev"
 optional = false
@@ -1911,7 +1911,7 @@ wheel = ">=0.32.0"
 
 [package.extras]
 docs = ["pygments", "sphinx (>=4)", "sphinx-issues", "sphinx-rtd-theme (>=1.0)", "sphinxcontrib-moderncmakedomain (>=3.19)"]
-test = ["build (>=0.7)", "codecov (>=2.0.5)", "coverage (>=4.2)", "cython (>=0.25.1)", "flake8 (>=3.0.4)", "path.py (>=11.5.0)", "pytest (>=6.0.0,<7.2.0)", "pytest-cov (>=2.7.1)", "pytest-mock (>=1.10.4)", "pytest-runner (>=5.1)", "pytest-virtualenv (>=1.2.5)", "requests", "ubelt (>=0.8.2)", "virtualenv", "xdoctest (>=0.10.0)"]
+test = ["build (>=0.7)", "codecov (>=2.0.5)", "coverage (>=4.2)", "cython (>=0.25.1)", "flake8 (>=3.0.4)", "importlib-metadata", "pytest (>=6.0.0)", "pytest-cov (>=2.7.1)", "pytest-mock (>=1.10.4)", "pytest-runner (>=5.1)", "pytest-virtualenv (>=1.2.5)", "requests", "ubelt (>=0.8.2)", "virtualenv", "xdoctest (>=0.10.0)"]
 
 [[package]]
 name = "send2trash"
@@ -2769,8 +2769,8 @@ cfgv = [
     {file = "cfgv-3.3.1.tar.gz", hash = "sha256:f5a830efb9ce7a445376bb66ec94c638a9787422f96264c98edc6bdeed8ab736"},
 ]
 chardet = [
-    {file = "chardet-5.0.0-py3-none-any.whl", hash = "sha256:d3e64f022d254183001eccc5db4040520c0f23b1a3f33d6413e099eb7f126557"},
-    {file = "chardet-5.0.0.tar.gz", hash = "sha256:0368df2bfd78b5fc20572bb4e9bb7fb53e2c094f60ae9993339e8671d0afb8aa"},
+    {file = "chardet-5.1.0-py3-none-any.whl", hash = "sha256:362777fb014af596ad31334fde1e8c327dfdb076e1960d1694662d46a6917ab9"},
+    {file = "chardet-5.1.0.tar.gz", hash = "sha256:0d62712b956bc154f85fb0a266e2a3c5913c2967e00348701b32411d6def31e5"},
 ]
 charset-normalizer = [
     {file = "charset-normalizer-2.1.1.tar.gz", hash = "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845"},
@@ -3036,8 +3036,8 @@ glob2 = [
     {file = "glob2-0.7.tar.gz", hash = "sha256:85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.58.2-py3-none-any.whl", hash = "sha256:6e235b71455ef7e329b8214e75bad3f5195caf4ee708c571f20a76c6f5c18814"},
-    {file = "hypothesis-6.58.2.tar.gz", hash = "sha256:6108f8f692fa6554c8cb10b3516d97d2609fa063745ecaf36f1878d007c51d8f"},
+    {file = "hypothesis-6.59.0-py3-none-any.whl", hash = "sha256:4eb2875097a07553a1006cb2b96fab21682e4359b138b2ae3c5f5d8b3f5a8bf1"},
+    {file = "hypothesis-6.59.0.tar.gz", hash = "sha256:af05e24b123c9413b8752bbf822105dbb112f56456fb240723d7f410eebf78bb"},
 ]
 identify = [
     {file = "identify-2.5.9-py2.py3-none-any.whl", hash = "sha256:a390fb696e164dbddb047a0db26e57972ae52fbd037ae68797e5ae2f4492485d"},
@@ -3911,8 +3911,8 @@ rich = [
     {file = "rich-12.6.0.tar.gz", hash = "sha256:ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"},
 ]
 scikit-build = [
-    {file = "scikit-build-0.16.2.tar.gz", hash = "sha256:caf5b4da9bd7e88232b40050cde584f1e252fed44f12034c36a9ca86444a6c42"},
-    {file = "scikit_build-0.16.2-py3-none-any.whl", hash = "sha256:628c31deb491f5f06506bedf588eb8bd8037851297ebbcbbba08ba12f612dfdc"},
+    {file = "scikit-build-0.16.3.tar.gz", hash = "sha256:656ecabf264df6e23d103e02f4887c0fe5a47a2cd42f66cf3de08201de0cbf37"},
+    {file = "scikit_build-0.16.3-py3-none-any.whl", hash = "sha256:5c66211a58e59dd009ac53b94f12e80e98b8043373351714b0679ee0db85532e"},
 ]
 send2trash = [
     {file = "Send2Trash-1.8.0-py3-none-any.whl", hash = "sha256:f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08"},
