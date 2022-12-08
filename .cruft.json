@@ -1,7 +1,7 @@
 {
   "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-  "commit": "16f1dfddece63b877383c0ac4ec831962ff0d02a",
-  "checkout": "master",
+  "commit": "d87ea09d8d1aaf3b5bc0b252a53bc68be1081f96",
+  "checkout": "dependabot/github_actions/actions/setup-python-4.3.1",
   "context": {
     "cookiecutter": {
       "project_name": "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
