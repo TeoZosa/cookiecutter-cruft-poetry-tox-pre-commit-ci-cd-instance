@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:experimental
 
-FROM python:3.11.0-slim@sha256:ffd099b82333f4dc4727c54784be249470e60364825fb6ede05090b19440250c
+FROM python:3.11.1-slim@sha256:555dcc94587b4101de48664b45b19f17e099a3ab236dec629791f366e2f2e83c
 
 LABEL maintainer="YOUR_FIRST_AND_LAST_NAME <action@github.com>"
 ENV LANG C.UTF-8
