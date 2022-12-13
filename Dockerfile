@@ -24,7 +24,7 @@ ENV PATH="${POETRY_HOME}/bin:${PATH}"
 RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python && \
     poetry --version && \
     poetry config --list
-
+#
 
 # Install project dependencies
 COPY pyproject.toml poetry.lock /app/
@@ -38,5 +38,6 @@ RUN poetry install \
 # your container image
 COPY cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance /app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance
 
-
+#
 CMD ["/app/cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/entrypoint"]
+#
