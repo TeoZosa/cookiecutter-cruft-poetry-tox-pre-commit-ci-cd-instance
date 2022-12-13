@@ -2,6 +2,7 @@ cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance
 ==============================
 ![CI](https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/workflows/CI/badge.svg)
 ![codecov](https://codecov.io/gh/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/branch/master/graph/badge.svg?token=3HF21UWY82)
+[![Documentation Status](https://readthedocs.org/projects/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/badge/?version=latest)](https://cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance.readthedocs.io/en/latest/?badge=latest)
 ![License](https://img.shields.io/github/license/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?style=plastic)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?style=plastic)
 ![PyPI](https://img.shields.io/pypi/v/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance?color=informational&style=plastic)
