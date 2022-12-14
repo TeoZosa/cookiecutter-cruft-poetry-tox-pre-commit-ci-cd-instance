@@ -235,6 +235,8 @@ jobs:
 
       - name: Install project
         run: |
+          # Pre-install mypy for C-library compilation via mypyc
+          pip install mypy
           make install-project
 
       - name: Build Documentation
