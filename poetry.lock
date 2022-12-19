@@ -1554,14 +1554,14 @@ typing = ["mypy (>=0.990)"]
 
 [[package]]
 name = "jupyter-server-terminals"
-version = "0.4.2"
+version = "0.4.3"
 description = "A Jupyter Server Extension Providing Terminals."
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "jupyter_server_terminals-0.4.2-py3-none-any.whl", hash = "sha256:c0eaacee6cac21b597c23c38dd523dc4e9b947f97af5101e0396c08f28db3e37"},
-    {file = "jupyter_server_terminals-0.4.2.tar.gz", hash = "sha256:0e68cba38eb0f9f2d93f1160e0a7f84b943d0d0c4d2f77eeaabbb4a2919c47c6"},
+    {file = "jupyter_server_terminals-0.4.3-py3-none-any.whl", hash = "sha256:ec67d3f1895d25cfb586a87a50b8eee13b709898a4afd721058e551e0a0f480d"},
+    {file = "jupyter_server_terminals-0.4.3.tar.gz", hash = "sha256:8421438d95a1f1f6994c48dd5dc10ad167ea7c196972bb5d1d7a9da1e30fde02"},
 ]
 
 [package.dependencies]
@@ -1569,8 +1569,8 @@ pywinpty = {version = ">=2.0.3", markers = "os_name == \"nt\""}
 terminado = ">=0.8.3"
 
 [package.extras]
-docs = ["jinja2", "jupyter-server", "mistune (<2.0)", "myst-parser", "nbformat", "packaging", "pydata-sphinx-theme", "sphinxcontrib-github-alt", "sphinxcontrib-openapi", "sphinxemoji", "tornado"]
-test = ["coverage", "jupyter-server (>=2.0.0rc8)", "pytest (>=7.0)", "pytest-cov", "pytest-jupyter[server] (>=0.5.3)", "pytest-timeout"]
+docs = ["jinja2", "jupyter-server", "mistune (<3.0)", "myst-parser", "nbformat", "packaging", "pydata-sphinx-theme", "sphinxcontrib-github-alt", "sphinxcontrib-openapi", "sphinxemoji", "tornado"]
+test = ["coverage", "jupyter-server (>=2.0.0)", "pytest (>=7.0)", "pytest-cov", "pytest-jupyter[server] (>=0.5.3)", "pytest-timeout"]
 
 [[package]]
 name = "jupyterlab-pygments"
@@ -2086,14 +2086,14 @@ test = ["ipykernel", "ipython", "ipywidgets", "nbconvert (>=7.0.0)", "pytest (>=
 
 [[package]]
 name = "nbconvert"
-version = "7.2.6"
+version = "7.2.7"
 description = "Converting Jupyter Notebooks"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "nbconvert-7.2.6-py3-none-any.whl", hash = "sha256:f933e82fe48b9a421e4252249f6c0a9a9940dc555642b4729f3f1f526bb16779"},
-    {file = "nbconvert-7.2.6.tar.gz", hash = "sha256:c9c0e4b26326f7658ebf4cda0acc591b9727c4e3ee3ede962f70c11833b71b40"},
+    {file = "nbconvert-7.2.7-py3-none-any.whl", hash = "sha256:e057f1f87a6ac50629b724d9a46b40e2ba394d6f20ee7f33f4acef1928a15af3"},
+    {file = "nbconvert-7.2.7.tar.gz", hash = "sha256:8b727b0503bf4e0ff3907c8bea030d3fc4015fbee8669ac6ac2a5a6668b49d5e"},
 ]
 
 [package.dependencies]
@@ -2120,19 +2120,19 @@ docs = ["ipykernel", "ipython", "myst-parser", "nbsphinx (>=0.2.12)", "pydata-sp
 qtpdf = ["nbconvert[qtpng]"]
 qtpng = ["pyqtwebengine (>=5.15)"]
 serve = ["tornado (>=6.1)"]
-test = ["ipykernel", "ipywidgets (>=7)", "pre-commit", "pyppeteer (>=1,<1.1)", "pytest", "pytest-dependency"]
+test = ["ipykernel", "ipywidgets (>=7)", "pre-commit", "pytest", "pytest-dependency"]
 webpdf = ["pyppeteer (>=1,<1.1)"]
 
 [[package]]
 name = "nbformat"
-version = "5.7.0"
+version = "5.7.1"
 description = "The Jupyter Notebook format"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "nbformat-5.7.0-py3-none-any.whl", hash = "sha256:1b05ec2c552c2f1adc745f4eddce1eac8ca9ffd59bb9fd859e827eaa031319f9"},
-    {file = "nbformat-5.7.0.tar.gz", hash = "sha256:1d4760c15c1a04269ef5caf375be8b98dd2f696e5eb9e603ec2bf091f9b0d3f3"},
+    {file = "nbformat-5.7.1-py3-none-any.whl", hash = "sha256:e52ab802ce7f7a2863861e914642f021b9d7c23ad9726d14c36df92a79acd754"},
+    {file = "nbformat-5.7.1.tar.gz", hash = "sha256:3810a0130453ed031970521d20989b8a592f3c2e73283a8280ae34ae1f75b3f8"},
 ]
 
 [package.dependencies]
@@ -2142,7 +2142,8 @@ jupyter-core = "*"
 traitlets = ">=5.1"
 
 [package.extras]
-test = ["check-manifest", "pep440", "pre-commit", "pytest", "testpath"]
+docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinxcontrib-github-alt"]
+test = ["pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nbqa"
@@ -3393,14 +3394,14 @@ win32 = ["pywin32"]
 
 [[package]]
 name = "sentry-sdk"
-version = "1.12.0"
+version = "1.12.1"
 description = "Python client for Sentry (https://sentry.io)"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "sentry-sdk-1.12.0.tar.gz", hash = "sha256:dc0fe6ef2f77a3853b399c75c97d87be7666098817c1c314f8fcdf68a6865914"},
-    {file = "sentry_sdk-1.12.0-py2.py3-none-any.whl", hash = "sha256:3c9bc64025976842c1103cd75d45cff94a7c0cc48fa07770d07a09d2ab8dac30"},
+    {file = "sentry-sdk-1.12.1.tar.gz", hash = "sha256:5bbe4b72de22f9ac1e67f2a4e6efe8fbd595bb59b7b223443f50fe5802a5551c"},
+    {file = "sentry_sdk-1.12.1-py2.py3-none-any.whl", hash = "sha256:9f0b960694e2d8bb04db4ba6ac2a645040caef4e762c65937998ff06064f10d6"},
 ]
 
 [package.dependencies]
@@ -4039,21 +4040,19 @@ wheel = ">=0.33.1"
 
 [[package]]
 name = "traitlets"
-version = "5.7.1"
+version = "5.8.0"
 description = "Traitlets Python configuration system"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "traitlets-5.7.1-py3-none-any.whl", hash = "sha256:57ba2ba951632eeab9388fa45f342a5402060a5cc9f0bb942f760fafb6641581"},
-    {file = "traitlets-5.7.1.tar.gz", hash = "sha256:fde8f62c05204ead43c2c1b9389cfc85befa7f54acb5da28529d671175bb4108"},
+    {file = "traitlets-5.8.0-py3-none-any.whl", hash = "sha256:c864831efa0ba6576d09b44884b34e41defc18c0d7e720b4a2d6698c842cab3e"},
+    {file = "traitlets-5.8.0.tar.gz", hash = "sha256:6cc57d6dc28c85d5365961726ffd19b538739347749e13ebe34e03323a0e8f84"},
 ]
 
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
-lint = ["black (>=22.6.0)", "mdformat (>0.7)", "ruff (>=0.0.156)"]
-test = ["pre-commit", "pytest"]
-typing = ["mypy (>=0.990)"]
+test = ["argcomplete (>=2.0)", "pre-commit", "pytest", "pytest-mock"]
 
 [[package]]
 name = "typeguard"
