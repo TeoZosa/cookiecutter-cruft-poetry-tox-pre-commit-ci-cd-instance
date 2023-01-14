@@ -1,7 +1,7 @@
 {
   "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-  "commit": "39b2ebd7363ec712c07a802f587578959d44da37",
-  "checkout": "master",
+  "commit": "b79894454b538c8a874ad323123ca149fffb0848",
+  "checkout": "ci/migrate-linters-to-ruff",
   "context": {
     "cookiecutter": {
       "project_name": "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
