@@ -55,7 +55,7 @@ python-dotenv = "^0.21.0"
 #
 importlib-metadata = "^5.0.0"
 rich = "^12.5.1"
-typer = {extras = ["all"], version = ">=0.4,<0.7"}
+typer = {extras = ["all"], version = ">=0.4,<0.8"}
 #
 
 [tool.poetry.group.dev.dependencies]
