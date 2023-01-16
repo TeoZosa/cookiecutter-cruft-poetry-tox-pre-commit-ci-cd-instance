@@ -206,7 +206,7 @@ jobs:
         run: |
           PYPI_PACKAGE="cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance==${PACKAGE_VERSION}"
           TEST_PYPI_PACKAGE="${PYPI_PACKAGE} --index-url https://test.pypi.org/simple/"
-          function install_test_pypi() { pip install ${TEST_PYPI_PACKAGE} --no-deps && install_pypi; }
+          function install_test_pypi() { pip install ${TEST_PYPI_PACKAGE} --only-binary :all: --no-deps && install_pypi; }
           function install_pypi() { pip install --upgrade ${PYPI_PACKAGE}; }
 
           until (install_test_pypi || install_pypi)
