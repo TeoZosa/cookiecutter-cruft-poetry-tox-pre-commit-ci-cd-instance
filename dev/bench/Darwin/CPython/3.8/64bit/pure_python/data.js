@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673716133772,
+  "lastUpdate": 1673876193882,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -6818,6 +6818,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000022499828949351225",
             "extra": "mean: 581.9504132231643 usec\nrounds: 1815"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "TeoZosa@users.noreply.github.com",
+            "name": "Teofilo Zosa",
+            "username": "TeoZosa"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action",
+            "username": "actions-user"
+          },
+          "distinct": true,
+          "id": "aea8580d46a4d80a3a173240c97384331f553366",
+          "message": "Merge pull request #946 from TeoZosa/feat/replace-pandas-with-polars\n\n✨ Replace pandas with Polars\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@d7b6fc5",
+          "timestamp": "2023-01-16T13:22:02Z",
+          "tree_id": "dad462f6a9fc884d389a17a849e2eb4ab60ae1ac",
+          "url": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/commit/aea8580d46a4d80a3a173240c97384331f553366"
+        },
+        "date": 1673876183204,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 323.5001439803468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018623858062234597",
+            "extra": "mean: 3.091188732394356 msec\nrounds: 355"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 653.1689693975102,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002729344214951086",
+            "extra": "mean: 1.5309974093264265 msec\nrounds: 772"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 1626.8084182143443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007773776006415593",
+            "extra": "mean: 614.7005319149033 usec\nrounds: 1880"
           }
         ]
       }
