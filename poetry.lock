@@ -120,19 +120,19 @@ python-dateutil = ">=2.7.0"
 
 [[package]]
 name = "astroid"
-version = "2.13.2"
+version = "2.13.3"
 description = "An abstract syntax tree for Python with inference support."
 category = "dev"
 optional = false
 python-versions = ">=3.7.2"
 files = [
-    {file = "astroid-2.13.2-py3-none-any.whl", hash = "sha256:8f6a8d40c4ad161d6fc419545ae4b2f275ed86d1c989c97825772120842ee0d2"},
-    {file = "astroid-2.13.2.tar.gz", hash = "sha256:3bc7834720e1a24ca797fd785d77efb14f7a28ee8e635ef040b6e2d80ccb3303"},
+    {file = "astroid-2.13.3-py3-none-any.whl", hash = "sha256:14c1603c41cc61aae731cad1884a073c4645e26f126d13ac8346113c95577f3b"},
+    {file = "astroid-2.13.3.tar.gz", hash = "sha256:6afc22718a48a689ca24a97981ad377ba7fb78c133f40335dfd16772f29bcfb1"},
 ]
 
 [package.dependencies]
 lazy-object-proxy = ">=1.4.0"
-typing-extensions = ">=4.0.0"
+typing-extensions = {version = ">=4.0.0", markers = "python_version < \"3.11\""}
 wrapt = [
     {version = ">=1.11,<2", markers = "python_version < \"3.11\""},
     {version = ">=1.14,<2", markers = "python_version >= \"3.11\""},
@@ -1087,14 +1087,14 @@ files = [
 
 [[package]]
 name = "hypothesis"
-version = "6.62.1"
+version = "6.63.0"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "hypothesis-6.62.1-py3-none-any.whl", hash = "sha256:d00a4a9c54b0b8b4570fe1abe42395807a973b4a507e6718309800e6f84e160d"},
-    {file = "hypothesis-6.62.1.tar.gz", hash = "sha256:7d1e2f9871e6509662da317adf9b4aabd6b38280fb6c7930aa4f574d2ed25150"},
+    {file = "hypothesis-6.63.0-py3-none-any.whl", hash = "sha256:279624e1ba2d1d58b85f57218e6dd6bb6f735f5430eeb16a7d3abbfe141c3243"},
+    {file = "hypothesis-6.63.0.tar.gz", hash = "sha256:9d7108bc21437bb7682737430a7b4b46f468cf108343436a4777aa392d8fa9d6"},
 ]
 
 [package.dependencies]
@@ -2252,6 +2252,7 @@ files = [
     {file = "ninja-1.11.1-py2.py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:3b28b595ed580752240ade7821b6cb7a5a4c6a604c865dc474bd38f06e2eb7f5"},
     {file = "ninja-1.11.1-py2.py3-none-win32.whl", hash = "sha256:3329b4b7c1694730772522a3ba0ba40fd15c012476ed3e1c9f0fd9e76190394e"},
     {file = "ninja-1.11.1-py2.py3-none-win_amd64.whl", hash = "sha256:4e547bc759c570773d83d110c41fd5ca9a94c0a9a8388f5a3ea37bdf97d002b0"},
+    {file = "ninja-1.11.1-py2.py3-none-win_arm64.whl", hash = "sha256:8cf96f92ccc851c600cb3e1251c34db06f1dd682de79188ad490c33cddc66981"},
     {file = "ninja-1.11.1.tar.gz", hash = "sha256:c833a47d39b2d1eee3f9ca886fa1581efd5be6068b82734ac229961ee8748f90"},
 ]
 
@@ -3049,14 +3050,14 @@ six = ">=1.5"
 
 [[package]]
 name = "python-dotenv"
-version = "0.21.0"
+version = "0.21.1"
 description = "Read key-value pairs from a .env file and set them as environment variables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "python-dotenv-0.21.0.tar.gz", hash = "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"},
-    {file = "python_dotenv-0.21.0-py3-none-any.whl", hash = "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5"},
+    {file = "python-dotenv-0.21.1.tar.gz", hash = "sha256:1c93de8f636cde3ce377292818d0e440b6e45a82f215c3744979151fa8151c49"},
+    {file = "python_dotenv-0.21.1-py3-none-any.whl", hash = "sha256:41e12e0318bebc859fcc4d97d4db8d20ad21721a6aa5047dd59f090391cb549a"},
 ]
 
 [package.extras]
@@ -3399,14 +3400,14 @@ jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
 
 [[package]]
 name = "scikit-build"
-version = "0.16.4"
+version = "0.16.6"
 description = "Improved build system generator for Python C/C++/Fortran/Cython extensions"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "scikit-build-0.16.4.tar.gz", hash = "sha256:2a20c4adeab3c2aec11d70bce9690995cff0e53beafe321a7b530009aca8e731"},
-    {file = "scikit_build-0.16.4-py3-none-any.whl", hash = "sha256:c7041071d1b75a23754a54688e9cbe7c45b86197e1ac09dc472bd254246fc5ab"},
+    {file = "scikit-build-0.16.6.tar.gz", hash = "sha256:9047817b0dd2522cc8b7122b398e8a41c18bf4cbd23de1644919bdf34941a8c6"},
+    {file = "scikit_build-0.16.6-py3-none-any.whl", hash = "sha256:f9282cdc9da433598c4f94512ae68e77be2a5ab7e944c76179bbeb9981bf1ba3"},
 ]
 
 [package.dependencies]
@@ -3416,8 +3417,10 @@ setuptools = ">=42.0.0"
 wheel = ">=0.32.0"
 
 [package.extras]
+cov = ["codecov (>=2.0.5)", "coverage (>=4.2)", "pytest-cov (>=2.7.1)"]
 docs = ["pygments", "sphinx (>=4)", "sphinx-issues", "sphinx-rtd-theme (>=1.0)", "sphinxcontrib-moderncmakedomain (>=3.19)"]
-test = ["build (>=0.7)", "codecov (>=2.0.5)", "coverage (>=4.2)", "cython (>=0.25.1)", "flake8 (>=3.0.4)", "importlib-metadata", "pytest (>=6.0.0)", "pytest-cov (>=2.7.1)", "pytest-mock (>=1.10.4)", "pytest-runner (>=5.1)", "pytest-virtualenv (>=1.2.5)", "requests", "ubelt (>=0.8.2)", "virtualenv", "xdoctest (>=0.10.0)"]
+doctest = ["ubelt (>=0.8.2)", "xdoctest (>=0.10.0)"]
+test = ["build (>=0.7)", "cython (>=0.25.1)", "importlib-metadata", "pytest (>=6.0.0)", "pytest-mock (>=1.10.4)", "pytest-virtualenv (>=1.2.5)", "requests", "virtualenv"]
 
 [[package]]
 name = "send2trash"
@@ -3477,14 +3480,14 @@ tornado = ["tornado (>=5)"]
 
 [[package]]
 name = "setuptools"
-version = "66.0.0"
+version = "66.1.1"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "setuptools-66.0.0-py3-none-any.whl", hash = "sha256:a78d01d1e2c175c474884671dde039962c9d74c7223db7369771fcf6e29ceeab"},
-    {file = "setuptools-66.0.0.tar.gz", hash = "sha256:bd6eb2d6722568de6d14b87c44a96fac54b2a45ff5e940e639979a3d1792adb6"},
+    {file = "setuptools-66.1.1-py3-none-any.whl", hash = "sha256:6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b"},
+    {file = "setuptools-66.1.1.tar.gz", hash = "sha256:ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8"},
 ]
 
 [package.extras]
