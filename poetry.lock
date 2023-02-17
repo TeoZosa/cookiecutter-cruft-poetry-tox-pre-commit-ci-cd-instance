@@ -2147,14 +2147,14 @@ test = ["pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nbqa"
-version = "1.6.1"
+version = "1.6.3"
 description = "Run any standard Python code quality tool on a Jupyter Notebook"
 category = "dev"
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "nbqa-1.6.1-py3-none-any.whl", hash = "sha256:f5735554d67ec379c5a258367a8ea3d096947719552876067811d06bab6ff603"},
-    {file = "nbqa-1.6.1.tar.gz", hash = "sha256:36dbd7155ed7319ed2fab3f19a70215ab3b5554a516390fdbff8c884c3c0958c"},
+    {file = "nbqa-1.6.3-py3-none-any.whl", hash = "sha256:f3bac3e6d322b0a9bf2143d5fea8e5c2f7ac7daced717b3407f2e3279f58afbf"},
+    {file = "nbqa-1.6.3.tar.gz", hash = "sha256:5394a29fc6d27b9a950c0a36d2d9de25de980be9acfe2a3f3aea0d27b5f7fec1"},
 ]
 
 [package.dependencies]
