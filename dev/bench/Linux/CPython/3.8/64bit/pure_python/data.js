@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679327795115,
+  "lastUpdate": 1679328270641,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -10849,6 +10849,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001083194291551819",
             "extra": "mean: 519.915161596968 usec\nrounds: 2104"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action",
+            "username": "actions-user"
+          },
+          "distinct": true,
+          "id": "e541253399f04601203caaf3d2e2b61268cfebfd",
+          "message": "Merge pull request #1040 from TeoZosa/dependabot/pip/structlog-sentry-logger-0.20.2\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@e6bce38",
+          "timestamp": "2023-03-20T15:23:38Z",
+          "tree_id": "72cbda46abfd9965f02a33f25885a143aee58b91",
+          "url": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/commit/e541253399f04601203caaf3d2e2b61268cfebfd"
+        },
+        "date": 1679328262551,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 411.3294866009203,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000028108697675645076",
+            "extra": "mean: 2.4311410501193147 msec\nrounds: 419"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 919.053969590313,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000023045848246537928",
+            "extra": "mean: 1.0880753830439036 msec\nrounds: 979"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2608.1389588261372,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007655879977597648",
+            "extra": "mean: 383.41515378846105 usec\nrounds: 2666"
           }
         ]
       }
