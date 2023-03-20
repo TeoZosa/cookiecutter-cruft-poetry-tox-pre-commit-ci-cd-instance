@@ -47,7 +47,7 @@ matplotlib = "^3.6.2"
 #
 #
 # Type Checking and Data Validation
-typeguard = "^2.13.3" # Runtime type checker; Note: Mypyc-compiled C-extensions also perform runtime type checking.
+typeguard = ">=2.13.3,<4.0.0" # Runtime type checker; Note: Mypyc-compiled C-extensions also perform runtime type checking.
 #
 
 # Project-Specific
