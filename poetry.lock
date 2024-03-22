@@ -2198,13 +2198,13 @@ test = ["flaky", "ipykernel (>=6.19.3)", "ipython", "ipywidgets", "nbconvert (>=
 
 [[package]]
 name = "nbconvert"
-version = "7.16.2"
+version = "7.16.3"
 description = "Converting Jupyter Notebooks (.ipynb files) to other formats.  Output formats include asciidoc, html, latex, markdown, pdf, py, rst, script.  nbconvert can be used both as a Python library (`import nbconvert`) or as a command line tool (invoked as `jupyter nbconvert ...`)."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nbconvert-7.16.2-py3-none-any.whl", hash = "sha256:0c01c23981a8de0220255706822c40b751438e32467d6a686e26be08ba784382"},
-    {file = "nbconvert-7.16.2.tar.gz", hash = "sha256:8310edd41e1c43947e4ecf16614c61469ebc024898eb808cce0999860fc9fb16"},
+    {file = "nbconvert-7.16.3-py3-none-any.whl", hash = "sha256:ddeff14beeeedf3dd0bc506623e41e4507e551736de59df69a91f86700292b3b"},
+    {file = "nbconvert-7.16.3.tar.gz", hash = "sha256:a6733b78ce3d47c3f85e504998495b07e6ea9cf9bf6ec1c98dda63ec6ad19142"},
 ]
 
 [package.dependencies]
@@ -2231,7 +2231,7 @@ docs = ["ipykernel", "ipython", "myst-parser", "nbsphinx (>=0.2.12)", "pydata-sp
 qtpdf = ["nbconvert[qtpng]"]
 qtpng = ["pyqtwebengine (>=5.15)"]
 serve = ["tornado (>=6.1)"]
-test = ["flaky", "ipykernel", "ipywidgets (>=7.5)", "pytest"]
+test = ["flaky", "ipykernel", "ipywidgets (>=7.5)", "pytest (>=7)"]
 webpdf = ["playwright"]
 
 [[package]]
@@ -2949,17 +2949,17 @@ pytest = ">=4.2.1"
 
 [[package]]
 name = "pytest-mock"
-version = "3.12.0"
+version = "3.14.0"
 description = "Thin-wrapper around the mock package for easier use with pytest"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pytest-mock-3.12.0.tar.gz", hash = "sha256:31a40f038c22cad32287bb43932054451ff5583ff094bca6f675df2f8bc1a6e9"},
-    {file = "pytest_mock-3.12.0-py3-none-any.whl", hash = "sha256:0972719a7263072da3a21c7f4773069bcc7486027d7e8e1f81d98a47e701bc4f"},
+    {file = "pytest-mock-3.14.0.tar.gz", hash = "sha256:2719255a1efeceadbc056d6bf3df3d1c5015530fb40cf347c0f9afac88410bd0"},
+    {file = "pytest_mock-3.14.0-py3-none-any.whl", hash = "sha256:0b72c38033392a5f4621342fe11e9219ac11ec9d375f8e2a0c164539e0d70f6f"},
 ]
 
 [package.dependencies]
-pytest = ">=5.0"
+pytest = ">=6.2.5"
 
 [package.extras]
 dev = ["pre-commit", "pytest-asyncio", "tox"]
