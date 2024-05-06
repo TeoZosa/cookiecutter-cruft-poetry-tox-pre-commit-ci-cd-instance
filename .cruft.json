@@ -1,7 +1,7 @@
 {
   "template": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd",
-  "commit": "1bd23ed8fe63230dfb8778d5c6acfb7484208f8f",
-  "checkout": "master",
+  "commit": "dcff924d506a492e0581c20253a772e462c50525",
+  "checkout": "dependabot/pip/{{cookiecutter.project_slug}}/docs/myst-parser-3.0.1",
   "context": {
     "cookiecutter": {
       "project_name": "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
