@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715030129428,
+  "lastUpdate": 1715087699350,
   "repoUrl": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance",
   "entries": {
     "Benchmark": [
@@ -18495,6 +18495,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000020128662288101823",
             "extra": "mean: 337.62551842273564 usec\nrounds: 3094"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "action@github.com",
+            "name": "GitHub Action",
+            "username": "actions-user"
+          },
+          "distinct": true,
+          "id": "5749f15a4302cf4e17080d61a912ee798d743fcd",
+          "message": "Merge pull request #1564 from TeoZosa/dependabot/pip/hypothesis-6.100.5\n\nOriginal-Commit: TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd@901b254",
+          "timestamp": "2024-05-07T13:12:20Z",
+          "tree_id": "56d489d2c67d2b9b2a83a22732e599c6ec97d1c2",
+          "url": "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/commit/5749f15a4302cf4e17080d61a912ee798d743fcd"
+        },
+        "date": 1715087686070,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_main.py::test_main_succeeds",
+            "value": 510.6309272055207,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000619863477002258",
+            "extra": "mean: 1.958361600760457 msec\nrounds: 526"
+          },
+          {
+            "name": "tests/test_main.py::test_version_option",
+            "value": 1054.1626470397448,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004707092886260036",
+            "extra": "mean: 948.6202179598736 usec\nrounds: 1147"
+          },
+          {
+            "name": "tests/test_main.py::test_version_callback",
+            "value": 2954.039398062232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022858383768521248",
+            "extra": "mean: 338.519520306998 usec\nrounds: 3127"
           }
         ]
       }
