@@ -37,7 +37,7 @@ Changelog = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit
 python = "^3.8,<3.12"
 
 # Monitoring and Observability
-sentry-sdk = "^1.11.0"
+sentry-sdk = ">=1.11,<3.0"
 structlog-sentry-logger = "^0.18.0"
 
 #
