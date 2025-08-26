@@ -76,7 +76,7 @@ pytest-benchmark = {extras = ["histogram"], version = "^4.0.0"}
 pytest-cov = "^4.0.0"
 pytest-emoji = "^0.2.0"
 pytest-mock = "^3.10.0"
-pytest-sugar = "^0.9.4"
+pytest-sugar = ">=0.9.4,<1.2.0"
 pytest-xdist = "^3.0.2"
 #
 hypothesis = "^6.58.0"
